@@ -140,7 +140,7 @@ export default function Navbar(number: any) {
   return (
     <div className="">
       <div
-        className="bg-primary-orange"
+        className="bg-topbar"
       >
         <div className="flex justify-center min-[830px]:justify-between items-center myContainer py-[3px]">
           <div className="flex gap-1 justify-center items-center">
@@ -193,16 +193,18 @@ export default function Navbar(number: any) {
         <div
           className={`md:h-[80px] h-[58px] flex justify-between items-center myContainer `}
         >
+          <div className="flex justify-center items-center text-xl font-bold gap-2">
+            <Image
+              height={40}
+              width={40}
+              src={"/logo-online-assignment-desk.webp"}
+              alt="LOGO"
+              // className="w-[180px]  md:w-[240px]"
+            />
           <Link href={`${reg}/`}>
           Online Assignment Desk
-            {/* <Image
-              height={121}
-              width={320}
-              src={"/gogrades.org_assests/mah-logo-default.svg"}
-              alt="LOGO"
-              className="w-[180px]  md:w-[240px]"
-            /> */}
           </Link>
+          </div>
           <div className=" text-black text-[18px] h-[100%]  min-[1000px]:flex hidden items-center">
             <Link
               href={`${reg}/#why-us`}
