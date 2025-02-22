@@ -208,7 +208,7 @@ export default function Footer({ number, title }: any) {
                     <Link
                       href={`${item.link}`}
                       key={index}
-                      className="text-[#fff] text-[14px] hover:text-[#f7514e] cursor-pointer mt-2"
+                      className="text-[#fff] text-[14px] hover:text-[#ff8e38] cursor-pointer mt-2"
                     >
                       {item.name}
                     </Link>
@@ -225,27 +225,27 @@ export default function Footer({ number, title }: any) {
             <div className="flex items-center text-white font-medium flex-wrap">
               <div className="flex items-center  font-medium flex-wrap">
                 <Link
-                  className="text-white hover:text-yellow-500"
+                  className="text-white hover:text-[#ff8e38]"
                   href={`${reg}/refund-policy`}
                 >
                   Refund Policy <span className="text-white">|</span> &nbsp;{" "}
                 </Link>
                 <Link
-                  className="text-white hover:text-yellow-500"
+                  className="text-white hover:text-[#ff8e38]"
                   href={`${reg}/cancellation-policy`}
                 >
                   Cancellation Policy <span className="text-white">|</span>{" "}
                   &nbsp;
                 </Link>
                 <Link
-                  className="text-white hover:text-yellow-500"
+                  className="text-white hover:text-[#ff8e38]"
                   href={`${reg}/terms-conditions`}
                 >
                   Terms & Conditions <span className="text-white">|</span>{" "}
                   &nbsp;
                 </Link>
                 <Link
-                  className="text-white hover:text-yellow-500"
+                  className="text-white hover:text-[#ff8e38]"
                   href={`${reg}/privacy-policy`}
                 >
                   {" "}
@@ -254,14 +254,14 @@ export default function Footer({ number, title }: any) {
                   </span> &nbsp;{" "}
                 </Link>
                 <Link
-                  className="text-white hover:text-yellow-500"
+                  className="text-white hover:text-[#ff8e38]"
                   href={`${reg}/usage-policy`}
                 >
                   {" "}
                   Usage policy <span className="text-white">|</span> &nbsp;{" "}
                 </Link>
                 <Link
-                  className="text-white hover:text-yellow-500"
+                  className="text-white hover:text-[#ff8e38]"
                   href={`${reg}/contact`}
                 >
                   {" "}
@@ -361,21 +361,21 @@ export default function Footer({ number, title }: any) {
           ></img>
         </div>
         <div className="mt-10 text-white block md:hidden">
-          <div className="flex items-center text-white hover:text-yellow-500 font-medium flex-wrap">
+          <div className="flex items-center text-white hover:text-[#ff8e38] font-medium flex-wrap">
             <Link
-              className="text-white hover:text-yellow-500"
+              className="text-white hover:text-[#ff8e38]"
               href={`${reg}/refund-policy`}
             >
               Refund Policy <span className="text-white">|</span> &nbsp;{" "}
             </Link>
             <Link
-              className="text-white hover:text-yellow-500"
+              className="text-white hover:text-[#ff8e38]"
               href={`${reg}/cancellation-policy`}
             >
               Cancellation Policy <span className="text-white">|</span> &nbsp;
             </Link>
             <Link
-              className="text-white hover:text-yellow-500"
+              className="text-white hover:text-[#ff8e38]"
               href={`${reg}/terms-conditions`}
             >
               {" "}
@@ -384,21 +384,21 @@ export default function Footer({ number, title }: any) {
               </span> &nbsp;{" "}
             </Link>
             <Link
-              className="text-white hover:text-yellow-500"
+              className="text-white hover:text-[#ff8e38]"
               href={`${reg}/privacy-policy`}
             >
               {" "}
               Privacy Policy <span className="text-white">|</span> &nbsp;{" "}
             </Link>
             <Link
-              className="text-white hover:text-yellow-500"
+              className="text-white hover:text-[#ff8e38]"
               href={`${reg}/usage-policy`}
             >
               {" "}
               Usage policy <span className="text-white">|</span> &nbsp;{" "}
             </Link>
             <Link
-              className="text-white hover:text-yellow-500"
+              className="text-white hover:text-[#ff8e38]"
               href={`${reg}/contact`}
             >
               {" "}

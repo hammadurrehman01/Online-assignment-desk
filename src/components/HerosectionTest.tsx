@@ -454,19 +454,25 @@ export default function HerosectionTest(props: any) {
               <div className="bg-testing  p-1 rounded-xl flex flex-col justify-start max-sm:w-[47%]">
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg  white rounded-full43-4 4-4  text-green-500 font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   Satisfaction Guaranteed
                 </h4>
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   Experienced Teachers
                 </h4>
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   Time Flexibility
                 </h4>
@@ -474,19 +480,25 @@ export default function HerosectionTest(props: any) {
               <div className="bg-testing  p-1 rounded-xl flex flex-col justify-start max-sm:w-[47%]">
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   Very Low Pricing
                 </h4>
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   Fastest Turnaround Time
                 </h4>
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   Professional Proofreaders
                 </h4>
@@ -494,19 +506,25 @@ export default function HerosectionTest(props: any) {
               <div className="bg-testing  p-3 rounded-xl hidden sm:flex flex-col justify-start max-sm:w-[96%]">
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   100% Secure & Trusty
                 </h4>
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   24/7 Chat Support
                 </h4>
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   Guaranteed Results
                 </h4>
@@ -563,9 +581,9 @@ export default function HerosectionTest(props: any) {
                 <div className="hidden sm:flex text-white gap-1 items-start ">
                   {/* check */}
                   <img
-                    height={"100"}
-                    width={"100"}
-                    src={"/favicon.png"}
+                    height={"50"}
+                    width={"50"}
+                    src={"/logo-online-assignment-desk.webp"}
                     alt="img"
                     className="w-[30px] h-fit mt-2"
                   ></img>
@@ -838,61 +856,79 @@ export default function HerosectionTest(props: any) {
             </div>
             <div className="flex gap-3  text-white mt-3 max-sm:justify-center items-center ">
               <div className="bg-testing  p-3 rounded-xl flex flex-col justify-start max-sm:w-[47%]">
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                      <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   Satisfaction Guaranteed
                 </h4>
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                      <div className="bg-white flex items-center justify-center w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   Experienced Teachers
                 </h4>
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                      <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   Time Flexibility
                 </h4>
               </div>
               <div className="bg-testing  p-3 rounded-xl flex flex-col justify-start max-sm:w-[47%]">
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                      <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   Very Low Pricing
                 </h4>
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                      <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   Fastest Turnaround Time
                 </h4>
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                      <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   Professional Proofreaders
                 </h4>
               </div>
               <div className="bg-testing  p-3  rounded-xl hidden sm:flex flex-col justify-start max-sm:w-[96%]">
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                      <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   100% Secure & Trusty
                 </h4>
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                      <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   24/7 Chat Support
                 </h4>
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="bg-white  rounded-full w-4 h-4  text-green-500 font-black" />
+                      <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   Guaranteed Results
                 </h4>
@@ -949,9 +985,9 @@ export default function HerosectionTest(props: any) {
                 <div className="hidden sm:flex text-white gap-1 items-start ">
                   {/* check */}
                   <img
-                    height={"100"}
-                    width={"100"}
-                    src={"/favicon.png"}
+                    height={"50"}
+                    width={"50"}
+                    src={"/logo-online-assignment-desk.webp"}
                     alt="img"
                     className="w-[30px] h-fit mt-2"
                   ></img>

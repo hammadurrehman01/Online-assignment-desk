@@ -163,16 +163,20 @@ export default function Navbar(number: any) {
               className="text-white text-[14px] flex items-center gap-2"
               target="_blank"
             >
-              <IoLogoWhatsapp className="text-[16px] text-green-600" /> Direct
-              Customer Support
+            <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+              <IoLogoWhatsapp className="text-[15px] text-green-600 " />
+               </div>
+               Direct Customer Support
             </Link>
             <Link
               href={`https://wa.me/${number.number}?text=Hello Online Assignment Desk Team, I need Academic Assistance. Could you help me complete my task on time?`}
               className="text-white text-[14px] flex items-center gap-2"
               target="_blank"
             >
-              <IoLogoWhatsapp className="text-[16px] text-green-600" /> Personal
-              Live Chat
+              <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+              <IoLogoWhatsapp className="text-[15px] text-green-600" />
+              </div> 
+              Personal Live Chat
             </Link>
             <Link
               href="mailto:support@onlineassignmentdesk.com"
