@@ -323,7 +323,7 @@ export default function WhyGoGradesTest(props: any) {
             </h3>
           </div>
 
-          <div className="flex flex-col md:flex-row cursor-pointer scale-90 md:scale-100 pb-12 w-full  mx-auto items-center gap-12 max-sm:justify-center mt-6 ">
+          <div className="flex flex-col md:flex-row cursor-pointer scale-90 md:scale-100 pb-12 w-full  mx-auto items-center md:gap-0 gap-12 md:justify-normal justify-center mt-6 md:translate-x-0 translate-x-11">
             <div
               className="relative w-[90%]  hover:scale-95 transition-all duration-300 ease-in-out"
               onClick={() => {
