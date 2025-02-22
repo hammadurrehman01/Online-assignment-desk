@@ -103,17 +103,18 @@ export default function SubjectsTest(props: any) {
           -OUR Subjects
         </h3>
         <h4 className="section-sub-heading py-1 text-center mx-auto text-base sm:text-[25px] md:text-[18px] font-medium leading-tight mt-2">
-        Professional Team of Professors for Every Subject
+          Professional Team of Professors for Every Subject
         </h4>
         <p className="text-black text-[14px] sm:text-[16px] my-6">
-        At Onlineassignmentdesk.com, we're proud to offer expert academic assistance across a vast array of subjects.
+          At Onlineassignmentdesk.com, we're proud to offer expert academic
+          assistance across a vast array of subjects.
         </p>
         <div className="grid lg:grid-cols-5  grid-cols-2 items-center gap-x-4 gap-y-10 mt-10 ">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#f16700] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered(true)}
             onTouchCancel={() => setIsHovered(false)}
             onMouseEnter={() => setIsHovered(true)}
@@ -143,7 +144,7 @@ export default function SubjectsTest(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-[#f16700] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-br from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -187,7 +188,10 @@ export default function SubjectsTest(props: any) {
                       whileTap={{ scale: 0.95 }}
                       className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
-                      <Link href="/order?coupon=GG-50%off" className="text-[10px] md:text-base">
+                      <Link
+                        href="/order?coupon=GG-50%off"
+                        className="text-[10px] md:text-base"
+                      >
                         Order Now
                       </Link>
                     </motion.button>
@@ -196,12 +200,11 @@ export default function SubjectsTest(props: any) {
               </AnimatePresence>
             </div>
           </motion.div>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#f16700] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered2(true)}
             onTouchEnd={() => setIsHovered2(false)}
             onMouseEnter={() => setIsHovered2(true)}
@@ -229,7 +232,7 @@ export default function SubjectsTest(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-[#f16700] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-br from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -273,7 +276,10 @@ export default function SubjectsTest(props: any) {
                       whileTap={{ scale: 0.95 }}
                       className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
-                      <Link href="/order?coupon=GG-50%off" className="text-[10px] md:text-base">
+                      <Link
+                        href="/order?coupon=GG-50%off"
+                        className="text-[10px] md:text-base"
+                      >
                         Order Now
                       </Link>
                     </motion.button>
@@ -282,12 +288,11 @@ export default function SubjectsTest(props: any) {
               </AnimatePresence>
             </div>
           </motion.div>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#f16700] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered3(true)}
             onTouchEnd={() => setIsHovered3(false)}
             onMouseEnter={() => setIsHovered3(true)}
@@ -315,7 +320,7 @@ export default function SubjectsTest(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-[#f16700] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr  from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -359,7 +364,10 @@ export default function SubjectsTest(props: any) {
                       whileTap={{ scale: 0.95 }}
                       className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
-                      <Link href="/order?coupon=GG-50%off" className="text-[10px] md:text-base">
+                      <Link
+                        href="/order?coupon=GG-50%off"
+                        className="text-[10px] md:text-base"
+                      >
                         Order Now
                       </Link>
                     </motion.button>
@@ -368,12 +376,11 @@ export default function SubjectsTest(props: any) {
               </AnimatePresence>
             </div>
           </motion.div>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#f16700] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered4(true)}
             onTouchEnd={() => setIsHovered4(false)}
             onMouseEnter={() => setIsHovered4(true)}
@@ -401,7 +408,7 @@ export default function SubjectsTest(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-[#f16700] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -445,7 +452,10 @@ export default function SubjectsTest(props: any) {
                       whileTap={{ scale: 0.95 }}
                       className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
-                      <Link href="/order?coupon=GG-50%off" className="text-[10px] md:text-base">
+                      <Link
+                        href="/order?coupon=GG-50%off"
+                        className="text-[10px] md:text-base"
+                      >
                         Order Now
                       </Link>
                     </motion.button>
@@ -454,12 +464,11 @@ export default function SubjectsTest(props: any) {
               </AnimatePresence>
             </div>
           </motion.div>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#f16700] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered5(true)}
             onTouchEnd={() => setIsHovered5(false)}
             onMouseEnter={() => setIsHovered5(true)}
@@ -487,7 +496,7 @@ export default function SubjectsTest(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-[#f16700] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-br from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -530,7 +539,10 @@ export default function SubjectsTest(props: any) {
                       whileTap={{ scale: 0.95 }}
                       className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
-                      <Link href="/order?coupon=GG-50%off" className="text-[10px] md:text-base">
+                      <Link
+                        href="/order?coupon=GG-50%off"
+                        className="text-[10px] md:text-base"
+                      >
                         Order Now
                       </Link>
                     </motion.button>
@@ -539,12 +551,11 @@ export default function SubjectsTest(props: any) {
               </AnimatePresence>
             </div>
           </motion.div>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#f16700] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered6(true)}
             onTouchEnd={() => setIsHovered6(false)}
             onMouseEnter={() => setIsHovered6(true)}
@@ -574,7 +585,7 @@ export default function SubjectsTest(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-[#f16700] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -617,7 +628,10 @@ export default function SubjectsTest(props: any) {
                       whileTap={{ scale: 0.95 }}
                       className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
-                      <Link href="/order?coupon=GG-50%off" className="text-[10px] md:text-base">
+                      <Link
+                        href="/order?coupon=GG-50%off"
+                        className="text-[10px] md:text-base"
+                      >
                         Order Now
                       </Link>
                     </motion.button>
@@ -626,95 +640,11 @@ export default function SubjectsTest(props: any) {
               </AnimatePresence>
             </div>
           </motion.div>
-
-          {/* <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#f16700] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
-            onHoverStart={() => setIsHovered7(true)}
-            onHoverEnd={() => setIsHovered7(false)}
-          >
-            <div className="relative p-6 h-72 flex items-center justify-center">
-              <AnimatePresence>
-                {!isHovered7 && (
-                  <motion.div
-                    initial={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    transition={{ duration: 0.2 }}
-                    className="text-white text-center z-10"
-                  >
-                    <FaUser className="h-16 w-16 mx-auto mb-4" />
-                    <h3 className="text-2xl font-bold capitalize">Anthropology</h3>
-                    
-                  </motion.div>
-                )}
-              </AnimatePresence>
-           
-              <AnimatePresence>
-                {isHovered7 && (
-                  <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -20 }}
-                    transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-[#f16700] flex flex-col items-center justify-center p-6"
-                  >
-                    <motion.h4
-                      initial={{ y: 20, opacity: 0 }}
-                      animate={{ y: 0, opacity: 1 }}
-                      transition={{ delay: 0.1 }}
-                      className="text-2xl font-bold capitalize mb-2 text-white"
-                    >
-                      Psychology Efficiency
-                    </motion.h4>
-
-                    <motion.div
-                      initial={{ y: 20, opacity: 0 }}
-                      animate={{ y: 0, opacity: 1 }}
-                      transition={{ delay: 0.2 }}
-                      className="flex justify-center items-center gap-1 mb-4"
-                    >
-                      {[...Array(5)].map((_, i) => (
-                        <PiStarFill
-                          key={i}
-                          className="text-[#fbbf24] text-xl"
-                        />
-                      ))}
-                      
-                    </motion.div>
-
-                    <motion.p
-                      initial={{ y: 20, opacity: 0 }}
-                      animate={{ y: 0, opacity: 1 }}
-                      transition={{ delay: 0.3 }}
-                      className="text-gray-300 text-center mb-4"
-                    >
-                      Learn essential Psychology practices, patient care
-                      techniques, and medical management skills.
-                    </motion.p>
-
-                    <motion.button
-                      initial={{ y: 20, opacity: 0 }}
-                      animate={{ y: 0, opacity: 1 }}
-                      transition={{ delay: 0.4 }}
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                      className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
-                    >
-                      <Link href="/order?coupon=GG-50%off" className="text-[10px] md:text-base">Order Now</Link>
-                    </motion.button>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
-          </motion.div> */}
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#f16700] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered8(true)}
             onTouchEnd={() => setIsHovered8(false)}
             onMouseEnter={() => setIsHovered8(true)}
@@ -746,7 +676,7 @@ export default function SubjectsTest(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-[#f16700] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -789,7 +719,10 @@ export default function SubjectsTest(props: any) {
                       whileTap={{ scale: 0.95 }}
                       className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
-                      <Link href="/order?coupon=GG-50%off" className="text-[10px] md:text-base">
+                      <Link
+                        href="/order?coupon=GG-50%off"
+                        className="text-[10px] md:text-base"
+                      >
                         Order Now
                       </Link>
                     </motion.button>
@@ -798,12 +731,11 @@ export default function SubjectsTest(props: any) {
               </AnimatePresence>
             </div>
           </motion.div>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#f16700] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered9(true)}
             onTouchEnd={() => setIsHovered9(false)}
             onMouseEnter={() => setIsHovered9(true)}
@@ -833,7 +765,7 @@ export default function SubjectsTest(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-[#f16700] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -876,7 +808,10 @@ export default function SubjectsTest(props: any) {
                       whileTap={{ scale: 0.95 }}
                       className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
-                      <Link href="/order?coupon=GG-50%off" className="text-[10px] md:text-base">
+                      <Link
+                        href="/order?coupon=GG-50%off"
+                        className="text-[10px] md:text-base"
+                      >
                         Order Now
                       </Link>
                     </motion.button>
@@ -885,12 +820,11 @@ export default function SubjectsTest(props: any) {
               </AnimatePresence>
             </div>
           </motion.div>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#f16700] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered10(true)}
             onTouchEnd={() => setIsHovered10(false)}
             onMouseEnter={() => setIsHovered10(true)}
@@ -920,7 +854,7 @@ export default function SubjectsTest(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-[#f16700] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -963,7 +897,10 @@ export default function SubjectsTest(props: any) {
                       whileTap={{ scale: 0.95 }}
                       className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
-                      <Link href="/order?coupon=GG-50%off" className="text-[10px] md:text-base">
+                      <Link
+                        href="/order?coupon=GG-50%off"
+                        className="text-[10px] md:text-base"
+                      >
                         Order Now
                       </Link>
                     </motion.button>
@@ -972,12 +909,11 @@ export default function SubjectsTest(props: any) {
               </AnimatePresence>
             </div>
           </motion.div>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#f16700] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered11(true)}
             onTouchEnd={() => setIsHovered11(false)}
             onMouseEnter={() => setIsHovered11(true)}
@@ -1009,7 +945,7 @@ export default function SubjectsTest(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-[#f16700] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -1052,7 +988,10 @@ export default function SubjectsTest(props: any) {
                       whileTap={{ scale: 0.95 }}
                       className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
-                      <Link href="/order?coupon=GG-50%off" className="text-[10px] md:text-base">
+                      <Link
+                        href="/order?coupon=GG-50%off"
+                        className="text-[10px] md:text-base"
+                      >
                         Order Now
                       </Link>
                     </motion.button>
@@ -1061,12 +1000,11 @@ export default function SubjectsTest(props: any) {
               </AnimatePresence>
             </div>
           </motion.div>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#f16700] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered12(true)}
             onTouchEnd={() => setIsHovered12(false)}
             onMouseEnter={() => setIsHovered12(true)}
@@ -1098,7 +1036,7 @@ export default function SubjectsTest(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-[#f16700] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -1141,7 +1079,10 @@ export default function SubjectsTest(props: any) {
                       whileTap={{ scale: 0.95 }}
                       className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
-                      <Link href="/order?coupon=GG-50%off" className="text-[10px] md:text-base">
+                      <Link
+                        href="/order?coupon=GG-50%off"
+                        className="text-[10px] md:text-base"
+                      >
                         Order Now
                       </Link>
                     </motion.button>
@@ -1150,12 +1091,11 @@ export default function SubjectsTest(props: any) {
               </AnimatePresence>
             </div>
           </motion.div>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#f16700] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered13(true)}
             onTouchEnd={() => setIsHovered13(false)}
             onMouseEnter={() => setIsHovered13(true)}
@@ -1185,7 +1125,7 @@ export default function SubjectsTest(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-[#f16700] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -1228,7 +1168,10 @@ export default function SubjectsTest(props: any) {
                       whileTap={{ scale: 0.95 }}
                       className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
-                      <Link href="/order?coupon=GG-50%off" className="text-[10px] md:text-base">
+                      <Link
+                        href="/order?coupon=GG-50%off"
+                        className="text-[10px] md:text-base"
+                      >
                         Order Now
                       </Link>
                     </motion.button>
@@ -1237,12 +1180,11 @@ export default function SubjectsTest(props: any) {
               </AnimatePresence>
             </div>
           </motion.div>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#f16700] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered14(true)}
             onTouchEnd={() => setIsHovered14(false)}
             onMouseEnter={() => setIsHovered14(true)}
@@ -1272,7 +1214,7 @@ export default function SubjectsTest(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-[#f16700] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -1315,7 +1257,10 @@ export default function SubjectsTest(props: any) {
                       whileTap={{ scale: 0.95 }}
                       className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
-                      <Link href="/order?coupon=GG-50%off" className="text-[10px] md:text-base">
+                      <Link
+                        href="/order?coupon=GG-50%off"
+                        className="text-[10px] md:text-base"
+                      >
                         Order Now
                       </Link>
                     </motion.button>
@@ -1324,12 +1269,11 @@ export default function SubjectsTest(props: any) {
               </AnimatePresence>
             </div>
           </motion.div>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#f16700] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered7(true)}
             onTouchEnd={() => setIsHovered7(false)}
             onMouseEnter={() => setIsHovered7(true)}
@@ -1359,7 +1303,7 @@ export default function SubjectsTest(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-[#f16700] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -1402,7 +1346,10 @@ export default function SubjectsTest(props: any) {
                       whileTap={{ scale: 0.95 }}
                       className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
-                      <Link href="/order?coupon=GG-50%off" className="text-[10px] md:text-base">
+                      <Link
+                        href="/order?coupon=GG-50%off"
+                        className="text-[10px] md:text-base"
+                      >
                         Order Now
                       </Link>
                     </motion.button>
@@ -1411,12 +1358,11 @@ export default function SubjectsTest(props: any) {
               </AnimatePresence>
             </div>
           </motion.div>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#f16700] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered15(true)}
             onTouchEnd={() => setIsHovered15(false)}
             onMouseEnter={() => setIsHovered15(true)}
@@ -1446,7 +1392,7 @@ export default function SubjectsTest(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-[#f16700] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -1489,7 +1435,10 @@ export default function SubjectsTest(props: any) {
                       whileTap={{ scale: 0.95 }}
                       className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
-                      <Link href="/order?coupon=GG-50%off" className="text-[10px] md:text-base">
+                      <Link
+                        href="/order?coupon=GG-50%off"
+                        className="text-[10px] md:text-base"
+                      >
                         Order Now
                       </Link>
                     </motion.button>
@@ -1498,6 +1447,7 @@ export default function SubjectsTest(props: any) {
               </AnimatePresence>
             </div>
           </motion.div>
+          z
         </div>
       </div>
     </div>

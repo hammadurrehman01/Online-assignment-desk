@@ -238,26 +238,34 @@ export default function CustomDivider(props: any) {
         {subHeadingPartOne}
         {title} {subHeadingPartTwo}
       </p>
-      <div className="flex justify-center gap-3 flex-wrap mt-3">
-        <button
-          className="text-white border border-white py-[7px] px-[24px] text-[20px] rounded-[4px] font-medium bg-black"
+
+      <div className="flex flex-col md:flex-row cursor-pointer scale-90 md:scale-100 pb-12 w-full md:w-[52%] mx-auto items-center gap-12 max-sm:justify-center mt-6 ">
+        <div
+          className="relative w-[90%]  hover:scale-95 transition-all duration-300 ease-in-out"
           onClick={() => {
             setModal(true);
             localStorage.setItem("externalModal", "true");
           }}
         >
-          {leftButton}
-        </button>
-        <Link
-          href={`https://wa.me/${number}?text=Hello Online Assignment Desk Team, I need Academic Assistance. Could you help me complete my task on time?`}
-          // href={`https://api.whatsapp.com/send?phone=${number}&text=Hello Gogrades!`}
-          className="bg-white  py-[7px] px-[24px] text-[20px] rounded-[4px] font-medium flex items-center gap-2"
-          target="_blank"
-        >
-          <IoLogoWhatsapp className="text-[22px] text-green-600" />
-          <span>{rightButton}</span>
-        </Link>
+          <div className="bg-[#383838] w-[300px] text-center py-3 z-[1] text-xl  text-white font-semibold absolute">
+            {leftButton}
+          </div>
+
+          <div className="bg-[#ff8e38] w-[300px] h-12 ml-1.5 mt-2.5   text-xl  text-white font-semibold absolute"></div>
+        </div>
+
+        <div className="relative w-[90%] z-0  mt-6 md:mt-0 hover:scale-95 transition-all duration-300 ease-in-out">
+          {" "}
+          <Link
+            href={`https://wa.me/${number}?text=Hello Online Assignment Desk Team, I need Academic Assistance. Could you help me complete my task on time?`}
+            className="bg-[#ff8e38] flex items-center justify-center text-center w-[300px] h-12 z-[11] text-xl text-white font-semibold absolute"
+          >
+            {rightButton}
+          </Link>
+          <div className="bg-[#383838] w-[300px] h-12 ml-1.5 mt-2.5 text-xl text-white font-semibold absolute"></div>
+        </div>
       </div>
+
       {modal && <Modal setModal={setModal} locationDetails={locationDetails} />}
       {modal && (
         <MobileModal setModal={setModal} locationDetails={locationDetails} />

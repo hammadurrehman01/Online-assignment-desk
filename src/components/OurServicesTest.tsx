@@ -435,8 +435,8 @@ export default function OurServicesTest(number: any) {
               }}
               title={item.title}
               className={`text-white transition-all duration-150 ease-in-out hover:scale-105 ${
-                active == item.title ? `bg-[#292929]` : `bg-[#f58631]`
-              }   w-  rounded-md py-2 hidetext px-2 hover:bg-[#292929] duration-100 text-[15px] `}
+                active == item.title ? `bg-[#f58631]` : `bg-[#292929]`
+              }   w-  rounded-md py-2 hidetext px-2 hover:bg-[#f58631] duration-100 text-[15px] `}
               key={index}
             >
               {item.title}
@@ -458,26 +458,36 @@ export default function OurServicesTest(number: any) {
             </h3>
           ))}
         </div>
-        <div className="flex items-center gap-2 flex-wrap max-sm:justify-center mt-6 md:mt-0">
-          <Link
-            href={`https://wa.me/${number.number}?text=Hello Online Assignment Desk Team, I need Academic Assistance. Could you help me complete my task on time?`}
-            // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Gogrades!`}
-           
-            target="_blank"
-            className=" px-[20px] w-fit text-white font-semibold text-[22px]  hover:drop-shadow-xl hover:shadow-xl transition-all duration-100 text-center bg-primary-orange shadow-slate-300  shadow-xl py-[8px] "
-          >
-            Chat On Whatsapp
-          </Link>
-          <button
-            onClick={openTawkToChat}
-            // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Gogrades!`}
 
-            className="text-primary-orange border rounded-[2px]  text-[19px]  px-[25px] py-[8px] font-medium shadow-primary-orange  shadow-lg hover:drop-shadow-xl border-primary-orange hover:shadow-xl transition-all duration-100 bg-white text-center w-[65%] md:w-[40%]"
-          >
-            Talk with Experts
-          </button>
+        <div className="flex flex-col md:flex-row z-20 pb-12 w-[80%] md:w-[60%] items-center gap-2 max-sm:justify-center mt-6 md:mt-0">
+          <div className="relative w-1/2 md:w-full hover:scale-95 transition-all duration-300 ease-in-out">
+            <Link
+              href={`https://wa.me/${number.number}?text=Hello Online Assignment Desk Team, I need Academic Assistance. Could you help me complete my task on time?`}
+              // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Gogrades!`}
+
+              target="_blank"
+              className="bg-[#383838] w-[300px] text-center py-3 z-[1] text-xl  text-white font-semibold absolute"
+            >
+              Chat On Whatsapp
+            </Link>
+
+            <div className="bg-[#ff8e38]  w-[300px] h-12 ml-1.5 mt-2.5   text-xl  text-white font-semibold absolute"></div>
+          </div>
+
+          <div className="relative  w-1/2 hover:scale-95 transition-all duration-300 ease-in-out mt-16 md:mt-0">
+            <button
+              onClick={openTawkToChat}
+              // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Gogrades!`}
+
+              className="bg-[#ff8e38] w-[300px] py-3 z-[1] text-xl  text-white font-semibold absolute"
+            >
+              Talk with Experts
+            </button>
+            <div className="bg-[#383838]  w-[300px] h-12 ml-1.5 mt-2.5   text-xl  text-white font-semibold absolute"></div>
+          </div>
         </div>
       </div>
+
       <div className="justify-center hidden max-lg:flex">
         <img
           width={600}

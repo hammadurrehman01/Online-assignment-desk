@@ -322,41 +322,35 @@ export default function WhyGoGradesTest(props: any) {
               Limitless Amendments
             </h3>
           </div>
-          {/* <Link
-              href={`https://wa.me/123?text=Hello Online Assignment Desk Team, I need Academic Assistance. Could you help me complete my task on time?`}
-              // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Gogrades!`}
-              style={{
-                background:
-                  "transparent linear-gradient(91deg,#f9413e 0%,#f7514e 100%) 0 0 no-repeat",
-              }}
-              target="_blank"
-              
-            > */}
-          <div className="  flex flex-col md:flex-row w-full items-center gap-2 flex-wrap md:flex-nowrap max-sm:justify-center mt-12 ">
+
+          <div className="flex flex-col md:flex-row cursor-pointer scale-90 md:scale-100 pb-12 w-full  mx-auto items-center gap-12 max-sm:justify-center mt-6 ">
             <div
+              className="relative w-[90%]  hover:scale-95 transition-all duration-300 ease-in-out"
               onClick={() => {
                 setModal(true);
                 setLoader(true);
                 localStorage.setItem("externalModal", "true");
               }}
-              className="bg-primary-orange shadow-slate-300  shadow-xl py-[8px] capitalize cursor-pointer  px-[20px] rounded-md text-white font-semibold text-[22px] hover:drop-shadow-xl hover:shadow-xl transition-all duration-100 w-[70%] md:w-1/2 text-center"
             >
-              get a free quote
-            </div>
-            <Link
-              href={`${reg}/order?coupon=GG-50%off`}
-              className=" w-[70%]  md:w-1/2 mx-auto flex justify-center text-primary-orange border rounded-[2px] shadow-primary-orange  shadow-lg hover:drop-shadow-xl border-primary-orange hover:shadow-xl transition-all duration-100 bg-white"
-            >
-              <button
-                // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Gogrades!`}
+              <div className="bg-[#383838] w-[200px] text-center py-3 z-[1] text-xl  text-white font-semibold absolute">
+                Get a free quote
+              </div>
 
-                className="  text-[19px]  px-[25px] py-[8px] font-medium text-center "
+              <div className="bg-[#ff8e38] w-[200px] h-12 ml-1.5 mt-2 text-xl text-white font-semibold absolute"></div>
+            </div>
+
+            <div className="relative w-[90%] z-0  mt-6 md:mt-0 hover:scale-95 transition-all duration-300 ease-in-out">
+              {" "}
+              <Link
+                href={`${reg}/order?coupon=GG-50%off`}
+                className="bg-[#ff8e38] flex items-center justify-center text-center w-[200px] h-12 z-[11] text-xl text-white font-semibold absolute"
               >
                 Order Now
-              </button>
-            </Link>
-            {/* </Link> */}
+              </Link>
+              <div className="bg-[#383838] w-[200px] h-12 ml-1.5 mt-1.5 text-xl text-white font-semibold absolute"></div>
+            </div>
           </div>
+
           {modal ? (
             <>
               <Modal

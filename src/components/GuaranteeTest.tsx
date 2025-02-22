@@ -52,13 +52,13 @@ export default function GuaranteeTest(props: any) {
 
   return (
     <div className="bg-white flex flex-col justify-center items-center text-center py-20 myContainer ">
-      <h3 className="uppercase  text-[#c0413f] text-2xl md:text-4xl font-semibold">
+      <h3 className="uppercase section-main-heading text-2xl md:text-4xl font-semibold">
         -OUR GUARANTEES
       </h3>
-      <h4 className="text-[#071E57] text-center mx-auto text-base font-medium leading-tight  mt-2">
+      <h4 className="section-sub-heading text-lg py-1 mt-2">
         Know Why Students Rely On Our help Services
       </h4>
-      <p className="text-[#3E4657]  text-[13px] sm:text-[16px] mt-6">
+      <p className="text-primary-orange  text-[13px] sm:text-[16px] mt-6">
         Onlineassignmentdesk.com promises every student to provide the best quality work and
         maximum satisfaction. Heres why you should trust us.
       </p>
@@ -72,25 +72,29 @@ export default function GuaranteeTest(props: any) {
               alt="img"
               className="self-center  h-[100px] w-[100px] max-w-[100px] mx-auto mb-2"
             ></img>
-            <h3 className="text-[19px] text-[#071E57] font-medium   ">
+            <h3 className="text-[24px] text-[#292929] font-medium">
               {item.header}
             </h3>
-            <p className=" text-[14px] font-medium  leading-[20px] text-[#2A2A2A] mt-2">
+            <p className=" text-base font-medium  leading-[20px] text-[#2A2A2A] mt-2">
               {item.details}
             </p>
           </div>
         ))}
       </div>
-      <Link
-        href={`${reg}/order?coupon=GG-50%off`}
-        style={{
-          background:
-            "transparent linear-gradient(91deg,#f9413e 0%,#f7514e 100%) 0 0 no-repeat",
-        }}
-        className="py-[6px] px-[20px] rounded-md w-fit text-white font-semibold text-[22px] shadow-black hover:drop-shadow-xl hover:shadow-xl transition-all duration-100"
-      >
-        Order Now
-      </Link>
+    
+
+      <div className="relative w-[70%] md:w-[25%] mx-auto hover:scale-95 transition-all duration-300 ease-in-out">
+          {" "}
+          <Link
+            href={`${reg}/order?coupon=GG-50%off`}
+            // href={`https://api.whatsapp.com/send?phone=${number}&text=Hello Gogrades!`}
+            className="bg-[#ff8e38] flex items-center justify-center text-center w-[300px] h-12 z-[11] text-xl text-white font-semibold absolute"
+          >
+          Order Now
+          </Link>
+          <div className="bg-[#383838] w-[300px] h-12 ml-1.5 mt-2.5 text-xl text-white font-semibold absolute"></div>
+        </div>
+
     </div>
   );
 }
