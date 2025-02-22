@@ -288,3 +288,13 @@ body {
 .section-cta-right-btn {
   @apply text-primary-orange border rounded-[2px]  text-[19px]  px-[25px] py-[8px] font-medium shadow-primary-orange  shadow-lg hover:drop-shadow-xl border-primary-orange hover:shadow-xl transition-all duration-100 bg-white text-center w-[65%] md:w-[40%]
 }
+
+
+.bg-testing{
+  background: rgb(255,142,56);
+background: linear-gradient(0deg, rgba(255,142,56,1) 0%, rgba(56,56,56,1) 100%);
+}
+.bg-topbar{
+  background: rgb(255,142,56);
+background: linear-gradient(124deg, rgba(255,142,56,1) 0%, rgba(56,56,56,1) 100%);
+}

@@ -48,14 +48,14 @@ export default function FreeSampleTest({
 
   return (
     <div className="bg-[url('/last.jpg')] w-[100%] py-[75px] flex flex-col gap-1  justify-center items-center px-[10px]">
-      <h4 className="font-black text-[22px] md:text-[28px] uppercase fontchange  give-shadow">
+      <h4 className="font-black text-[22px] md:text-[28px] uppercase fontchange section-main-heading">
         - Free Free Free -
       </h4>
 
-      <h4 className="text-white md:text-[#071E57] text-[20px] md:text-[30px] font-semibold text-center">
+      <h4 className="section-sub-heading text-[20px] md:text-[30px] font-semibold text-center">
         Ready to get your FREE Sample?
       </h4>
-      <h5 className="text-white md:text-[#3E4657] text-[16px] mt-[-2px] text-center">
+      <h5 className="text-white md:text-[#292929] text-[16px] mt-[-2px] text-center">
         Setup is done in minutes. Your first {title ? title : ` Assignment`} is
         ready in hours.
       </h5>

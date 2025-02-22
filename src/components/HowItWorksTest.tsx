@@ -21,10 +21,10 @@ export default function HowItWorksTest(title: any) {
       id="process"
     >
       <div className="flex flex-col md:w-[400px] md:min-w-[300px] max-md:text-center">
-        <h3 className="uppercase text-2xl md:text-4xl sm:text-[24px] text-[#c0413f]   font-semibold">
+        <h3 className="uppercase text-2xl md:text-4xl sm:text-[24px] section-main-heading font-semibold">
           -How it works
         </h3>
-        <h4 className="text-[#071E57] text-base font-medium leading-tight  mt-2">
+        <h4 className="section-sub-heading text-base font-medium leading-tight  mt-2">
           Three Simple Steps to Avail
           {title.title ? ` ${title.title}` : ` Academic Assistance`}
         </h4>

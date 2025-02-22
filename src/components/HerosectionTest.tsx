@@ -376,7 +376,7 @@ export default function HerosectionTest(props: any) {
             <p className="pt-7  text-[#f3c30e] text-[13px] sm:text-[22px] font-bold uppercase max-lg:text-center leading-snug">
               Expert Assistance for Every Task
             </p>
-            <p className="text-[#63cc70] text-[14px] sm:text-[18px] uppercase font-black max-lg:text-center">
+            <p className="text-yellow-500 text-[14px] sm:text-[18px] uppercase font-black max-lg:text-center">
               - AFFORDABLE - FASTEST - 100% SECURED -
             </p>
             <h1 className="text-[20px] sm:text-[32px] lg:text-[25px] text-white lg:leading-[50px] font-semibold  max-md:text-center  max-w-2xl">
@@ -395,13 +395,13 @@ export default function HerosectionTest(props: any) {
               </p>
               <Link
                 href={`${reg}/order?coupon=GG-50%off`}
-                className="uppercase text-[14px] font-semibold button bg-primary-orange hover:bg-[#125e30]/90 animate-bounce hover:animate-none shadow-lg text-white py-[8px] px-[16px] rounded-full max-md:text-center max-md:w-[100%]"
+                className="uppercase text-[14px] font-semibold button bg-zinc-200  hover:bg-zinc-100/90 animate-bounce hover:animate-none shadow-lg text-zinc-900 py-[8px] px-[16px] rounded-full max-md:text-center max-md:w-[100%]"
               >
                 Place your order
               </Link>
               <button
                 onClick={openTawkToChat}
-                className="text-[#3E4657] bg-[#bdd7ff] font-semibold px-[20px] py-[8px] text-[14px] rounded-full shadow-lg text-center max-md:w-[100%] flex items-center justify-center gap-2 hover:bg-[#bdd7ff]/90"
+                className="text-gray-300 bg-orange-900 font-semibold px-[20px] py-[8px] text-[14px] rounded-full shadow-lg text-center max-md:w-[100%] flex items-center justify-center gap-2 hover:bg-orange-900/90"
               >
                 <IoIosChatboxes className="text-[24px] animate-ping-slow" />{" "}
                 Speak to an Expert
@@ -451,62 +451,80 @@ export default function HerosectionTest(props: any) {
               </div>
             </div>
             <div className="flex gap-3  text-white mt-3 max-sm:justify-center items-center ">
-              <div className="bg-[#724a1ca6] p-1 rounded-xl flex flex-col justify-start max-sm:w-[47%]">
+              <div className="bg-testing  p-1 rounded-xl flex flex-col justify-start max-sm:w-[47%]">
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   Satisfaction Guaranteed
                 </h4>
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   Experienced Teachers
                 </h4>
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   Time Flexibility
                 </h4>
               </div>
-              <div className="bg-[#f16800af] p-1 rounded-xl flex flex-col justify-start max-sm:w-[47%]">
+              <div className="bg-testing  p-1 rounded-xl flex flex-col justify-start max-sm:w-[47%]">
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   Very Low Pricing
                 </h4>
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   Fastest Turnaround Time
                 </h4>
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   Professional Proofreaders
                 </h4>
               </div>
-              <div className="bg-[#f16800af] p-3 rounded-xl hidden sm:flex flex-col justify-start max-sm:w-[96%]">
+              <div className="bg-testing  p-3 rounded-xl hidden sm:flex flex-col justify-start max-sm:w-[96%]">
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   100% Secure & Trusty
                 </h4>
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   24/7 Chat Support
                 </h4>
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                    <div className="bg-white w-6 h-6 rounded-full">
+                    <FaCheck className="w-4 h-4 text-green-500 font-black" />
+                    </div>
                   </span>
                   Guaranteed Results
                 </h4>
@@ -563,9 +581,9 @@ export default function HerosectionTest(props: any) {
                 <div className="hidden sm:flex text-white gap-1 items-start ">
                   {/* check */}
                   <img
-                    height={"100"}
-                    width={"100"}
-                    src={"/favicon.png"}
+                    height={"50"}
+                    width={"50"}
+                    src={"/logo-online-assignment-desk.webp"}
                     alt="img"
                     className="w-[30px] h-fit mt-2"
                   ></img>
@@ -716,7 +734,7 @@ export default function HerosectionTest(props: any) {
                 <span className="absolute right-0 top-0 inline-block h-4 w-4 rounded bg-[#0d4724] transition-all duration-500 ease-in-out group-hover:-mr-4 group-hover:-mt-4">
                   <span className="absolute right-0 top-0 h-5 w-5 -translate-y-1/2 translate-x-1/2 rotate-45 bg-white"></span>
                 </span>
-                <span className="absolute bottom-0 left-0 h-full w-full -translate-x-full translate-y-full rounded-2xl bg-primary-orange transition-all delay-200 duration-500 ease-in-out group-hover:mb-14 group-hover:translate-x-0"></span>
+                <span className="cursor-pointer absolute bottom-0 left-0 h-full w-full -translate-x-full translate-y-full rounded-2xl bg-primary-orange transition-all delay-200 duration-500 ease-in-out group-hover:mb-14 group-hover:translate-x-0"></span>
                 <span className="relative w-full font-bold text-white text-[16px] text-center transition-colors duration-200 ease-in-out group-hover:text-white">
                   {loader ? (
                     <span className="flex items-center justify-center gap-2 font-bold text-white text-[16px]">
@@ -761,7 +779,7 @@ export default function HerosectionTest(props: any) {
             <p className="pt-7 text-zinc-100 text-[13px] sm:text-[22px] font-bold uppercase max-lg:text-center leading-snug">
               BEST ACADEMIC HELPER
             </p>
-            <p className="text-[#ffc037] text-[14px] sm:text-[18px] uppercase font-black max-lg:text-center">
+            <p className="text-yellow-500 text-[14px] sm:text-[18px] uppercase font-black max-lg:text-center">
               - AFFORDABLE - FASTEST - 100% SECURED -
             </p>
             <h1 className="text-[20px] sm:text-[32px] lg:text-[30px] text-white lg:leading-[50px] font-semibold  max-md:text-center  max-w-2xl">
@@ -775,19 +793,19 @@ export default function HerosectionTest(props: any) {
             </h1>
 
             <div className="flex items-center gap-4 mt-2 flex-col md:flex-row md: ">
-              <p className="text-[#ffc037]  text-[15px] sm:text-[20px] font-semibold uppercase max-md:text-center">
+              <p className="text-yellow-500  text-[15px] sm:text-[20px] font-semibold uppercase max-md:text-center">
                 Achieve A+ Results
               </p>
               <Link
                 href={`${reg}/order?coupon=GG-50%off`}
-                className="uppercase text-[14px] font-semibold button bg-black hover:bg-[#125e30] animate-bounce hover:animate-none shadow-lg text-white py-[8px] px-[16px] rounded-full max-md:text-center max-md:w-[100%]"
+                className="uppercase text-[14px] font-semibold button  bg-zinc-200  hover:bg-zinc-100 animate-bounce hover:animate-none shadow-lg text-zinc-900 py-[8px] px-[16px] rounded-full max-md:text-center max-md:w-[100%]"
               >
                 Place your order
                 <span></span>
               </Link>
               <button
                 onClick={openTawkToChat}
-                className="text-[#3E4657] bg-[#bdd7ff] font-semibold px-[20px] py-[8px] text-[14px] rounded-full shadow-lg text-center max-md:w-[100%] flex items-center justify-center gap-2 hover:bg-[#bdd7ff]/90"
+                className="text-gray-100 bg-zinc-950  font-semibold px-[20px] py-[8px] text-[14px] rounded-full shadow-lg text-center max-md:w-[100%] flex items-center justify-center gap-2 hover:bg-zinc-900/90"
               >
                 <IoIosChatboxes className="text-[24px] animate-ping-slow" />{" "}
                 Discuss With Experts
@@ -827,72 +845,90 @@ export default function HerosectionTest(props: any) {
                   className="h-[100%] w-[38px]"
                 />
                 <div>
-                  <h3 className="text-[10px] md:text-[14px] w-fit px-1 py-[1px] bg-[#125e30] uppercase">
+                  <h3 className="text-[10px] md:text-[14px] w-fit px-1 py-[1px] bg-orange-800 rounded-lg uppercase">
                     Free
                   </h3>
-                  <h4 className="text-[12px] md:text-[20px]">
+                  <h4 className="text-[12px] md:text-[20px] text-zinc-100">
                     AI & Turnitin Report
                   </h4>
                 </div>{" "}
               </div>
             </div>
             <div className="flex gap-3  text-white mt-3 max-sm:justify-center items-center ">
-              <div className="bg-[#f16800af] p-3 rounded-xl flex flex-col justify-start max-sm:w-[47%]">
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+              <div className="bg-testing  p-3 rounded-xl flex flex-col justify-start max-sm:w-[47%]">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                      <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   Satisfaction Guaranteed
                 </h4>
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                      <div className="bg-white flex items-center justify-center w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   Experienced Teachers
                 </h4>
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                      <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   Time Flexibility
                 </h4>
               </div>
-              <div className="bg-[#f16800af] p-3 rounded-xl flex flex-col justify-start max-sm:w-[47%]">
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+              <div className="bg-testing  p-3 rounded-xl flex flex-col justify-start max-sm:w-[47%]">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                      <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   Very Low Pricing
                 </h4>
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                      <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   Fastest Turnaround Time
                 </h4>
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                      <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   Professional Proofreaders
                 </h4>
               </div>
-              <div className="bg-[#f16800af] p-3  rounded-xl hidden sm:flex flex-col justify-start max-sm:w-[96%]">
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+              <div className="bg-testing  p-3  rounded-xl hidden sm:flex flex-col justify-start max-sm:w-[96%]">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                      <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   100% Secure & Trusty
                 </h4>
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                      <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   24/7 Chat Support
                 </h4>
-                <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
-                    <FaCheck className="text-[#33e533] font-black" />
+                      <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                    <FaCheck className="w-3 h-3 text-green-500 font-black" />
+                    </div>
                   </span>
                   Guaranteed Results
                 </h4>
@@ -949,9 +985,9 @@ export default function HerosectionTest(props: any) {
                 <div className="hidden sm:flex text-white gap-1 items-start ">
                   {/* check */}
                   <img
-                    height={"100"}
-                    width={"100"}
-                    src={"/favicon.png"}
+                    height={"50"}
+                    width={"50"}
+                    src={"/logo-online-assignment-desk.webp"}
                     alt="img"
                     className="w-[30px] h-fit mt-2"
                   ></img>
@@ -1087,7 +1123,7 @@ export default function HerosectionTest(props: any) {
                 <span className="absolute right-0 top-0 inline-block h-4 w-4 rounded bg-[#d67a34] transition-all duration-500 ease-in-out group-hover:-mr-4 group-hover:-mt-4">
                   <span className="absolute right-0 top-0 h-5 w-5 -translate-y-1/2 translate-x-1/2 rotate-45 bg-white"></span>
                 </span>
-                <span className="absolute bottom-0 left-0 h-full w-full -translate-x-full translate-y-full rounded-2xl bg-[#df8745] transition-all delay-200 duration-500 ease-in-out group-hover:mb-14 group-hover:translate-x-0"></span>
+                <span className="cursor-pointer absolute bottom-0 left-0 h-full w-full -translate-x-full translate-y-full rounded-2xl bg-[#ff8e38] transition-all delay-200 duration-500 ease-in-out group-hover:mb-14 group-hover:translate-x-0"></span>
                 <span className="relative w-full font-bold text-white text-[16px] text-center transition-colors duration-200 ease-in-out group-hover:text-white">
                   {loader ? (
                     <span className="flex items-center justify-center gap-2 font-bold text-white text-[16px]">

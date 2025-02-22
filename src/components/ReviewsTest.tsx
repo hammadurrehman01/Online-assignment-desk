@@ -11,7 +11,7 @@ const reviews = [
       "The support I got for my legal case studies was outstanding. The writer's attention to detail was impressive. Highly recommended!",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-2.jpg",
-    logoImage: "/gogrades.org_assests/mah-logo-default.svg",
+    logoImage: "/logo-online-assignment-desk.webp",
   },
   {
     name: "James W.",
@@ -22,7 +22,7 @@ const reviews = [
       "The team delivered a fantastic dissertation on time. It was well-researched and perfectly written.",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-3.jpg",
-    logoImage: "/gogrades.org_assests/mah-logo-default.svg",
+    logoImage: "/logo-online-assignment-desk.webp",
   },
   {
     name: "Amelia T.",
@@ -33,7 +33,7 @@ const reviews = [
       "I was impressed with the code quality and the timely delivery. My project turned out exactly as expected.",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-4.jpg",
-    logoImage: "/gogrades.org_assests/mah-logo-default.svg",
+    logoImage: "/logo-online-assignment-desk.webp",
   },
   {
     name: "Oliver S.",
@@ -44,7 +44,7 @@ const reviews = [
       "The assistance I received was exceptional. My research paper was well-crafted and received excellent feedback.",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-5.jpg",
-    logoImage: "/gogrades.org_assests/mah-logo-default.svg",
+    logoImage: "/logo-online-assignment-desk.webp",
   },
   {
     name: "Isabella L.",
@@ -55,7 +55,7 @@ const reviews = [
       "The marketing plan delivered was beyond expectations. The content was innovative and relevant.",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-6.jpg",
-    logoImage: "/gogrades.org_assests/mah-logo-default.svg",
+    logoImage: "/logo-online-assignment-desk.webp",
   },
   {
     name: "Ethan R.",
@@ -66,7 +66,7 @@ const reviews = [
       "The quality of work was impeccable, and the research was thorough. Truly exceeded my expectations!",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-7.jpg",
-    logoImage: "/gogrades.org_assests/mah-logo-default.svg",
+    logoImage: "/logo-online-assignment-desk.webp",
   },
   {
     name: "Charlotte K.",
@@ -77,7 +77,7 @@ const reviews = [
       "The help with my economics assignment was invaluable. The writer understood the topic thoroughly and delivered exceptional work.",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-8.jpg",
-    logoImage: "/gogrades.org_assests/mah-logo-default.svg",
+    logoImage: "/logo-online-assignment-desk.webp",
   },
   {
     name: "Benjamin M.",
@@ -88,7 +88,7 @@ const reviews = [
       "I got top-notch support for my biology thesis. The details were well-explained, and the paper was perfectly structured.",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-9.jpg",
-    logoImage: "/gogrades.org_assests/mah-logo-default.svg",
+    logoImage: "/logo-online-assignment-desk.webp",
   },
   {
     name: "Mia P.",
@@ -99,7 +99,7 @@ const reviews = [
       "The writing was thorough and beautifully articulated. The assignment was on point and delivered promptly.",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-10.jpg",
-    logoImage: "/gogrades.org_assests/mah-logo-default.svg",
+    logoImage: "/logo-online-assignment-desk.webp",
   },
   {
     name: "Lucas H.",
@@ -110,7 +110,7 @@ const reviews = [
       "The work I received for my architecture project was outstanding. It reflected the required specifications perfectly.",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-11.jpg",
-    logoImage: "/gogrades.org_assests/mah-logo-default.svg",
+    logoImage: "/logo-online-assignment-desk.webp",
   },
   {
     name: "Amos F.",
@@ -121,7 +121,7 @@ const reviews = [
       "The detailed explanations and well-researched findings in my physics paper were exceptional.",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-12.jpg",
-    logoImage: "/gogrades.org_assests/mah-logo-default.svg",
+    logoImage: "/logo-online-assignment-desk.webp",
   },
   {
     name: "Emily C.",
@@ -132,14 +132,14 @@ const reviews = [
       "This service helped me tremendously with my history paper. The depth of research was impressive.",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-13.jpg",
-    logoImage: "/gogrades.org_assests/mah-logo-default.svg",
+    logoImage: "/logo-online-assignment-desk.webp",
   },
 ];
 
 function ReviewsTest() {
   return (
     <div id="reviews" className="max-w-screen-xl mx-auto pt-12 pb-6">
-      <h2 className="text-center font-bold text-[#071e57] text-xl md:text-3xl">
+      <h2 className="text-center font-bold section-main-heading text-xl md:text-3xl">
         Satisfied Customers Reviews
       </h2>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 px-4 py-4 mt-7">
@@ -177,14 +177,14 @@ function ReviewsTest() {
               {review.review}
             </p>
             <div className="bg-primary-orange rounded-br-xl rounded-bl-xl py-2">
-              <div className="flex items-center justify-center">
-                {/* <Image
+              <div className="flex items-center justify-center gap-2 text-zinc-200 font-semibold">
+                <Image
                   className="transition-transform transform hover:scale-105"
                   src={review.logoImage}
                   alt="Logo"
-                  width={220}
-                  height={220}
-                /> */}
+                  width={40}
+                  height={40}
+                />
                 Online Assignment Desk
 
               </div>
