@@ -459,7 +459,7 @@ export default function OurServicesTest(number: any) {
           ))}
         </div>
 
-        <div className="flex flex-col md:flex-row z-20 pb-12 w-[80%] md:w-[60%] items-center gap-2 max-sm:justify-center mt-6 md:mt-0">
+        <div className="flex flex-col md:flex-row z-20 pb-12 w-[80%] md:w-[60%] scale-90 items-center gap-2 max-sm:justify-center mt-6 md:mt-0">
           <div className="relative w-1/2 md:w-full hover:scale-95 transition-all duration-300 ease-in-out">
             <Link
               href={`https://wa.me/${number.number}?text=Hello Online Assignment Desk Team, I need Academic Assistance. Could you help me complete my task on time?`}

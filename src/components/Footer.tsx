@@ -11,6 +11,7 @@ import {
 import { IoLogoWhatsapp } from "react-icons/io";
 import { MdPhoneInTalk } from "react-icons/md";
 import { BannerContext } from "./BannerContext";
+import Image from "next/image";
 
 export default function Footer({ number, title }: any) {
   const bannerRef = useRef(null);
@@ -170,25 +171,38 @@ export default function Footer({ number, title }: any) {
   const currentYear = new Date().getUTCFullYear();
   return (
     <div
-      style={{
-        background: "linear-gradient(67deg,black 60%,#1c3d72 28%) ",
-      }}
+      className="bg-[#131313]"
+      // style={{
+      //   background: "linear-gradient(67deg,black 60%,#1c3d72 28%) ",
+      // }}
     >
       {/* <script src="Script.js"></script> */}
       <div className="flex myContainer py-[40px] justify-between md:flex-row flex-col gap-7 lg:gap-14">
         <div className="w-full">
           <div className="flex md:flex-row flex-col lg:gap-10 gap-3 w-[100%] justify-between ">
             <div ref={bannerRef} className="w-full md:w-[140px] lg:w-[200px]">
-              <Link href={`${reg}/`}>
-              Online Assignment Desk
-                {/* <img
+              <div className="flex justify-center items-center text-xl font-bold gap-1">
+                <Image
+                  height={40}
+                  width={40}
+                  src={"/logo-online-assignment-desk.webp"}
+                  alt="LOGO"
+                  // className="w-[180px]  md:w-[240px]"
+                />
+                <Link
+                  href={`${reg}/`}
+                  className="text-sm font-medium text-white tracking-tighter"
+                >
+                  Online Assignment Desk
+                </Link>
+              </div>
+              {/* <img
                   height={121}
                   width={320}
                   src={"/gogrades.org_assests/mah-logo-default.svg"}
                   alt="LOGO"
                   className="md:w-[180px] w-[280px]"
                 ></img> */}
-              </Link>
               <p className="text-[#fff] text-[15px] mt-5">
                 We are the{" "}
                 {title?.startsWith("Best") || title?.startsWith(" Best")
@@ -271,15 +285,16 @@ export default function Footer({ number, title }: any) {
             </div>
             <p className="font-extralight text-[13px] leading-4 mt-3">
               <span className="font-medium">Disclaimer:</span> Services provided
-              by Onlineassignmentdesk.com serve as model papers for students for guidelines
-              to their work and as a sample work, these works must not be used
-              for any academic gain. These papers are intended to help students
-              to understand research techniques and various issues in academic
-              research only.
+              by Onlineassignmentdesk.com serve as model papers for students for
+              guidelines to their work and as a sample work, these works must
+              not be used for any academic gain. These papers are intended to
+              help students to understand research techniques and various issues
+              in academic research only.
             </p>
             <div className="flex justify-between items-center mt-4">
               <h3 className="text-[14px]">
-                © Copyright {currentYear} @ Onlineassignmentdesk.com. All rights reserved
+                © Copyright {currentYear} @ Onlineassignmentdesk.com. All rights
+                reserved
               </h3>
               <h3 className="text-[14px]">
                 Online Assignment Desk Rated 4.8/5 based on 5087 Reviews
@@ -302,7 +317,7 @@ export default function Footer({ number, title }: any) {
           </div>
         </div>
 
-        <div className="bg-[#101A31] rounded-[10px] p-[12px] lg:p-[28px] h-fit max-md:w-[100%] max-[830px]:w-[230px] max-md:mt-8">
+        <div className="bg-[#292929] rounded-[10px] p-[12px] lg:p-[28px] h-fit max-md:w-[100%] max-[830px]:w-[230px] max-md:mt-8">
           <h3 className="text-[17px] text-white mb-3">Contact us</h3>
           <div>
             <Link
@@ -325,7 +340,8 @@ export default function Footer({ number, title }: any) {
               href="mailto:support@onlineassignmentdesk.com"
               className="text-white text-[18px] flex items-center gap-2"
             >
-              <FaEnvelope className="text-[22px]" /> support@onlineassignmentdesk.com
+              <FaEnvelope className="text-[22px]" />{" "}
+              support@onlineassignmentdesk.com
             </Link>
           </div>
           <h3 className="text-[17px] text-white max-md:mt-4 mt-3">
@@ -407,15 +423,16 @@ export default function Footer({ number, title }: any) {
           </div>
           <p className="font-extralight text-[13px] leading-4 mt-3">
             <span className="font-medium">Disclaimer:</span> Services provided
-            by Onlineassignmentdesk.com serve as model papers for students for guidelines to
-            their work and as a sample work, these works must not be used for
-            any academic gain. These papers are intended to help students to
-            understand research techniques and various issues in academic
-            research only.
+            by Onlineassignmentdesk.com serve as model papers for students for
+            guidelines to their work and as a sample work, these works must not
+            be used for any academic gain. These papers are intended to help
+            students to understand research techniques and various issues in
+            academic research only.
           </p>
           <div className="flex justify-between items-center mt-4">
             <h3 className="text-[14px]">
-              © Copyright {currentYear} @ Onlineassignmentdesk.com. All rights reserved
+              © Copyright {currentYear} @ Onlineassignmentdesk.com. All rights
+              reserved
             </h3>
             <h3 className="text-[14px]">
               Online Assignment Desk Rated 4.8/5 based on 5087 Reviews

@@ -1,4 +1,4 @@
-import { AnimatePresence, motion } from "framer-motion";
+  import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
 import {
@@ -110,7 +110,7 @@ export default function SubjectsTest(props: any) {
           assistance across a vast array of subjects.
         </p>
         <div className="grid lg:grid-cols-5  grid-cols-2 items-center gap-x-4 gap-y-10 mt-10 ">
-          <motion.div
+          <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
@@ -121,7 +121,7 @@ export default function SubjectsTest(props: any) {
             onMouseLeave={() => setIsHovered(false)}
           >
             <div className="relative p-6 h-72 flex items-center justify-center">
-              <AnimatePresence>
+              <AnimatePresence> 
                 {!isHovered && (
                   <motion.div
                     initial={{ opacity: 1 }}
@@ -1447,7 +1447,6 @@ export default function SubjectsTest(props: any) {
               </AnimatePresence>
             </div>
           </motion.div>
-          z
         </div>
       </div>
     </div>

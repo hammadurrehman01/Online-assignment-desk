@@ -65,11 +65,11 @@ export default function Steps({ region }: any) {
       </div>
       <Link
         href={`${reg}/order?coupon=GG-50%off`}
-        style={{
-          background:
-            "transparent linear-gradient(91deg,#f9413e 0%,#f7514e 100%) 0 0 no-repeat",
-        }}
-        className="py-[8px] px-[25px] rounded-3xl text-white font-semibold text-[16px] sm:text-[18px] mt-10 hover:shadow-2xl transition-all duration-100"
+        // style={{
+        //   background:
+        //     "transparent linear-gradient(91deg,#f9413e 0%,#f7514e 100%) 0 0 no-repeat",
+        // }}
+        className="py-[8px] px-[25px] rounded-3xl text-white font-semibold text-[16px] sm:text-[18px] mt-10 hover:shadow-2xl transition-all duration-100 bg-[#f4621b]"
       >
         Order Now
       </Link>

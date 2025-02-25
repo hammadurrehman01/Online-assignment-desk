@@ -308,16 +308,16 @@ export default function Contact({ region }: any) {
             alt="contactus"
             className="w-[280px] h-[190px]"
           />
-          <h1 className="text-[#071E57] text-[26px] font-semibold">
+          <h1 className="text-[#292929] text-[26px] font-semibold">
             Are you facing any problem?
           </h1>
-          <p className="text-[15px] text-[#2A2A2A] leading-[20px]">
+          <p className="text-[15px] text-[#2A2A2A] leading-[20px] section-sub-heading py-1">
             If you need instant support then use live chat option to reach us
             quickly, our support team will reply as soon as possible
           </p>
           <button
             onClick={openTawkToChat}
-            className="flex gap-2 bg-[#33CC6F] hover:bg-green-500 hover:shadow-md text-white py-[9px] px-[25px] rounded-[20px] my-5 font-medium"
+            className="flex gap-2 bg-[#ffc020] hover:bg-[#eaaf16] hover:shadow-md text-white py-[9px] px-[25px] rounded-[20px] my-5 font-medium"
           >
             <RiMessage3Fill className="text-[24px]" /> Live Chat
           </button>
@@ -352,7 +352,7 @@ export default function Contact({ region }: any) {
           </div>
         </div>
         <div className="flex flex-col gap-4 sm:w-[350px]">
-          <h2 className="text-[#071E57] text-[27px] font-semibold">
+          <h2 className="text-[#292929] text-[27px] font-semibold">
             Make An Enquiry
           </h2>
           <input
@@ -415,8 +415,8 @@ export default function Contact({ region }: any) {
                 : ""
             }text-white font-bold ${
               isVerifiedCaptcha
-                ? "bg-[#1c3d72] hover:bg-[#1c3d72]/90"
-                : "bg-[#7580ff]"
+                ? "bg-[#ffc42d] hover:bg-[#ffc42d]/90"
+                : "bg-[#ffc941]"
             }   focus:ring-4 focus:ring-[#2557D6]/50 focus:outline-none  rounded-lg text-lg px-5 py-2.5 text-center m-auto w-full dark:focus:ring-[#2557D6]/50 me-2 mb-2`}
             onClick={handleSubmit}
             disabled={!isVerifiedCaptcha}

@@ -72,7 +72,7 @@ export default function About2({ region }: any) {
   return (
     <div>
       <div className="flex flex-col justify-center items-center max-w-5xl gap-3 mx-auto py-10 px-[20px] md:px-[50px] shadow-b-lg shadow-gray-600">
-        <h3 className="text-[#071E57] text-[24px] sm:text-[30px] font-semibold max-w-lg text-center mx-auto leading-8">
+        <h3 className="text-[#292929] text-[24px] sm:text-[30px] font-semibold max-w-lg text-center mx-auto leading-8">
           Leading Academic Solutions Provider Around the Globe
         </h3>
         <p className="text-[15px] text-[2A2A2A] leading-[20px] sm:text-center">
@@ -135,7 +135,7 @@ function About3() {
   return (
     <div className="bg-[#F1F1F1]">
       <div className="flex flex-col justify-center items-center max-w-6xl gap-3 mx-auto py-10 px-[20px] md:px-[50px] ">
-        <h3 className="text-[#071E57] text-[24px] sm:text-[30px] font-semibold max-w-lg text-center mx-auto leading-8">
+        <h3 className="text-[#292929] text-[24px] sm:text-[30px] font-semibold max-w-lg text-center mx-auto leading-8">
           Leading Academic Solutions Provider Around the Globe
         </h3>
 

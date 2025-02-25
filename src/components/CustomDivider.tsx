@@ -20,6 +20,7 @@ export default function CustomDivider(props: any) {
     subHeadingPartTwo,
     leftButton,
     rightButton,
+    bannerImageUrl,
   } = props;
   const [modal, setModal] = useState(false);
   const [loader, setLoader] = useState(false);
@@ -230,7 +231,14 @@ export default function CustomDivider(props: any) {
   };
 
   return (
-    <div className="bg-gradient-to-bl from-[#333] to-[#f16700] bg-center bg-cover bg-blend-multiply flex flex-col py-10 gap-2  px-[20px] md:px-[40px]">
+    <div
+      style={{
+        backgroundImage: `url(${bannerImageUrl})`,
+        backgroundBlendMode: "overlay",
+        backgroundColor: "rgba(0, 0, 0, 0.7)",
+      }}
+      className="bg-fixed  bg-cover bg-center object-contain bg-blend-multiply flex flex-col py-16 bg-no-repeat gap-2  px-[20px] md:px-[40px]"
+    >
       <h3 className="text-2xl text-center text-white font-semibold">
         {mainHeadingPartOne} <span>{mainHeadingPartTwo}</span>
       </h3>
@@ -247,7 +255,7 @@ export default function CustomDivider(props: any) {
             localStorage.setItem("externalModal", "true");
           }}
         >
-          <div className="bg-[#383838] w-[300px] text-center py-3 z-[1] text-xl  text-white font-semibold absolute">
+          <div className="bg-zinc-100 w-[300px] text-center py-3 z-[1] text-xl  text-[#ff8e38] font-semibold absolute">
             {leftButton}
           </div>
 
@@ -262,7 +270,7 @@ export default function CustomDivider(props: any) {
           >
             {rightButton}
           </Link>
-          <div className="bg-[#383838] w-[300px] h-12 ml-1.5 mt-2.5 text-xl text-white font-semibold absolute"></div>
+          <div className="bg-zinc-100 w-[300px] h-12 ml-1.5 mt-1.5 text-xl text-white font-semibold absolute"></div>
         </div>
       </div>
 

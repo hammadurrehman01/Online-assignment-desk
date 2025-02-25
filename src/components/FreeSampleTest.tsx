@@ -45,7 +45,6 @@ export default function FreeSampleTest({
     }
   }, [phoneInputRef]);
 
-
   return (
     <div className="bg-[url('/last.jpg')] w-[100%] py-[75px] flex flex-col gap-1  justify-center items-center px-[10px]">
       <h4 className="font-black text-[22px] md:text-[28px] uppercase fontchange section-main-heading">
@@ -60,12 +59,12 @@ export default function FreeSampleTest({
         ready in hours.
       </h5>
       <button
-        style={{
-          background:
-            "transparent linear-gradient(91deg,#f9413e 0%,#f7514e 100%) 0 0 no-repeat",
-        }}
+        // style={{
+        //   background:
+        //     "transparent linear-gradient(91deg,#f9413e 0%,#f7514e 100%) 0 0 no-repeat",
+        // }}
         onClick={() => setModal(true)}
-        className="py-[11px] px-[35px] text-white font-semibold text-[16px] sm:text-[22px] mt-4 hover:shadow-2xl transition-all duration-100"
+        className="py-[11px] px-[35px] text-white font-semibold text-[16px] sm:text-[22px] mt-4 hover:shadow-2xl transition-all duration-100 bg-[#050505]"
       >
         Send Me My FREE Sample
       </button>
@@ -103,7 +102,9 @@ export default function FreeSampleTest({
                       <img
                         height={121}
                         width={320}
-                        src={"/gogrades.org_assests/premiummah-logo-default.svg"}
+                        src={
+                          "/gogrades.org_assests/premiummah-logo-default.svg"
+                        }
                         alt="LOGO"
                         className="aspect-square h-[62px] w-[62px]"
                       ></img>

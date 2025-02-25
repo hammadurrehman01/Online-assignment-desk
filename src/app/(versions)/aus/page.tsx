@@ -2040,6 +2040,7 @@ export default function Code(props: any) {
           subHeadingPartTwo="tailored to meet your academic needs. Let our experienced team support you in achieving top-notch results at competitive prices."
           leftButton="Activate Discount Coupon"
           rightButton="Chat with Us Now"
+bannerImageUrl="/random/serious-teacher-checking-assignment-two-students.jpg"
           region={"/uk"}
         />
         {/* <OurServicesTest number={number} region={"/aus"} /> */}
@@ -2059,6 +2060,7 @@ export default function Code(props: any) {
           subHeadingPartTwo="at prices that are best in the market. Our team always responds to the demands of the students quickly and fulfills them in the best possible way."
           leftButton="Get Free Quote"
           rightButton="Whatsapp Direct Chat"
+ bannerImageUrl="/random/cheerful-students-celebrating.jpg"
           region={"/aus"}
         />
         <GuaranteeTest
@@ -2077,6 +2079,7 @@ export default function Code(props: any) {
           subHeadingPartTwo=""
           leftButton="Order now"
           rightButton="Live Chat Support"
+bannerImageUrl="/random/5-Reasons-to-go-to-uni-besides-boosting-your-career-prospects.jpg"
           region={"/aus"}
         />
         <ReviewsTest />

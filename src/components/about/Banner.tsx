@@ -15,7 +15,7 @@ export default function Banner({ region }: any) {
 
   return (
     <div className="pt-10 max-md:pt-[70px] sm:px-[30px] px-[20px] md:px-[50px] max-w-[725px] max-md:bg-[#ededed] pb-24">
-      <h1 className="text-[#090909] text-[20px] md:text-[38px] font-semibold md:leading-10 my-2">
+      <h1 className="text-[#292929] text-[20px] md:text-[38px] font-semibold md:leading-10 my-2">
         Get A+ Worthy Assignments Here
       </h1>
       <p className="text-[#2A2A2A] text-[15px] leading-5 font-medium">
@@ -83,11 +83,11 @@ export default function Banner({ region }: any) {
       </div>
       <Link href={`${reg}/contact`}>
         <button
-          className="py-[8px] px-[25px] rounded-md text-white font-semibold text-[16px] sm:text-[18px] mt-10 hover:shadow-2xl transition-all duration-100 uppercase"
-          style={{
-            background:
-              "transparent linear-gradient(91deg,#f9413e 0%,#f7514e 100%) 0 0 no-repeat",
-          }}
+          className="py-[8px] px-[25px] rounded-md text-white font-semibold text-[16px] sm:text-[18px] mt-10 hover:shadow-2xl transition-all duration-100 uppercase bg-[#df6a30]"
+          // style={{
+          //   background:
+          //     "transparent linear-gradient(91deg,#f9413e 0%,#f7514e 100%) 0 0 no-repeat",
+          // }}
         >
           Contact Us
         </button>
