@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { RiMessage3Fill } from "react-icons/ri";
 
 import Link from "next/link";
 import openTawkToChat from "./herosection/tawkto";
@@ -32,23 +31,24 @@ export default function HowItWorksTest(title: any) {
           Ready to place an {title.title} order? You dont have to go through
           complicated processes; all you need to do is follow 3 easy steps!
         </p>
-        <div className="flex gap-2 items-center py-3 flex-wrap max-md:justify-center">
-          <Link
-            href={`${reg}/order?coupon=GG-50%off`}
-            style={{
-              background:
-                "transparent linear-gradient(91deg,#f9413e 0%,#f7514e 100%) 0 0 no-repeat",
-            }}
-            className="py-[6px] px-[20px] rounded-md w-fit text-white font-semibold text-[22px] shadow-black hover:drop-shadow-xl hover:shadow-xl transition-all duration-100"
-          >
-            Order Now
-          </Link>
-          <button
-            className="text-[#3E4657] border rounded-[2px] border-[#D1D1D1] text-[19px]  px-[25px] py-[8px] font-medium shadow-black hover:drop-shadow-xl hover:shadow-xl transition-all duration-100 bg-white flex items-center gap-2"
-            onClick={openTawkToChat}
-          >
-            <RiMessage3Fill className="text-[24px]" /> Chat Now
-          </button>
+
+        <div className="flex flex-col lg:flex-row gap-10 lg:gap-3 w-full pt-4 pb-8">
+          <div className="relative w-[40%] mx-auto  hover:scale-95 transition-all duration-300 ease-in-out">
+            <div className="bg-[#292929] w-full text-center py-3 z-[1] text-xl  text-white font-semibold absolute">
+              <Link href={`${reg}/order?coupon=GG-50%off`}>Order Now</Link>
+            </div>
+            <div className="bg-[#ff8e38] w-full h-12 ml-1.5 mt-2.5 text-xl text-white font-semibold absolute"></div>
+          </div>
+
+          <div className="cursor-pointer relative w-[40%] mx-auto z-0 mt-6 md:mt-0 hover:scale-95 transition-all duration-300 ease-in-out">
+            <div
+              onClick={openTawkToChat}
+              className="bg-[#ff8e38] flex items-center justify-center text-center w-full h-12 z-[11] text-xl text-white font-semibold absolute"
+            >
+              Chat Now
+            </div>
+            <div className="bg-[#292929] w-full h-12 ml-1.5 mt-1.5 text-xl text-white font-semibold absolute"></div>
+          </div>
         </div>
       </div>
       <div className="max-w-[600px] bg-white border shadow-md">
