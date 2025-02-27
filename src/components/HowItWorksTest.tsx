@@ -20,21 +20,21 @@ export default function HowItWorksTest(title: any) {
       id="process"
     >
       <div className="flex flex-col md:w-[400px] md:min-w-[300px] max-md:text-center">
-        <h3 className="uppercase text-2xl md:text-4xl sm:text-[24px] section-main-heading font-semibold">
+        <h3 className="uppercase text-2xl md:text-4xl sm:text-[24px] section-main-heading fonZt-semibold">
           -How it works
         </h3>
         <h4 className="section-sub-heading text-base font-medium leading-tight  mt-2">
           Three Simple Steps to Avail
           {title.title ? ` ${title.title}` : ` Academic Assistance`}
         </h4>
-        <p className="text-[#3E4657]  text-[13px] sm:text-[16px] mt-2">
+        <p className="text-[#3E4657] text-[13px] sm:text-[16px] mt-2">
           Ready to place an {title.title} order? You dont have to go through
           complicated processes; all you need to do is follow 3 easy steps!
         </p>
 
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-3 w-full pt-4 pb-8">
           <div className="relative w-[40%] mx-auto  hover:scale-95 transition-all duration-300 ease-in-out">
-            <div className="bg-[#292929] w-full text-center py-3 z-[1] text-xl  text-white font-semibold absolute">
+            <div className="bg-[#292929] w-full text-center py-3 z-[1] text-xl text-white font-semibold absolute">
               <Link href={`${reg}/order?coupon=GG-50%off`}>Order Now</Link>
             </div>
             <div className="bg-[#ff8e38] w-full h-12 ml-1.5 mt-2.5 text-xl text-white font-semibold absolute"></div>

@@ -37,7 +37,7 @@ export default function RootLayout({ children }: { children: any }) {
         <head>
           {/* Start of Tawk.to Script */}
           {/* End of Tawk.to Script */}
-          <script
+          {/*<script
             type="text/javascript"
             dangerouslySetInnerHTML={{
               __html: `
@@ -54,19 +54,19 @@ export default function RootLayout({ children }: { children: any }) {
               })();
             `,
             }}
-          />
+          />*/}
           {/* Another Tracking Code Start*/}
-          <script
+          {/* <script
             id="bing-tracking-code"
             dangerouslySetInnerHTML={{
               __html: `
             (function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"187087353", enableAutoSpaTracking: true};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
             `,
             }}
-          ></script>{" "}
+          ></script>{" "} */}
           {/* Another Tracking Code End*/}
           {/*  Google tag (gtag.js) Start */}
-          <script
+          {/* <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=AW-10775231891"
           ></script>
@@ -79,9 +79,9 @@ export default function RootLayout({ children }: { children: any }) {
             gtag('config','AW-10775231891', {'allow_enhanced_conversions':true});
         `,
             }}
-          ></script>
+          ></script> */}
           {/* Google tag (gtag.js) End  */}
-          <script
+          {/* <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
               __html: JSON.stringify({
@@ -114,9 +114,9 @@ export default function RootLayout({ children }: { children: any }) {
             })(window, document, "clarity", "script", "e0t9f19ur0");
             `,
             }}
-          ></script>
+          ></script> */}
           {/* Google Analytic */}
-          <script
+          {/* <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-ELNEH3H6JN"
           ></script>
@@ -131,10 +131,10 @@ export default function RootLayout({ children }: { children: any }) {
             gtag('config', 'G-ELNEH3H6JN');
             `,
             }}
-          ></script>
+          ></script> */}
           {/* Google Analytic */}
           {/* bard  */}
-          <Script
+          {/* <Script
             id="bard"
             type="text/javascript"
             dangerouslySetInnerHTML={{
@@ -142,9 +142,9 @@ export default function RootLayout({ children }: { children: any }) {
             (function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"187087353"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq")
             `,
             }}
-          />
+          /> */}
           {/* Facebook */}
-          <script
+          {/* <script
             id="facebookPixel"
             type="text/javascript"
             dangerouslySetInnerHTML={{
@@ -162,24 +162,24 @@ export default function RootLayout({ children }: { children: any }) {
                     fbq('track', 'PageView');
                   `,
             }}
-          ></script>
-          <noscript>
+          ></script> */}
+          {/* <noscript>
             <img
               height="1"
               width="1"
               src="https://www.facebook.com/tr?id=386858400791757&ev=PageView&noscript=1"
               alt="Facebook Pixel"
             />
-          </noscript>
+          </noscript> */}
           {/* webmoon */}
-          <script
+          {/* <script
             data-host="https://mmeanalytics.designstime.com/"
             data-dnt="false"
             src="https://mmeanalytics.designstime.com/js/script.js"
             id="ZwSg9rf6GA"
             async
             defer
-          ></script>
+          ></script> */}
           {/* webmoon end*/}
         </head>
       )}

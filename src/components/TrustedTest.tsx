@@ -79,7 +79,6 @@ export default function TrustedTest(country: any) {
           <Swiper
             modules={[Autoplay]}
             spaceBetween={10}
-            
             autoplay={{
               delay: 1000,
               disableOnInteraction: false,
@@ -89,11 +88,9 @@ export default function TrustedTest(country: any) {
               300: {
                 slidesPerView: 3,
               },
-
               768: {
                 slidesPerView: 3,
               },
-
               1200: {
                 slidesPerView: 6,
               },

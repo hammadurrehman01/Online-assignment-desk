@@ -4,9 +4,8 @@ import intlTelInput from "intl-tel-input";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { IoLogoWhatsapp } from "react-icons/io";
-import Modal from "./Modal";
 import MobileModal from "./MobileModal";
+import Modal from "./Modal";
 
 export default function CustomDivider(props: any) {
   const {
@@ -168,7 +167,7 @@ export default function CustomDivider(props: any) {
   //     formData.append("phone_code", code);
   //     formData.append("Name", userName);
   //     formData.append("Phone", number);
-  //     formData.append("Email", userEmail);
+  //     formData.append( "Email", userEmail);
   //     formData.append("currentURL", currentURL);
   //     formData.append("locationDetails", JSON.stringify(locationDetails));
   //     formData.append("access_token", "AAH-DLF_Form");
@@ -249,21 +248,20 @@ export default function CustomDivider(props: any) {
 
       <div className="flex flex-col md:flex-row cursor-pointer scale-90 md:scale-100 pb-12 w-full md:w-[52%] mx-auto items-center gap-12 max-sm:justify-center mt-6 ">
         <div
-          className="relative w-[90%]  hover:scale-95 transition-all duration-300 ease-in-out"
+          className="relative w-[90%] hover:scale-95 transition-all duration-300 ease-in-out"
           onClick={() => {
             setModal(true);
             localStorage.setItem("externalModal", "true");
           }}
         >
-          <div className="bg-zinc-100 w-[300px] text-center py-3 z-[1] text-xl  text-[#ff8e38] font-semibold absolute">
+          <div className="bg-zinc-100 w-[300px] text-center py-3 z-[1] text-xl text-[#ff8e38] font-semibold absolute">
             {leftButton}
           </div>
 
-          <div className="bg-[#ff8e38] w-[300px] h-12 ml-1.5 mt-2.5   text-xl  text-white font-semibold absolute"></div>
+          <div className="bg-[#ff8e38] w-[300px] h-12 ml-1.5 mt-2.5 text-xl text-white font-semibold absolute"></div>
         </div>
 
-        <div className="relative w-[90%] z-0  mt-6 md:mt-0 hover:scale-95 transition-all duration-300 ease-in-out">
-          {" "}
+        <div className="relative w-[90%] z-0 mt-6 md:mt-0 hover:scale-95 transition-all duration-300 ease-in-out">
           <Link
             href={`https://wa.me/${number}?text=Hello Online Assignment Desk Team, I need Academic Assistance. Could you help me complete my task on time?`}
             className="bg-[#ff8e38] flex items-center justify-center text-center w-[300px] h-12 z-[11] text-xl text-white font-semibold absolute"
