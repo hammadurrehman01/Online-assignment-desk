@@ -30,9 +30,9 @@ export async function POST(req: NextRequest) {
     });
 
     const mailOptions: any = {
-      from: "New Sample Form | Gogrades.org <support@gogrades.org>",
+      from: "New Sample Form | OnlineAssignmentDesk.com <support@gogrades.org>",
       to: `support@gogrades.org`,
-      subject: `New Sample FORM Entry | Gogrades.org`,
+      subject: `New Sample FORM Entry | OnlineAssignmentDesk.com`,
       html: `
       <p style="font-weight: bold; font-size: 20px">Sample Form Details</p>
 
@@ -79,15 +79,15 @@ export async function POST(req: NextRequest) {
     });
 
     const mailOptionsClient = {
-      from: "GoGrades® Alert <support@gogrades.org>",
+      from: "OnlineAssignmentDesk® Alert <support@gogrades.org>",
       to: `${body.get("Email")}`,
-      subject: `Thank You For Choosing Gogrades.org`,
+      subject: `Thank You For Choosing OnlineAssignmentDesk.com`,
       html: `
     <html lang="en">
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>GoGrades Discount</title>
+        <title>OnlineAssignmentDesk Discount</title>
       </head>
       <body
         style="
@@ -127,7 +127,7 @@ export async function POST(req: NextRequest) {
               >
                 <img
                   src="https://res.cloudinary.com/darpb8kox/image/upload/v1727269997/logo-web_gaakgx.png"
-                  alt="Gogrades.org Logo"
+                  alt="OnlineAssignmentDesk.com Logo"
                   style="height: 50px"
                 />
               </td>
@@ -157,7 +157,7 @@ export async function POST(req: NextRequest) {
                   "
                 >
                   When Life Gives You Lemons - Make Lemonade! <br />
-                  When Gogrades.org Gives You A Discount - <br /> Make An Order!
+                  When OnlineAssignmentDesk.com Gives You A Discount - <br /> Make An Order!
                 </p>
                 <p
                   style="
@@ -262,7 +262,7 @@ export async function POST(req: NextRequest) {
                   color: whitesmoke;
                 "
               >
-                © 2025 Gogrades.org. All rights reserved
+                © 2025 OnlineAssignmentDesk.com. All rights reserved
               </td>
             </tr>
           </table>

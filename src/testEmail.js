@@ -14,9 +14,9 @@
 
 // // Create the email content
 // const mailOptions =
-//   from: "New Order Form | Gogrades.org <support@gogrades.org>",
+//   from: "New Order Form | OnlineAssignmentDesk.com <support@gogrades.org>",
 //   to: `arsalan1664@gmail.com`,
-//   subject: `New Order Form | Gogrades.org`,
+//   subject: `New Order Form | OnlineAssignmentDesk.com`,
 //   text: "This is a test email sent using Nodemailer.",
 //   html: `
 // <!DOCTYPE html>
@@ -245,7 +245,7 @@
 //           margin: 0;
 //         "
 //       >
-//         <p>© 2024 Gogrades.org. All rights reserved</p>
+//         <p>© 2024 OnlineAssignmentDesk.com. All rights reserved</p>
 //       </div>
 //     </div>
 //   </body>

@@ -1989,7 +1989,7 @@ export default function Code(props: any) {
         title="Academic Consultancy"
         mainHeadingPartOne="One Stop Solution to All"
         mainHeadingPartTwo="Academic Worries"
-        subHeadingPartOne="Gogrades.org ensures to deliver the world-class "
+        subHeadingPartOne="OnlineAssignmentDesk.com ensures to deliver the world-class "
         subHeadingPartTwo="at prices that are best in the market. Our team always responds to the demands of the students quickly and fulfills them in the best possible way."
         leftButton="Get Free Quote"
         rightButton="Whatsapp Direct Chat"

@@ -70,9 +70,9 @@ export async function POST(req: NextRequest, res: NextResponse) {
     });
 
     const mailOptions: any = {
-      from: "New Order Form | Gogrades.org <support@gogrades.org>",
+      from: "New Order Form | OnlineAssignmentDesk.com <support@gogrades.org>",
       to: `support@gogrades.org`,
-      subject: `New Order Form | Gogrades.org`,
+      subject: `New Order Form | OnlineAssignmentDesk.com`,
       html: `
       <p style="font-weight: bold; font-size: 20px">Order Details</p>
 
@@ -154,9 +154,9 @@ export async function POST(req: NextRequest, res: NextResponse) {
       }
     });
     const mailOptionsClient: any = {
-      from: "GoGrades® Alert - Order Received <support@gogrades.org>",
+      from: "OnlineAssignmentDesk® Alert - Order Received <support@gogrades.org>",
       to: `${body.get("order_candidate_email")}`,
-      subject: `We Have Received Your Order – Complete Your Payment Now | Gogrades.org`,
+      subject: `We Have Received Your Order – Complete Your Payment Now | OnlineAssignmentDesk.com`,
       html: `
       <!DOCTYPE html>
 <html>
@@ -452,7 +452,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
           margin: 0;
         "
       >
-        <p>© 2025 Gogrades.org. All rights reserved</p>
+        <p>© 2025 OnlineAssignmentDesk.com. All rights reserved</p>
       </div>
     </div>
   </body>

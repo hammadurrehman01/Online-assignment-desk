@@ -36,9 +36,9 @@ async function ReadJSONAndSendEmail(decodedOrderId, filePath) {
       try {
         const jsonData = JSON.parse(data);
         const mailOptionsClient = {
-          from: "GoGrades® Alert <support@gogrades.org>",
+          from: "OnlineAssignmentDesk® Alert <support@gogrades.org>",
           to: `arsalan1664@gmail.com`,
-          subject: `We Have Received Your Order | Gogrades.org`,
+          subject: `We Have Received Your Order | OnlineAssignmentDesk.com`,
           html: `
           <!DOCTYPE html>
     <html>
@@ -302,7 +302,7 @@ async function ReadJSONAndSendEmail(decodedOrderId, filePath) {
               margin: 0;
             "
           >
-            <p>© 2024 Gogrades.org. All rights reserved</p>
+            <p>© 2024 OnlineAssignmentDesk.com. All rights reserved</p>
           </div>
         </div>
       </body>

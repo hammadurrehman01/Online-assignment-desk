@@ -124,7 +124,7 @@ async function ReadJSONAndSendEmail(decodedOrderId: string, filePath: string) {
         try {
           const jsonData = JSON.parse(data);
           const mailOptionsClient = {
-            from: "GoGrades® Alert - Order Confirmed <support@onlineassignmentdesk.com>",
+            from: "OnlineAssignmentDesk® Alert - Order Confirmed <support@onlineassignmentdesk.com>",
             to: `${jsonData.order_candidate_email}`,
             subject: `Your Order # ${jsonData.orderId} is Confirmed – Thank You for Your Order! | Onlineassignmentdesk.com`,
             html: `

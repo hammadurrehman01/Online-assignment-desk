@@ -13,7 +13,7 @@ export default function page() {
   }, [pathname]);
   return (
     <>
-      <title>Contact us | GoGrades</title>
+      <title>Contact us | OnlineAssignmentDesk</title>
       <meta
         name="description"
         content="Get Help for the students of UK and Australia. We have qualified and experienced academic writers for all subjects."

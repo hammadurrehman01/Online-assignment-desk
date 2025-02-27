@@ -463,7 +463,7 @@ export default function OurServicesTest(number: any) {
           <div className="relative w-1/2 md:w-full hover:scale-95 transition-all duration-300 ease-in-out">
             <Link
               href={`https://wa.me/${number.number}?text=Hello Online Assignment Desk Team, I need Academic Assistance. Could you help me complete my task on time?`}
-              // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Gogrades!`}
+              // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Online Assignment Desk!`}
 
               target="_blank"
               className="bg-[#383838] w-[300px] text-center py-3 z-[1] text-xl  text-white font-semibold absolute"
@@ -477,7 +477,7 @@ export default function OurServicesTest(number: any) {
           <div className="relative  w-1/2 hover:scale-95 transition-all duration-300 ease-in-out mt-16 md:mt-0">
             <button
               onClick={openTawkToChat}
-              // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Gogrades!`}
+              // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Online Assignment Desk!`}
 
               className="bg-[#ff8e38] w-[300px] py-3 z-[1] text-xl  text-white font-semibold absolute"
             >

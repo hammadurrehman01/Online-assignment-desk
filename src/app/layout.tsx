@@ -87,7 +87,7 @@ export default function RootLayout({ children }: { children: any }) {
               __html: JSON.stringify({
                 "@context": "http://schema.org",
                 "@type": "WebSite",
-                name: "GoGrades",
+                name: "OnlineAssignmentDesk",
                 url: "https://onlineassignmentdesk.com/",
                 sameAs: [
                   "https://www.facebook.com/Onlineassignmentdesk.com/",

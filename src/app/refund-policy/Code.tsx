@@ -237,7 +237,7 @@ export default function Code() {
             concerns about our refund/dispute policy.
             <br />
             <br />
-            Should a client feel unsatisfied with Gogrades&nbsp; services and
+            Should a client feel unsatisfied with Online Assignment Desk&nbsp; services and
             wishes to seek a refund in order to resolve this issue, please
             contact our team through email at
             <Link href="mailto:support@onlineassignmentdesk.com" className="text-blue-800">

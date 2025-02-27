@@ -459,7 +459,7 @@ export default function OurServices(number: any) {
         <div className="flex items-center gap-2 flex-wrap max-sm:justify-center">
           <Link
             href={`https://wa.me/${number.number}?text=Hello Online Assignment Desk Team, I need Academic Assistance. Could you help me complete my task on time?`}
-            // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Gogrades!`}
+            // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Online Assignment Desk!`}
             style={{
               background:
                 "transparent linear-gradient(91deg,#f9413e 0%,#f7514e 100%) 0 0 no-repeat",
@@ -471,7 +471,7 @@ export default function OurServices(number: any) {
           </Link>
           <button
             onClick={openTawkToChat}
-            // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Gogrades!`}
+            // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Online Assignment Desk!`}
 
             className="text-[#3E4657] border rounded-[2px] border-[#D1D1D1] text-[19px]  px-[25px] py-[8px] font-medium shadow-slate-400  shadow-lg hover:drop-shadow-xl hover:shadow-xl transition-all duration-100 bg-white max-sm:w-[100%] text-center"
           >

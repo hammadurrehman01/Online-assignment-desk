@@ -87,7 +87,7 @@ export default function GuaranteeTest(props: any) {
           {" "}
           <Link
             href={`${reg}/order?coupon=GG-50%off`}
-            // href={`https://api.whatsapp.com/send?phone=${number}&text=Hello Gogrades!`}
+            // href={`https://api.whatsapp.com/send?phone=${number}&text=Hello Online Assignment Desk!`}
             className="bg-[#ff8e38] flex items-center justify-center text-center w-[300px] h-12 z-[11] text-xl text-white font-semibold absolute"
           >
           Order Now

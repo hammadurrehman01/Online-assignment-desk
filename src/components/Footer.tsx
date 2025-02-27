@@ -327,7 +327,7 @@ export default function Footer({ number, title }: any) {
               <MdPhoneInTalk className="text-[22px]" /> Call Now!
             </Link>
             <Link
-              // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Gogrades!`}
+              // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Online Assignment Desk!`}
               href={`https://wa.me/${number}?text=Hello Online Assignment Desk Team, I need Academic Assistance. Could you help me complete my task on time?`}
               className="text-white text-[18px] flex items-center gap-2"
               target="_blank"

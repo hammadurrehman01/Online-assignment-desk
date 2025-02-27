@@ -32,7 +32,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
     });
 
     const mailOptions: any = {
-      from: "New Contact Form | Gogrades.org <support@gogrades.org>",
+      from: "New Contact Form | OnlineAssignmentDesk.com <support@gogrades.org>",
       to: `support@gogrades.org`,
       subject: `Contact FORM`,
       html: `

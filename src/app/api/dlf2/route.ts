@@ -37,13 +37,13 @@ export async function POST(req: NextRequest, res: NextResponse) {
     const mailOptions: any = {
       from: "support@gogrades.org",
       to: `support@gogrades.org`,
-      // subject: isPopupDLF === "true" ? "NEW POPUP DLF ENTRY | Gogrades.org" :  "New DLF FORM ENTRY | Gogrades.org",
+      // subject: isPopupDLF === "true" ? "NEW POPUP DLF ENTRY | OnlineAssignmentDesk.com" :  "New DLF FORM ENTRY | OnlineAssignmentDesk.com",
       subject:
         isPopupDLF === "true"
-          ? "NEW POPUP DLF ENTRY | Gogrades.org"
+          ? "NEW POPUP DLF ENTRY | OnlineAssignmentDesk.com"
           : isSampleForm === "true"
-          ? "New SAMPLE FORM ENTRY | Gogrades.org"
-          : "New DLF FORM ENTRY | Gogrades.org",
+          ? "New SAMPLE FORM ENTRY | OnlineAssignmentDesk.com"
+          : "New DLF FORM ENTRY | OnlineAssignmentDesk.com",
       html: `
       <p style="font-weight: bold; font-size: 20px">DLF Details</p>
 
@@ -84,15 +84,15 @@ export async function POST(req: NextRequest, res: NextResponse) {
     });
 
     const mailOptionsClient = {
-      from: "GoGrades® Alert <support@gogrades.org>",
+      from: "OnlineAssignmentDesk® Alert <support@gogrades.org>",
       to: `${body.get("Email")}`,
-      subject: `Thank You For Choosing Gogrades.org`,
+      subject: `Thank You For Choosing OnlineAssignmentDesk.com`,
       html: `
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GoGrades Discount</title>
+    <title>OnlineAssignmentDesk Discount</title>
   </head>
   <body
     style="
@@ -132,7 +132,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
           >
             <img
               src="https://res.cloudinary.com/darpb8kox/image/upload/v1727269997/logo-web_gaakgx.png"
-              alt="Gogrades.org Logo"
+              alt="OnlineAssignmentDesk.com Logo"
               style="height: 50px"
             />
           </td>
@@ -162,7 +162,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
               "
             >
               When Life Gives You Lemons - Make Lemonade! <br />
-              When Gogrades.org Gives You A Discount - <br /> Make An Order!
+              When OnlineAssignmentDesk.com Gives You A Discount - <br /> Make An Order!
             </p>
             <p
               style="
@@ -267,7 +267,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
               color: whitesmoke;
             "
           >
-            © 2025 Gogrades.org. All rights reserved
+            © 2025 OnlineAssignmentDesk.com. All rights reserved
           </td>
         </tr>
       </table>
