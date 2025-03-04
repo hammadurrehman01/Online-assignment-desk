@@ -27,23 +27,23 @@ const GetTimeLeft = () => {
 
   return (
     <div className="flex items-center justify-center content-center text-center gap-1 sm:gap-2 ">
-      <p className="value text-[#1c3d72] font-semibold text-[18px] sm:text-[20px] flex flex-col justify-center items-center ">
+      <p className="value text-[#292929] font-semibold text-[18px] sm:text-[20px] flex flex-col justify-center items-center ">
         {hours}
-        <span className="label text-center uppercase text-[10px]  font-extrabold text-black ">
+        <span className="label text-center uppercase text-[10px]  font-extrabold text-black">
           hours
         </span>
       </p>
       <span className="text-[20px] max-sm:text-[20px] mt-[-20px]">:</span>
-      <p className="value text-[#1c3d72] font-semibold text-[18px] sm:text-[20px] flex flex-col justify-center items-center">
+      <p className="value text-[#292929] font-semibold text-[18px] sm:text-[20px] flex flex-col justify-center items-center">
         {minutes}
-        <span className="label text-center uppercase text-[10px]  font-extrabold text-black ">
+        <span className="label text-center uppercase text-[10px]  font-extrabold text-black">
           minutes
         </span>
       </p>
       <span className="text-[20px] max-sm:text-[20px] mt-[-20px]">:</span>
-      <p className="value text-[#1c3d72] font-semibold text-[18px] sm:text-[20px] flex flex-col justify-center items-center">
+      <p className="value text-[#292929] font-semibold text-[18px] sm:text-[20px] flex flex-col justify-center items-center">
         {seconds}
-        <span className="label text-center uppercase text-[10px]  font-extrabold text-black ">
+        <span className="label text-center uppercase text-[10px]  font-extrabold text-black">
           seconds
         </span>
       </p>

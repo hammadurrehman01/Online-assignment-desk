@@ -26,14 +26,14 @@ export async function POST(req: NextRequest, res: NextResponse) {
       secure: false, // Set to true if your server requires a secure connection
       auth: {
         // port:
-        user: "support@gogrades.org",
+        user: "support@onlineassignmentdesk.com",
         pass: "mastermindsASS!@2",
       },
     });
 
     const mailOptions: any = {
-      from: "New Contact Form | OnlineAssignmentDesk.com <support@gogrades.org>",
-      to: `support@gogrades.org`,
+      from: "New Contact Form | OnlineAssignmentDesk.com <support@onlineassignmentdesk.com>",
+      to: `support@onlineassignmentdesk.com`,
       subject: `Contact FORM`,
       html: `
       <p style="font-weight: bold; font-size: 20px">DLF Details</p>

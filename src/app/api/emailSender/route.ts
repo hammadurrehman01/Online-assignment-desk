@@ -64,14 +64,14 @@ export async function POST(req: NextRequest, res: NextResponse) {
       port: 587, // Use the appropriate port for your SMTP server
       secure: false, // Set to true if your server requires a secure connection
       auth: {
-        user: "support@gogrades.org",
+        user: "support@onlineassignmentdesk.com",
         pass: "mastermindsASS!@2",
       },
     });
 
     const mailOptions: any = {
-      from: "New Order Form | OnlineAssignmentDesk.com <support@gogrades.org>",
-      to: `support@gogrades.org`,
+      from: "New Order Form | OnlineAssignmentDesk.com <support@onlineassignmentdesk.com>",
+      to: `support@onlineassignmentdesk.com`,
       subject: `New Order Form | OnlineAssignmentDesk.com`,
       html: `
       <p style="font-weight: bold; font-size: 20px">Order Details</p>
@@ -138,7 +138,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
     const orderToken = Buffer.from(orderId).toString("base64");
 
     const finalUrl = Buffer.from(
-      "https://gogrades.org/api/afterPaymentReceived"
+      "https://onlineassignmentdesk.com/api/afterPaymentReceived"
     ).toString("base64");
 
     // const paymentLinkStripe = `https://eduresearchers.com/test-payment/secure-pay-external-2.php?cevpr_havg=${finalPaymentUnit}&cevpr_nzbhag=${finalTotalAmount}&cebqhpg_anzr=${finalProductName}&gbxra_rkgreany=${orderToken}&url=${finalUrl}`;
@@ -154,7 +154,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
       }
     });
     const mailOptionsClient: any = {
-      from: "OnlineAssignmentDesk® Alert - Order Received <support@gogrades.org>",
+      from: "OnlineAssignmentDesk® Alert - Order Received <support@onlineassignmentdesk.com>",
       to: `${body.get("order_candidate_email")}`,
       subject: `We Have Received Your Order – Complete Your Payment Now | OnlineAssignmentDesk.com`,
       html: `
@@ -431,7 +431,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
             "
           >
             <img
-              src="https://gogrades.org/web-assets/whatsapp.png"
+              src="/web-assets/whatsapp.png"
               alt="WhatsApp Icon"
               style="height: 30px; margin-right: 10px; vertical-align: middle"
             />

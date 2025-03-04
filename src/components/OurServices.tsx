@@ -6,24 +6,24 @@ import { FaCheck } from "react-icons/fa";
 
 import openTawkToChat from "./herosection/tawkto";
 export default function OurServices(number: any) {
-  const [des, setisDes] = useState(
-    `Writing an assignment is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Onlineassignmentdesk.com extends its helping hand. We are the No.1 online assignment consultancy help service provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.`
-  );
+  // const [des, setisDes] = useState(
+  //   `Writing an assignment is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Onlineassignmentdesk.com extends its helping hand. We are the No.1 Academic Assistance Team provider having completed more than 1000,000+ assignments. The Academic Assistance Team of our website make sure to draft a high quality paper following proper formatting and referencing style.`
+  // );
   const [img, setImg] = useState("/services/assignment.svg");
   const [active, setIsActive] = useState("Assignments");
   const [heading, setIsHeading] = useState("Exclusive Features");
   const [features, setFeatures] = useState([
-    "Correct Grammar",
     "No Punctuation Errors",
+    "Finest Quality Work",
     "Best Structuring",
     "Valuable Results",
-    "Finest Quality Work",
+    "Correct Grammar",
   ]);
   const data = [
     {
       title: "Assignments",
       description:
-        "Writing an assignment is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Onlineassignmentdesk.com extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.",
+        "Writing an assignment is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Onlineassignmentdesk.com extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The Academic Assistance Team of our website make sure to draft a high quality paper following proper formatting and referencing style.",
       image: "/services/assignment.svg",
       heading: `Exclusive Features`,
       features: [
@@ -70,7 +70,7 @@ export default function OurServices(number: any) {
     {
       title: "Proofreading",
       description:
-        "Grammatical mistakes may let you lose your scores. It is important that the document you get after availing our assignment assistance are not just well researched and formatted but also have no errors. We have a dedicated team of 100+ proofreaders who ensure to check your document several times before delivering it to you. Our online assignment help providers deliver flawless documents without compromising with the quality. So, if you want your documents to be error-free just avail proofreading and editing services by experts.",
+        "Grammatical mistakes may let you lose your scores. It is important that the document you get after availing our assignment assistance are not just well researched and formatted but also have no errors. We have a dedicated team of 100+ proofreaders who ensure to check your document several times before delivering it to you. Our online Academic Assistance  providers deliver flawless documents without compromising with the quality. So, if you want your documents to be error-free just avail proofreading and editing services by experts.",
 
       image: "/services/assigment3.svg",
       heading: `FREE Features`,
@@ -161,7 +161,7 @@ export default function OurServices(number: any) {
 
     {
       title: "Homework",
-      description: `Our panel of Expert Tutors are available around the clock to offer online homework help and online assignment help. We are at your service whenever you need us, no questions asked. Our philosophy of being available around the clock comes from our understanding that learning should never stop and by offering 24/7 assistance, we are doing our bit to help you learn better and improve your grades. By bringing together subject matter experts from all across the globe, we ensure online homework help and assignment help through day and night.`,
+      description: `Our panel of Expert Tutors are available around the clock to offer online homework help and online Academic Assistance Team. We are at your service whenever you need us, no questions asked. Our philosophy of being available around the clock comes from our understanding that learning should never stop and by offering 24/7 assistance, we are doing our bit to help you learn better and improve your grades. By bringing together subject matter experts from all across the globe, we ensure online homework help and assignment help through day and night.`,
 
       image: "/services/assigment9.svg",
       heading: `FREE Features`,
@@ -415,40 +415,42 @@ export default function OurServices(number: any) {
       id="services"
     >
       <div className="w-[100%] lg:w-[900px] ">
-        <h3 className="uppercase text-[14px] sm:text-[16px] text-[#c0413f]">
+        <h3 className="uppercase text-2xl sm:text-[24px] text-[#c0413f] text-center md:text-left  font-semibold section-main-heading">
           - Our Services
         </h3>
-        <h4 className="text-[20px] sm:text-[25px] md:text-[30px] leading-8 text-[#071E57] font-semibold">
-          Online Academic Help Services That We Provide @Onlineassignmentdesk.com
+        <h4 className=" md:text-left text-center  text-base  md:text-[15px] font-medium leading-tight  mt-2 text-white bg-primary-orange w-fit px-3 py-1 rounded-lg ">
+          Expert Academic Assistance You Can Trust – Only at
+          OnlineAssignmentDesk.com
         </h4>
         <div className="grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-x-2 gap-y-1 justify-start items-center mt-[20px]">
           {data.map((item: any, index: number) => (
             <button
               onClick={() => {
+                openTawkToChat();
                 setImg(item.image);
-                setisDes(item.description);
+                // setisDes(item.description);
                 setFeatures(item.features);
                 setIsHeading(item.heading);
                 setIsActive(item.title);
               }}
               title={item.title}
-              className={`text-white ${
-                active == item.title ? `bg-[#1c3d72]` : `bg-[#db312e]`
-              }   w-  rounded-md py-2 font-medium hidetext px-2 hover:bg-[#1c3d72] duration-100`}
+              className={`text-white transition-all duration-150 ease-in-out hover:scale-105 ${
+                active == item.title ? `bg-[#f58631]` : `bg-[#292929]`
+              }   w-  rounded-md py-2 hidetext px-2 hover:bg-[#f58631] duration-100 text-[15px] `}
               key={index}
             >
               {item.title}
             </button>
           ))}
         </div>
-        <p className="text-[15px] leading-[18px] text-[#3E4657] mt-10">{des}</p>
-        <h4 className="text-[#071E57] text-[18px] font-medium mt-6">
+        {/* <p className="text-[15px] leading-[18px] text-[#3E4657] mt-10 text-center md:text-left px-2 md:px-0">{des}</p> */}
+        <h4 className="text-black text-2xl font-medium mt-6 ml-3 md:text-left">
           {heading}
         </h4>
-        <div className="grid sm:grid-cols-3 justify-start mb-3 grid-cols-2 gap-1">
+        <div className="grid sm:grid-cols-3 justify-start mb-3 grid-cols-2 gap-1 mt-3">
           {features.map((item: any, index: any) => (
             <h3
-              className="flex justify-start items-center text-[#3E4657] text-[13px] font-medium"
+              className="flex justify-start md:justify-start items-center text-black text-lg font-medium"
               key={index}
             >
               <FaCheck className="text-[#33e533] text-[8px] mr-1" />
@@ -456,29 +458,36 @@ export default function OurServices(number: any) {
             </h3>
           ))}
         </div>
-        <div className="flex items-center gap-2 flex-wrap max-sm:justify-center">
-          <Link
-            href={`https://wa.me/${number.number}?text=Hello Online Assignment Desk Team, I need Academic Assistance. Could you help me complete my task on time?`}
-            // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Online Assignment Desk!`}
-            style={{
-              background:
-                "transparent linear-gradient(91deg,#f9413e 0%,#f7514e 100%) 0 0 no-repeat",
-            }}
-            target="_blank"
-            className="py-[6px] px-[20px] rounded-md w-fit text-white font-semibold text-[22px] shadow-red-500 hover:drop-shadow-xl hover:shadow-xl transition-all duration-100 max-sm:w-[100%] text-center"
-          >
-            Chat On Whatsapp
-          </Link>
-          <button
-            onClick={openTawkToChat}
-            // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Online Assignment Desk!`}
 
-            className="text-[#3E4657] border rounded-[2px] border-[#D1D1D1] text-[19px]  px-[25px] py-[8px] font-medium shadow-slate-400  shadow-lg hover:drop-shadow-xl hover:shadow-xl transition-all duration-100 bg-white max-sm:w-[100%] text-center"
-          >
-            Talk with Experts
-          </button>
+        <div className="flex flex-col md:flex-row z-20 pb-12 w-[80%] md:w-[60%] scale-90 items-center gap-2 max-sm:justify-center mt-6 md:mt-0">
+          <div className="relative w-1/2 md:w-full hover:scale-95 transition-all duration-300 ease-in-out">
+            <Link
+              href={`https://wa.me/${number.number}?text=Hello Online Assignment Desk Team, I need Academic Assistance. Could you help me complete my task on time?`}
+              // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Online Assignment Desk!`}
+
+              target="_blank"
+              className="bg-[#383838] w-[300px] text-center py-3 z-[1] text-xl  text-white font-semibold absolute"
+            >
+              Chat On Whatsapp
+            </Link>
+
+            <div className="bg-[#ff8e38]  w-[300px] h-12 ml-1.5 mt-2.5   text-xl  text-white font-semibold absolute"></div>
+          </div>
+
+          <div className="relative  w-1/2 hover:scale-95 transition-all duration-300 ease-in-out mt-16 md:mt-0">
+            <button
+              onClick={openTawkToChat}
+              // href={`https://api.whatsapp.com/send?phone=${number.number}&text=Hello Online Assignment Desk!`}
+
+              className="bg-[#ff8e38] w-[300px] py-3 z-[1] text-xl  text-white font-semibold absolute"
+            >
+              Talk with Experts
+            </button>
+            <div className="bg-[#383838]  w-[300px] h-12 ml-1.5 mt-2.5   text-xl  text-white font-semibold absolute"></div>
+          </div>
         </div>
       </div>
+
       <div className="justify-center hidden max-lg:flex">
         <img
           width={600}

@@ -545,7 +545,7 @@ export default function ContentV2() {
                       <img
                         height={121}
                         width={320}
-                        src={"/gogrades.org_assests/moneyback-logo.png"}
+                        src={"/onlineassignment.com_assests/moneyback-logo.png"}
                         alt="LOGO"
                         className="aspect-square h-[62px] w-[62px]"
                       ></img>
@@ -560,7 +560,7 @@ export default function ContentV2() {
                       <img
                         height={121}
                         width={320}
-                        src={"/gogrades.org_assests/premiummah-logo-default.svg"}
+                        src={"/onlineassignment.com_assests/premiummah-logo-default.svg"}
                         alt="LOGO"
                         className="aspect-square h-[62px] w-[62px]"
                       ></img>
@@ -575,7 +575,7 @@ export default function ContentV2() {
                       <img
                         height={121}
                         width={320}
-                        src={"/gogrades.org_assests/quality.png"}
+                        src={"/onlineassignment.com_assests/quality.png"}
                         alt="LOGO"
                         className="aspect-square h-[62px] w-[62px]"
                       ></img>
@@ -590,7 +590,7 @@ export default function ContentV2() {
                       <img
                         height={121}
                         width={320}
-                        src={"/gogrades.org_assests/satisfaction.png"}
+                        src={"/onlineassignment.com_assests/satisfaction.png"}
                         alt="LOGO"
                         className="aspect-square h-[62px] w-[62px]"
                       ></img>

@@ -19,7 +19,7 @@ import Image from "next/image";
 import { toast } from "react-toastify";
 import CustomPhoneInput from "./common/CustomPhoneInput";
 
-export default function HerosectionTest(props: any) {
+export default function Herosection(props: any) {
   const [userName, setUserName] = useState("");
   const [userEmail, setUserEmail] = useState("");
   const [phone, setPhone] = useState<any>("");
@@ -1120,10 +1120,10 @@ export default function HerosectionTest(props: any) {
                 onClick={handleSubmit}
                 className="group relative inline-flex items-center justify-start overflow-hidden rounded-xl bg-primary-orange px-8 py-4 font-medium transition-all"
               >
-                <span className="absolute right-0 top-0 inline-block h-4 w-4 rounded bg-[#d67a34] transition-all duration-500 ease-in-out group-hover:-mr-4 group-hover:-mt-4">
+                <span className="absolute right-0 top-0 inline-block h-4 w-4 rounded bg-[#5c5c5c] transition-all duration-500 ease-in-out group-hover:-mr-4 group-hover:-mt-4">
                   <span className="absolute right-0 top-0 h-5 w-5 -translate-y-1/2 translate-x-1/2 rotate-45 bg-white"></span>
                 </span>
-                <span className="cursor-pointer absolute bottom-0 left-0 h-full w-full -translate-x-full translate-y-full rounded-2xl bg-[#ff8e38] transition-all delay-200 duration-500 ease-in-out group-hover:mb-14 group-hover:translate-x-0"></span>
+                <span className="cursor-pointer absolute bottom-0 left-0 h-full w-full -translate-x-full translate-y-full rounded-2xl bg-[#5c5c5c] transition-all delay-200 duration-500 ease-in-out group-hover:mb-14 group-hover:translate-x-0"></span>
                 <span className="relative w-full font-bold text-white text-[16px] text-center transition-colors duration-200 ease-in-out group-hover:text-white">
                   {loader ? (
                     <span className="flex items-center justify-center gap-2 font-bold text-white text-[16px]">

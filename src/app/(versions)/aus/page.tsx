@@ -1,26 +1,23 @@
 "use client";
 
-import EveryStudentTest from "@/components/EveryStudentTest";
-import FreeSampleTest from "@/components/FreeSampleTest";
-import GuaranteeTest from "@/components/GuaranteeTest";
-import HerosectionTest from "@/components/HerosectionTest";
-import HowItWorksTest from "@/components/HowItWorksTest";
+import FreeSample from "@/components/FreeSample";
+import Guarantee from "@/components/Guarantee";
+import Herosection from "@/components/Herosection";
+import HowItWorks from "@/components/HowItWorks";
 import MobileModal from "@/components/MobileModal";
 import Modal from "@/components/Modal";
-import OurServicesTest from "@/components/OurServicesTest";
-import SubjectsTest from "@/components/SubjectsTest";
-import TrustedPartnerTest from "@/components/CustomDivider";
-import TrustedTest from "@/components/TrustedTest";
-import WhatsappTest from "@/components/WhatsappTest";
-import WhyGoGradesTest from "@/components/WhyGoGradesTest";
-import { redirect, usePathname, useRouter } from "next/navigation";
+import OurServices from "@/components/OurServices";
+import Subjects from "@/components/Subjects";
+import Trusted from "@/components/Trusted";
+import WhyGoGradesTest from "@/components/WhyUs";
+import { redirect, usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 // import Footer from "../../components/Footer";
 // import Navbar from "../../components/Navbar";
-import { Metadata } from "next";
-import Footer from "@/components/Footer";
-import ReviewsTest from "@/components/ReviewsTest";
 import CustomDivider from "@/components/CustomDivider";
+import Footer from "@/components/Footer";
+import Reviews from "@/components/Reviews";
+import { Metadata } from "next";
 
 export const metalist = [
   {
@@ -1993,7 +1990,7 @@ export default function Code(props: any) {
       <meta name="robots" content="noindex, nofollow" />
 
       <main>
-        <HerosectionTest
+        <Herosection
           title="Academic Consultancy"
           country={country}
           city={city}
@@ -2017,8 +2014,8 @@ export default function Code(props: any) {
           />
         )}
 
-        <TrustedTest country={country} region={"/aus"} />
-        <OurServicesTest
+        <Trusted country={country} region={"/aus"} />
+        <OurServices
           number={number}
           title="Academic Consultancy"
           region={"/aus"}
@@ -2043,8 +2040,8 @@ export default function Code(props: any) {
 bannerImageUrl="/random/serious-teacher-checking-assignment-two-students.jpg"
           region={"/uk"}
         />
-        {/* <OurServicesTest number={number} region={"/aus"} /> */}
-        <SubjectsTest
+        {/* <OurServices number={number} region={"/aus"} /> */}
+        <Subjects
           country={country}
           city={city}
           title="Academic Consultancy"
@@ -2063,7 +2060,7 @@ bannerImageUrl="/random/serious-teacher-checking-assignment-two-students.jpg"
  bannerImageUrl="/random/cheerful-students-celebrating.jpg"
           region={"/aus"}
         />
-        <GuaranteeTest
+        <Guarantee
           country={country}
           city={city}
           title="Academic Consultancy"
@@ -2082,10 +2079,10 @@ bannerImageUrl="/random/serious-teacher-checking-assignment-two-students.jpg"
 bannerImageUrl="/random/5-Reasons-to-go-to-uni-besides-boosting-your-career-prospects.jpg"
           region={"/aus"}
         />
-        <ReviewsTest />
+        <Reviews />
 
-        <HowItWorksTest title="Academic Consultancy" region={"/aus"} />
-        <FreeSampleTest
+        <HowItWorks title="Academic Consultancy" region={"/aus"} />
+        <FreeSample
           country={country}
           title="Academic Consultancy"
           region={"/aus"}

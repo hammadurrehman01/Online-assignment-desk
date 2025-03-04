@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["gogrades.org", "imagedelivery.net"],
+    domains: ["onlineassignmentdesk.com", "imagedelivery.net"],
   },
   eslint: {
     ignoreDuringBuilds: true, // Disables ESLint during the build

@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://gogrades.org/sitemap.xml
+Sitemap: https://onlineassignmentdesk.com/sitemap.xml

@@ -317,7 +317,7 @@ export default function Contact({ region }: any) {
           </p>
           <button
             onClick={openTawkToChat}
-            className="flex gap-2 bg-[#ffc020] hover:bg-[#eaaf16] hover:shadow-md text-white py-[9px] px-[25px] rounded-[20px] my-5 font-medium"
+            className="flex gap-2 bg-[#ff8e38] hover:bg-[#fd9545] hover:shadow-md text-white py-[9px] px-[25px] rounded-[20px] my-5 font-medium"
           >
             <RiMessage3Fill className="text-[24px]" /> Live Chat
           </button>
@@ -415,8 +415,8 @@ export default function Contact({ region }: any) {
                 : ""
             }text-white font-bold ${
               isVerifiedCaptcha
-                ? "bg-[#ffc42d] hover:bg-[#ffc42d]/90"
-                : "bg-[#ffc941]"
+                ? "bg-[#ff8e38] hover:bg-[#ff8e38]/90"
+                : "bg-[#ffa159]"
             }   focus:ring-4 focus:ring-[#2557D6]/50 focus:outline-none  rounded-lg text-lg px-5 py-2.5 text-center m-auto w-full dark:focus:ring-[#2557D6]/50 me-2 mb-2`}
             onClick={handleSubmit}
             disabled={!isVerifiedCaptcha}

@@ -1,4 +1,10 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+
+import { Autoplay } from "swiper/modules";
+
+import Image from "next/image";
 
 export default function Trusted(country: any) {
   const countryCode = country.country;
@@ -42,22 +48,85 @@ export default function Trusted(country: any) {
   } else {
     img = "/GGImages/University-Images/GB-Uni.jpg";
   }
+
+  const sliderImages = [
+    "/random/ran1.png",
+    "/random/ran10.png",
+    "/random/ran11.png",
+    "/random/ran12.png",
+    "/random/ran5.png",
+    "/random/ran15.png",
+    "/random/ran16.png",
+    "/random/ran22.png",
+    "/random/ran23.png",
+    "/random/ran24.png",
+    "/random/ran26.png",
+    "/random/ran27.png",
+    "/random/ran29.png",
+    "/random/ran30.png",
+  ];
+
   return (
-    <div className="flex justify-center items-center gap-8 py-[14px] flex-wrap border-b border-gray-300 text-center px-2">
-      <h3 className="text-[#F25F5C] text-[22px] md:text-[32px] font-semibold leading-tight">
+    <div className="">
+      <h3 className="section-main-heading  font-semibold leading-tight text-2xl md:text-3xl text-center mt-7">
         Trusted by 85,000 Students <br />
-        <span className="text-[#2D2D2D] text-[14px] md:text-[22px]">
-          Connect with over 4,500 trusted experts today
-        </span>
       </h3>
-      <div className="w-[60%] max-w-[500px] sm:w-[30%]">
-        <img
-          height={"100"}
-          width={"500"}
-          src={img}
-          alt="img"
-          className="h-[100%] w-[100%]"
-        ></img>
+      <p className="section-sub-heading text-base text-center  md:text-lg font-medium mt-2">
+        Connect with over 4,500 trusted experts today
+      </p>
+      <div className="w-full flex flex-col items-center justify-center  text-center px-2 pt-5">
+        <div className="w-[80%]  mx-auto mt-2">
+          <Swiper
+            modules={[Autoplay]}
+            spaceBetween={10}
+            autoplay={{
+              delay: 1000,
+              disableOnInteraction: false,
+              stopOnLastSlide: false,
+            }}
+            breakpoints={{
+              300: {
+                slidesPerView: 3,
+              },
+              768: {
+                slidesPerView: 3,
+              },
+              1200: {
+                slidesPerView: 6,
+              },
+            }}
+            className="!py-8 "
+          >
+            {sliderImages.map((slide, index) => (
+              <>
+                <SwiperSlide
+                  key={index}
+                  className="mx-0.5 md:mx-2 !hidden !md:block"
+                >
+                  <Image
+                    src={slide}
+                    alt="universities-logo"
+                    width={150}
+                    height={10}
+                    className="flex items-center justify-center"
+                  />
+                </SwiperSlide>
+                <SwiperSlide
+                  key={index}
+                  className="mx-0.5 md:mx-2 !block !md:hidden"
+                >
+                  <Image
+                    src={slide}
+                    alt="universities-logo"
+                    width={100}
+                    height={10}
+                    className="flex items-center justify-center"
+                  />
+                </SwiperSlide>
+              </>
+            ))}
+          </Swiper>
+        </div>
       </div>
     </div>
   );

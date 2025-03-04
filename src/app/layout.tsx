@@ -91,9 +91,9 @@ export default function RootLayout({ children }: { children: any }) {
                 url: "https://onlineassignmentdesk.com/",
                 sameAs: [
                   "https://www.facebook.com/Onlineassignmentdesk.com/",
-                  "https://twitter.com/GogradesOrg",
-                  "https://www.tiktok.com/@gogrades",
-                  "https://www.instagram.com/gogradeshere/",
+                  "https://twitter.com",
+                  "https://www.tiktok.com",
+                  "https://www.instagram.com",
                 ],
                 potentialAction: {
                   "@type": "SearchAction",

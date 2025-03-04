@@ -1,10 +1,9 @@
 "use client";
-import Image from "next/image";
-import React, { useEffect, useState } from "react";
-import { RiMessage3Fill } from "react-icons/ri";
 
-import openTawkToChat from "./herosection/tawkto";
+import { useEffect, useState } from "react";
+
 import Link from "next/link";
+import openTawkToChat from "./herosection/tawkto";
 export default function HowItWorks(title: any) {
   const [reg, setReg] = useState("");
 
@@ -21,34 +20,35 @@ export default function HowItWorks(title: any) {
       id="process"
     >
       <div className="flex flex-col md:w-[400px] md:min-w-[300px] max-md:text-center">
-        <h3 className="uppercase text-[14px] sm:text-[16px] text-[#F25F5C]">
+        <h3 className="uppercase text-2xl md:text-4xl sm:text-[24px] section-main-heading fonZt-semibold">
           -How it works
         </h3>
-        <h4 className="text-[20px] sm:text-[25px] md:text-[30px] text-[#071E57] font-semibold">
+        <h4 className="section-sub-heading text-base font-medium leading-tight  mt-2">
           Three Simple Steps to Avail
-          {title.title ? ` ${title.title}` : ` Assignment Help`}
+          {title.title ? ` ${title.title}` : ` Academic Assistance`}
         </h4>
-        <p className="text-[#3E4657]  text-[13px] sm:text-[16px]">
+        <p className="text-[#3E4657] text-[13px] sm:text-[16px] mt-2">
           Ready to place an {title.title} order? You dont have to go through
           complicated processes; all you need to do is follow 3 easy steps!
         </p>
-        <div className="flex   gap-2 items-center py-3 flex-wrap max-md:justify-center">
-          <Link
-            href={`${reg}/order?coupon=GG-50%off`}
-            style={{
-              background:
-                "transparent linear-gradient(91deg,#f9413e 0%,#f7514e 100%) 0 0 no-repeat",
-            }}
-            className="py-[6px] px-[20px] rounded-md w-fit text-white font-semibold text-[22px] shadow-black hover:drop-shadow-xl hover:shadow-xl transition-all duration-100"
-          >
-            Order Now
-          </Link>
-          <button
-            className="text-[#3E4657] border rounded-[2px] border-[#D1D1D1] text-[19px]  px-[25px] py-[8px] font-medium shadow-black hover:drop-shadow-xl hover:shadow-xl transition-all duration-100 bg-white flex items-center gap-2"
-            onClick={openTawkToChat}
-          >
-            <RiMessage3Fill className="text-[24px]" /> Chat Now
-          </button>
+
+        <div className="flex flex-col lg:flex-row gap-10 lg:gap-3 w-full pt-4 pb-8">
+          <div className="relative w-[40%] mx-auto  hover:scale-95 transition-all duration-300 ease-in-out">
+            <div className="bg-[#292929] w-full text-center py-3 z-[1] text-xl text-white font-semibold absolute">
+              <Link href={`${reg}/order?coupon=GG-50%off`}>Order Now</Link>
+            </div>
+            <div className="bg-[#ff8e38] w-full h-12 ml-1.5 mt-2.5 text-xl text-white font-semibold absolute"></div>
+          </div>
+
+          <div className="cursor-pointer relative w-[40%] mx-auto z-0 mt-6 md:mt-0 hover:scale-95 transition-all duration-300 ease-in-out">
+            <div
+              onClick={openTawkToChat}
+              className="bg-[#ff8e38] flex items-center justify-center text-center w-full h-12 z-[11] text-xl text-white font-semibold absolute"
+            >
+              Chat Now
+            </div>
+            <div className="bg-[#292929] w-full h-12 ml-1.5 mt-1.5 text-xl text-white font-semibold absolute"></div>
+          </div>
         </div>
       </div>
       <div className="max-w-[600px] bg-white border shadow-md">
@@ -78,7 +78,7 @@ export default function HowItWorks(title: any) {
                 alt="side"
                 className="h-[10] w-[10] block sm:hidden mb-4"
               />
-              <h3 className="text-[#071E57] sm:text-[18px] text-[24px] font-semibold">
+              <h3 className="text-[#292929] sm:text-[18px] text-[24px] font-semibold">
                 Submit Your Order
               </h3>
               <h4 className="text-[#3E4657] max-sm:leading-[18px] text-[15px]">
@@ -95,7 +95,7 @@ export default function HowItWorks(title: any) {
                 alt="side"
                 className="h-[10] w-[10] block sm:hidden mb-4"
               />
-              <h3 className="text-[#071E57] sm:text-[18px] text-[24px] font-semibold">
+              <h3 className="text-[#292929] sm:text-[18px] text-[24px] font-semibold">
                 Discussion With EXPERT
               </h3>
               <h4 className="text-[#3E4657] max-sm:leading-[18px] text-[15px]">
@@ -112,7 +112,7 @@ export default function HowItWorks(title: any) {
                 alt="side"
                 className="h-[10] w-[10] block sm:hidden mb-4"
               />
-              <h3 className="text-[#071E57] sm:text-[18px] text-[24px] font-semibold">
+              <h3 className="text-[#292929] sm:text-[18px] text-[24px] font-semibold">
                 Assignment Dispatched
               </h3>
               <h4 className="text-[#3E4657] max-sm:leading-[18px] text-[15px]">

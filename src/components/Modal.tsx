@@ -134,36 +134,36 @@ const Modal = (props: any) => {
     img2 = "/GGImages/DLF/IE-DLF.jpg";
   } else if (country == "AU") {
     img2 = "/GGImages/DLF/AUS-DLF.jpg";
-  } else if (country == "GB") {
-    img2 = "/GGImages/DLF/UK-DLF.jpg";
-  } else if (country == "NL") {
-    img2 = "/GGImages/DLF/NL-DLF.jpg";
-  } else if (country == "NO") {
-    img2 = "/GGImages/DLF/NO-DLF.jpg";
-  } else if (country == "NZ") {
-    img2 = "/GGImages/DLF/NZ-DLF.jpg";
-  } else if (country == "OM") {
-    img2 = "/GGImages/DLF/OM-DLF.jpg";
-  } else if (country == "AE") {
-    img2 = "/GGImages/DLF/UAE-DLF.jpg";
-  } else if (country == "US") {
-    img2 = "/GGImages/Banner/US-Banner.jpg";
-  } else if (country == "TR") {
-    img2 = "/GGImages/DLF/TR-DLF.jpg";
-  } else if (country == "PL") {
-    img2 = "/GGImages/DLF/PL-DLF.jpg";
-  } else if (country == "IT") {
-    img2 = "/GGImages/DLF/IT-DLF.jpg";
-  } else if (country == "FI") {
-    img2 = "/GGImages/DLF/FI-DLF.jpg";
-  } else if (country == "SE") {
-    img2 = "/GGImages/DLF/SE-DLF.jpg";
-  } else if (country == "AT") {
-    img2 = "/GGImages/DLF/AT-DLF.jpg";
-  } else if (country == "IS") {
-    img2 = "/GGImages/DLF/IS-DLF.jpg";
-  } else if (country == "CA") {
-    img2 = "/GGImages/DLF/CA-DLF.jpg";
+      } else if (country == "GB") {
+        img2 = "/GGImages/DLF/UK-DLF.jpg";
+      } else if (country == "NL") {
+        img2 = "/GGImages/DLF/NL-DLF.jpg";
+      } else if (country == "NO") {
+        img2 = "/GGImages/DLF/NO-DLF.jpg";
+      } else if (country == "NZ") {
+        img2 = "/GGImages/DLF/NZ-DLF.jpg";
+      } else if (country == "OM") {
+        img2 = "/GGImages/DLF/OM-DLF.jpg";
+      } else if (country == "AE") {
+        img2 = "/GGImages/DLF/UAE-DLF.jpg";
+      } else if (country == "US") {
+        img2 = "/GGImages/Banner/US-Banner.jpg";
+      } else if (country == "TR") {
+        img2 = "/GGImages/DLF/TR-DLF.jpg";
+      } else if (country == "PL") {
+        img2 = "/GGImages/DLF/PL-DLF.jpg";
+      } else if (country == "IT") {
+        img2 = "/GGImages/DLF/IT-DLF.jpg";
+      } else if (country == "FI") {
+        img2 = "/GGImages/DLF/FI-DLF.jpg";
+      } else if (country == "SE") {
+        img2 = "/GGImages/DLF/SE-DLF.jpg";
+      } else if (country == "AT") {
+        img2 = "/GGImages/DLF/AT-DLF.jpg";
+      } else if (country == "IS") {
+        img2 = "/GGImages/DLF/IS-DLF.jpg";
+      } else if (country == "CA") {
+        img2 = "/GGImages/DLF/CA-DLF.jpg";
   } else if (country == "MX") {
     img2 = "/GGImages/DLF/MX-DLF.jpg";
   } else {
@@ -232,7 +232,7 @@ const Modal = (props: any) => {
       <div className="justify-center items-center hidden md:flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none h-screen  ">
         <div className="relative w-auto my-6 mx-auto max-w-3xl">
           <div className=" my-5  flex overflow-auto">
-            <div className="bg-[#1a3e61] px-4 py-4 max-w-[300px] md:block hidden">
+            <div className="bg-[#292929] px-4 py-4 max-w-[300px] md:block hidden">
               <h4 className="text-center text-[#FFC410] text-[30px] font-semibold leading-tight tracking-tight">
                 Get <span className="text-white text-6xl">50%</span> Off on your
                 Order
@@ -243,7 +243,7 @@ const Modal = (props: any) => {
                   <img
                     height={121}
                     width={320}
-                    src={"/gogrades.org_assests/moneyback-logo.png"}
+                    src={"/onlineassignment.com_assests/moneyback-logo.png"}
                     alt="LOGO"
                     className="aspect-square h-[62px] w-[62px]"
                   ></img>
@@ -256,7 +256,7 @@ const Modal = (props: any) => {
                   <img
                     height={121}
                     width={320}
-                    src={"/gogrades.org_assests/premiumlogo.png"}
+                    src={"/onlineassignment.com_assests/premiumlogo.png"}
                     alt="LOGO"
                     className="aspect-square h-[62px] w-[62px]"
                   ></img>
@@ -269,7 +269,7 @@ const Modal = (props: any) => {
                   <img
                     height={121}
                     width={320}
-                    src={"/gogrades.org_assests/quality.png"}
+                    src={"/onlineassignment.com_assests/quality.png"}
                     alt="LOGO"
                     className="aspect-square h-[62px] w-[62px]"
                   ></img>
@@ -282,7 +282,7 @@ const Modal = (props: any) => {
                   <img
                     height={121}
                     width={320}
-                    src={"/gogrades.org_assests/satisfaction.png"}
+                    src={"/onlineassignment.com_assests/satisfaction.png"}
                     alt="LOGO"
                     className="aspect-square h-[62px] w-[62px]"
                   ></img>
@@ -299,10 +299,10 @@ const Modal = (props: any) => {
 
             <div className="shadow-lg w-[100%] max-w-[400px]  overflow-hidden lg:mt-[-20px] max-lg:mt-6">
               <div className="flex flex-col items-center  justify-center mt-3 bg-white pt-4">
-                <h4 className="font-medium text-[15px] text-red-500">
+                <h4 className="font-medium text-[15px] text-primary-orange">
                   Renowned for A+ Grades
                 </h4>
-                <h4 className="capitalize text-center px-3 text-base bg-blue-900 pt-1 pb-1  text-white font-medium rounded-md">
+                <h4 className="capitalize text-center px-3 text-base bg-primary-orange pt-1 pb-1  text-white font-medium rounded-md">
                   activate your coupon to get 50% discount
                 </h4>
               </div>
@@ -419,7 +419,7 @@ const Modal = (props: any) => {
               </div>
             </div>
             <h3
-              className="text-[30px]  text-white ml-4 cursor-pointer h-fit bg-red-500 px-4 py-1    rounded-full"
+              className="text-[30px]  text-white ml-4 cursor-pointer h-fit bg-red-500 px-4 py-1 rounded-full"
               onClick={handleCloseModal}
             >
               X

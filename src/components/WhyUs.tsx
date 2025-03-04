@@ -10,7 +10,7 @@ import openTawkToChat from "./herosection/tawkto";
 import MobileModal from "./MobileModal";
 import Modal from "./Modal";
 
-export default function WhyGoGradesTest(props: any) {
+export default function WhyUs(props: any) {
   const { number, title, country, locationDetails, region } = props;
   const [modal, setModal] = useState(false);
   const [loader, setLoader] = useState(false);
@@ -195,63 +195,6 @@ export default function WhyGoGradesTest(props: any) {
   };
 
   return (
-    // <div
-    //   className="thrdsecov h-[648px] lg:px-[150px] md:px-[35px] sm:px-[20px] px-[12px] mx-auto py-6 relative bg-cover bg-center"
-    //   id="why-us"
-    //   style={{ backgroundImage: "url('/why-gg/banner.webp')" }}
-    // >
-    //   <div className="absolute inset-0 leftoverly"></div>
-    //   <div className="w-[38%] absolute  top-1/2 left-1/2  -translate-x-1/2">
-    //     <h4 className="text-base sm:text-[24px] text-[#e6a41b]  font-semibold">
-    //       - WHY GOGRADES.ORG
-    //     </h4>
-    //     <h5 className="text-white text-[20px] sm:text-[25px] md:text-[18px] font-medium leading-tight w-[356px]  mt-2">
-    //       Best Quality {title ? title : `Academic Assistance Team`} For University &
-    //       College Students
-    //     </h5>
-    //     <div
-    //       className={`mt-4 flex flex-col gap-3 pr-10 transition-all duration-500 overflow-hidden style-4`}
-    //     >
-    //       <p className="text-[15px] text-white leading-tight w-[400px]">
-    //         Searching for the No.1 Online
-    //         {title ? " " + title : ` Academic Assistance Team`} in {city}? End your
-    //         search with Onlineassignmentdesk.com.
-    //       </p>
-    //       <h6 className="font-medium pl-32 pt-4 text-white text-[18px]">FREE Features</h6>
-    //       <div className="grid sm:grid-cols-3 justify-start mb-3 grid-cols-2 gap-1 pt-4">
-    //         <h3 className="flex justify-start items-center  text-[13px] font-medium ">
-    //           <FaCheck className="text-[#33e533] text-[8px] mr-1" />
-    //           Bibliography
-    //         </h3>
-    //         <h3 className="flex justify-start items-center text-white text-[13px] font-medium">
-    //           <FaCheck className="text-[#33e533] text-[8px] mr-1" />
-    //           Title Page
-    //         </h3>
-    //         <h3 className="flex justify-start items-center text-white text-[13px] font-medium">
-    //           <FaCheck className="text-[#33e533] text-[8px] mr-1" />
-    //           Outline
-    //         </h3>
-    //         <h3 className="flex justify-start items-center text-white text-[13px] font-medium">
-    //           <FaCheck className="text-[#33e533] text-[8px] mr-1" />
-    //           Formatting
-    //         </h3>
-    //         <h3 className="flex justify-start items-center text-white text-[13px] font-medium">
-    //           <FaCheck className="text-[#33e533] text-[8px] mr-1" />
-    //           Plagiarism Report
-    //         </h3>
-    //         <h3 className="flex justify-start items-center text-white text-[13px] font-medium">
-    //           <FaCheck className="text-[#33e533] text-[8px] mr-1" />
-    //           Limitless Amendments
-    //         </h3>
-    //       </div>
-    //       <p className="text-[15px] text-white leading-tight">
-    //         With more than 500 Ph.D. consultants, we are determined to provide
-    //         the best custom {title ? title : `Academic Assistance Team`} service to the{" "}
-    //         {city} students.
-    //       </p>
-    //     </div>
-    //   </div>
-    // </div>
     <div
       id="why-us"
       className="max-w-full border-y border-gray-300  px-5 md:px-24 mx-auto pt-6 pb-10 bg-[#f1f1f1]"

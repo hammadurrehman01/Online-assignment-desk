@@ -1,19 +1,19 @@
 "use client";
 
 import EveryStudentTest from "@/components/EveryStudentTest";
-import FreeSampleTest from "@/components/FreeSampleTest";
-import GuaranteeTest from "@/components/GuaranteeTest";
-import HerosectionTest from "@/components/HerosectionTest";
-import HowItWorksTest from "@/components/HowItWorksTest";
+import FreeSample from "@/components/FreeSample";
+import Guarantee from "@/components/Guarantee";
+import Herosection from "@/components/Herosection";
+import HowItWorks from "@/components/HowItWorks";
 import MobileModal from "@/components/MobileModal";
 import Modal from "@/components/Modal";
-import OurServicesTest from "@/components/OurServicesTest";
-import ReviewsTest from "@/components/ReviewsTest";
-import SubjectsTest from "@/components/SubjectsTest";
+import OurServices from "@/components/OurServices";
+import Reviews from "@/components/Reviews";
+import Subjects from "@/components/Subjects";
 import TrustedPartnerTest from "@/components/CustomDivider";
-import TrustedTest from "@/components/TrustedTest";
+import Trusted from "@/components/Trusted";
 import WhatsappTest from "@/components/WhatsappTest";
-import WhyGoGradesTest from "@/components/WhyGoGradesTest";
+import WhyGoGradesTest from "@/components/WhyUs";
 import { redirect } from "next/navigation";
 import { useEffect, useState } from "react";
 // import Footer from "../../components/Footer";
@@ -1949,7 +1949,7 @@ export default function Code(props: any) {
         href={`https://onlineassignmentdesk.com/eu/${slug}`}
       ></link>
 
-      <HerosectionTest
+      <Herosection
         title={headder}
         country={country}
         city={city}
@@ -1973,8 +1973,8 @@ export default function Code(props: any) {
         />
       )}
 
-      <TrustedTest country={country} region={"/eu"} />
-      <OurServicesTest number={number} title={headder} region={"/eu"} />
+      <Trusted country={country} region={"/eu"} />
+      <OurServices number={number} title={headder} region={"/eu"} />
       <WhyGoGradesTest
         country={country}
         city={city}
@@ -1995,8 +1995,8 @@ export default function Code(props: any) {
 bannerImageUrl="/random/serious-teacher-checking-assignment-two-students.jpg"
         region={"/eu"}
       />
-      {/* <OurServicesTest number={number} region={"/eu"} /> */}
-      <SubjectsTest
+      {/* <OurServices number={number} region={"/eu"} /> */}
+      <Subjects
         country={country}
         city={city}
         title={headder}
@@ -2015,7 +2015,7 @@ bannerImageUrl="/random/serious-teacher-checking-assignment-two-students.jpg"
  bannerImageUrl="/random/cheerful-students-celebrating.jpg"
         region={"/eu"}
       />
-      <GuaranteeTest
+      <Guarantee
         country={country}
         city={city}
         title={headder}
@@ -2035,8 +2035,8 @@ bannerImageUrl="/random/5-Reasons-to-go-to-uni-besides-boosting-your-career-pros
         region={"/eu"}
       />
 
-      <HowItWorksTest title={headder} region={"/eu"} />
-      <FreeSampleTest country={country} title={headder} region={"/eu"} />
+      <HowItWorks title={headder} region={"/eu"} />
+      <FreeSample country={country} title={headder} region={"/eu"} />
       <Footer number={number} region={"/usa"} title={headder} />
     </main>
   );

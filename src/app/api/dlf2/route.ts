@@ -26,7 +26,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
       secure: false, // Set to true if your server requires a secure connection
       auth: {
         // port:
-        user: "support@gogrades.org",
+        user: "support@onlineassignmentdesk.com",
         pass: "mastermindsASS!@2",
       },
     });
@@ -35,8 +35,8 @@ export async function POST(req: NextRequest, res: NextResponse) {
     const isSampleForm = body.get("isSampleForm");
 
     const mailOptions: any = {
-      from: "support@gogrades.org",
-      to: `support@gogrades.org`,
+      from: "support@onlineassignmentdesk.com",
+      to: `support@onlineassignmentdesk.com`,
       // subject: isPopupDLF === "true" ? "NEW POPUP DLF ENTRY | OnlineAssignmentDesk.com" :  "New DLF FORM ENTRY | OnlineAssignmentDesk.com",
       subject:
         isPopupDLF === "true"
@@ -78,13 +78,13 @@ export async function POST(req: NextRequest, res: NextResponse) {
       port: 587, // Use the appropriate port for your SMTP server
       secure: false, // Set to true if your server requires a secure connection
       auth: {
-        user: "support@gogrades.org",
+        user: "support@onlineassignmentdesk.com",
         pass: "mastermindsASS!@2",
       },
     });
 
     const mailOptionsClient = {
-      from: "OnlineAssignmentDesk® Alert <support@gogrades.org>",
+      from: "OnlineAssignmentDesk® Alert <support@onlineassignmentdesk.com>",
       to: `${body.get("Email")}`,
       subject: `Thank You For Choosing OnlineAssignmentDesk.com`,
       html: `
@@ -99,7 +99,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
-      background: url(https://gogrades.org/web-assets/order-img.webp);
+      background: url(/web-assets/order-img.webp);
       background-size: cover; /* Adjusts the image to cover the entire background */
       height: 100%;
       width: 100%;
@@ -142,7 +142,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
           <td style="padding: 20px">
             <div style="text-align: center; margin-top: 20px">
               <img
-                src="https://gogrades.org/web-assets/gift.png"
+                src="/web-assets/gift.png"
                 alt="Discount"
                 style="height: 45px"
               />
@@ -187,11 +187,11 @@ export async function POST(req: NextRequest, res: NextResponse) {
               "
             >
               <a
-                href="https://gogrades.org/order?coupon=GG-50%off
+                href="https://onlineassignmentdesk.com/order?coupon=GG-50%off
 "
               >
                 <img
-                  src="https://gogrades.org/web-assets/Promocode.png"
+                  src="/web-assets/Promocode.png"
                   style="height: 150px"
                 />
               </a>
@@ -199,7 +199,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
             <!-- Button -->
             <div style="text-align: center">
               <a
-                href="https://gogrades.org/order?coupon=GG-50%off
+                href="https://onlineassignmentdesk.com/order?coupon=GG-50%off
 "
                 style="
                   background-color: #091540;
@@ -247,7 +247,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
                 "
               >
                 <img
-                  src="https://gogrades.org/web-assets/whatsapp.png"
+                  src="https://onlineassignmentdesk.com/web-assets/whatsapp.png"
                   alt="WhatsApp Icon"
                   style="height: 30px; margin-right: 10px"
                 />

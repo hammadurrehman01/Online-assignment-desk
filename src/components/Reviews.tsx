@@ -136,7 +136,7 @@ const reviews = [
   },
 ];
 
-function ReviewsTest() {
+function Reviews() {
   return (
     <div id="reviews" className="max-w-screen-xl mx-auto pt-12 pb-6">
       <h2 className="text-center font-bold section-main-heading text-xl md:text-3xl">
@@ -196,4 +196,4 @@ function ReviewsTest() {
   );
 }
 
-export default ReviewsTest;
+export default Reviews;

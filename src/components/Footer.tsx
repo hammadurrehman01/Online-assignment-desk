@@ -199,7 +199,7 @@ export default function Footer({ number, title }: any) {
               {/* <img
                   height={121}
                   width={320}
-                  src={"/gogrades.org_assests/mah-logo-default.svg"}
+                  src={"/onlineassignment.com_assests/mah-logo-default.svg"}
                   alt="LOGO"
                   className="md:w-[180px] w-[280px]"
                 ></img> */}

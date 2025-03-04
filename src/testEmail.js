@@ -7,14 +7,14 @@
 //   port: 587, // Use the appropriate port for your SMTP server
 //   secure: false, // Set to true if your server requires a secure connection
 //   auth: {
-//     user: "support@gogrades.org",
+//     user: "support@onlineassignmentdesk.com",
 //     pass: "mastermindsASS!@2",
 //   },
 // });
 
 // // Create the email content
 // const mailOptions =
-//   from: "New Order Form | OnlineAssignmentDesk.com <support@gogrades.org>",
+//   from: "New Order Form | OnlineAssignmentDesk.com <support@onlineassignmentdesk.com>",
 //   to: `arsalan1664@gmail.com`,
 //   subject: `New Order Form | OnlineAssignmentDesk.com`,
 //   text: "This is a test email sent using Nodemailer.",
@@ -224,7 +224,7 @@
 //             "
 //           >
 //             <img
-//               src="https://gogrades.org/web-assets/whatsapp.png"
+//               src="https://onlineassignmentdesk.com/web-assets/whatsapp.png"
 //               alt="WhatsApp Icon"
 //               style="height: 30px; margin-right: 10px; vertical-align: middle"
 //             />

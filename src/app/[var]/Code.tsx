@@ -1,19 +1,19 @@
 "use client";
 
 import EveryStudentTest from "@/components/EveryStudentTest";
-import FreeSampleTest from "@/components/FreeSampleTest";
-import GuaranteeTest from "@/components/GuaranteeTest";
-import HerosectionTest from "@/components/HerosectionTest";
-import HowItWorksTest from "@/components/HowItWorksTest";
+import FreeSample from "@/components/FreeSample";
+import Guarantee from "@/components/Guarantee";
+import Herosection from "@/components/Herosection";
+import HowItWorks from "@/components/HowItWorks";
 import MobileModal from "@/components/MobileModal";
 import Modal from "@/components/Modal";
-import OurServicesTest from "@/components/OurServicesTest";
-import ReviewsTest from "@/components/ReviewsTest";
-import SubjectsTest from "@/components/SubjectsTest";
+import OurServices from "@/components/OurServices";
+import Reviews from "@/components/Reviews";
+import Subjects from "@/components/Subjects";
 import TrustedPartnerTest from "@/components/CustomDivider";
-import TrustedTest from "@/components/TrustedTest";
+import Trusted from "@/components/Trusted";
 import WhatsappTest from "@/components/WhatsappTest";
-import WhyGoGradesTest from "@/components/WhyGoGradesTest";
+import WhyGoGradesTest from "@/components/WhyUs";
 import { redirect } from "next/navigation";
 import { useEffect, useState } from "react";
 import Footer from "../../components/Footer";
@@ -1938,7 +1938,7 @@ export default function Code(props: any) {
       <title>{matchedMetadata?.metatitle}</title>
       <Navbar number={number} />
 
-      <HerosectionTest
+      <Herosection
         title={headder}
         country={country}
         city={city}
@@ -1961,8 +1961,8 @@ export default function Code(props: any) {
         />
       )}
 
-      <TrustedTest country={country} />
-      <OurServicesTest number={number} title={headder} />
+      <Trusted country={country} />
+      <OurServices number={number} title={headder} />
       <WhyGoGradesTest
         country={country}
         city={city}
@@ -1981,8 +1981,8 @@ export default function Code(props: any) {
         rightButton="Chat with Us Now"
         bannerImageUrl="/random/serious-teacher-checking-assignment-two-students.jpg"
       />
-      {/* <OurServicesTest number={number} /> */}
-      <SubjectsTest country={country} city={city} title={headder} />
+      {/* <OurServices number={number} /> */}
+      <Subjects country={country} city={city} title={headder} />
       <CustomDivider
         locationDetails={locationDetails}
         number={number}
@@ -1995,7 +1995,7 @@ export default function Code(props: any) {
         rightButton="Whatsapp Direct Chat"
  bannerImageUrl="/random/cheerful-students-celebrating.jpg"
       />
-      <GuaranteeTest country={country} city={city} title={headder} />
+      <Guarantee country={country} city={city} title={headder} />
       <CustomDivider
         locationDetails={locationDetails}
         number={number}
@@ -2009,9 +2009,9 @@ export default function Code(props: any) {
 bannerImageUrl="/random/5-Reasons-to-go-to-uni-besides-boosting-your-career-prospects.jpg"
       />
 
-      <ReviewsTest />
-      <HowItWorksTest title={headder} />
-      <FreeSampleTest country={country} title={headder} />
+      <Reviews />
+      <HowItWorks title={headder} />
+      <FreeSample country={country} title={headder} />
       <Footer number={number} title={heading} />
     </main>
   );

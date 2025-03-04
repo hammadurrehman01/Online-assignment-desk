@@ -1,22 +1,20 @@
 "use client";
 
-import EveryStudentTest from "@/components/EveryStudentTest";
+import CustomDivider from "@/components/CustomDivider";
 import Footer from "@/components/Footer";
-import FreeSampleTest from "@/components/FreeSampleTest";
-import GuaranteeTest from "@/components/GuaranteeTest";
-import HerosectionTest from "@/components/HerosectionTest";
-import HowItWorksTest from "@/components/HowItWorksTest";
+import FreeSample from "@/components/FreeSample";
+import Guarantee from "@/components/Guarantee";
+import Herosection from "@/components/Herosection";
+import HowItWorks from "@/components/HowItWorks";
 import MobileModal from "@/components/MobileModal";
 import Modal from "@/components/Modal";
 import Navbar from "@/components/Navbar";
-import OurServicesTest from "@/components/OurServicesTest";
-import ReviewsTest from "@/components/ReviewsTest";
-import SubjectsTest from "@/components/SubjectsTest";
-import CustomDivider from "@/components/CustomDivider";
-import TrustedPartnerTest from "@/components/CustomDivider";
-import TrustedTest from "@/components/TrustedTest";
-import WhatsappTest from "@/components/WhatsappTest";
-import WhyGoGradesTest from "@/components/WhyGoGradesTest";
+import OurServices from "@/components/OurServices";
+import Reviews from "@/components/Reviews";
+import Subjects from "@/components/Subjects";
+import Trusted from "@/components/Trusted";
+import WhyUs from "@/components/WhyUs";
+import WhyGoGradesTest from "@/components/WhyUs";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -161,7 +159,7 @@ export default function Home() {
       <main>
         <Navbar number={number} />
 
-        <HerosectionTest
+        <Herosection
           country={country}
           city={city}
           locationDetails={locationDetails}
@@ -185,9 +183,9 @@ export default function Home() {
           />
         )}
 
-        <TrustedTest country={country} />
-        <OurServicesTest number={number} />
-        <WhyGoGradesTest
+        <Trusted country={country} />
+        <OurServices number={number} />
+        <WhyUs
           country={country}
           number={number}
           title="Academic Consultancy"
@@ -214,8 +212,8 @@ export default function Home() {
           bannerImageUrl="/random/serious-teacher-checking-assignment-two-students.jpg"
         />
 
-        {/* <OurServicesTest number={number} /> */}
-        <SubjectsTest country={country} city={city} />
+        {/* <OurServices number={number} /> */}
+        <Subjects country={country} city={city} />
         {/* <WhatsappTest
           number={number}
           country={country}
@@ -235,11 +233,7 @@ export default function Home() {
           bannerImageUrl="/random/cheerful-students-celebrating.jpg"
         />
 
-        <GuaranteeTest
-          country={country}
-          city={city}
-          title="Academic Consultancy"
-        />
+        <Guarantee country={country} city={city} title="Academic Consultancy" />
         {/* <EveryStudentTest
           locationDetails={locationDetails}
           number={number}
@@ -259,10 +253,10 @@ export default function Home() {
           bannerImageUrl="/random/5-Reasons-to-go-to-uni-besides-boosting-your-career-prospects.jpg"
         />
 
-        <ReviewsTest />
-        <HowItWorksTest title="Academic Consultancy" />
-        {/* <TestimonialsTest /> */}
-        <FreeSampleTest
+        <Reviews />
+        <HowItWorks title="Academic Consultancy" />
+
+        <FreeSample
           locationDetails={locationDetails}
           country={country}
           title="Academic Consultancy"

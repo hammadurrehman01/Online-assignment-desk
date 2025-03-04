@@ -7,7 +7,7 @@ const nodemailer = require("nodemailer");
 const emailOptions = {
   host: "s3479.syd1.stableserver.net",
   auth: {
-    user: "support@gogrades.org", // Change this to your SMTP username
+    user: "support@onlineassignmentdesk.com", // Change this to your SMTP username
     pass: "mastermindsASS!@2", // Change this to your SMTP password
   },
   secure: false,
@@ -36,7 +36,7 @@ async function ReadJSONAndSendEmail(decodedOrderId, filePath) {
       try {
         const jsonData = JSON.parse(data);
         const mailOptionsClient = {
-          from: "OnlineAssignmentDesk® Alert <support@gogrades.org>",
+          from: "OnlineAssignmentDesk® Alert <support@onlineassignmentdesk.com>",
           to: `arsalan1664@gmail.com`,
           subject: `We Have Received Your Order | OnlineAssignmentDesk.com`,
           html: `
@@ -281,7 +281,7 @@ async function ReadJSONAndSendEmail(decodedOrderId, filePath) {
                 "
               >
                 <img
-                  src="https://gogrades.org/web-assets/whatsapp.png"
+                  src="https://onlineassignmentdesk.com/web-assets/whatsapp.png"
                   alt="WhatsApp Icon"
                   style="height: 30px; margin-right: 10px; vertical-align: middle"
                 />

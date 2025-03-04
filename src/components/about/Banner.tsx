@@ -95,7 +95,7 @@ export default function Banner({ region }: any) {
       <img
         height={700}
         width={700}
-        src="/gogrades.org_assests/about-usbanner.jpg"
+        src="onlineassignmentdesk.com_assests/about-usbanner.jpg"
         alt="backk"
         className="h-[500px] w-[65vw]  absolute top-0 right-0  opacity-70 hidden md:block -z-10 "
       />

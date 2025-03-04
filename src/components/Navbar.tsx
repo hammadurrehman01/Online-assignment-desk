@@ -139,9 +139,7 @@ export default function Navbar(number: any) {
 
   return (
     <div className="">
-      <div
-        className="bg-topbar"
-      >
+      <div className="bg-topbar">
         <div className="flex justify-center min-[830px]:justify-between items-center myContainer py-[3px]">
           <div className="flex gap-1 justify-center items-center">
             <Link
@@ -163,10 +161,10 @@ export default function Navbar(number: any) {
               className="text-white text-[14px] flex items-center gap-2"
               target="_blank"
             >
-            <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
-              <IoLogoWhatsapp className="text-[15px] text-green-600 " />
-               </div>
-               Direct Customer Support
+              <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
+                <IoLogoWhatsapp className="text-[15px] text-green-600 " />
+              </div>
+              Direct Customer Support
             </Link>
             <Link
               href={`https://wa.me/${number.number}?text=Hello Online Assignment Desk Team, I need Academic Assistance. Could you help me complete my task on time?`}
@@ -174,8 +172,8 @@ export default function Navbar(number: any) {
               target="_blank"
             >
               <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
-              <IoLogoWhatsapp className="text-[15px] text-green-600" />
-              </div> 
+                <IoLogoWhatsapp className="text-[15px] text-green-600" />
+              </div>
               Personal Live Chat
             </Link>
             <Link
@@ -205,9 +203,7 @@ export default function Navbar(number: any) {
               alt="LOGO"
               // className="w-[180px]  md:w-[240px]"
             />
-          <Link href={`${reg}/`}>
-          Online Assignment Desk
-          </Link>
+            <Link href={`${reg}/`}>Online Assignment Desk</Link>
           </div>
           <div className=" text-black text-[18px] h-[100%]  min-[1000px]:flex hidden items-center">
             <Link
