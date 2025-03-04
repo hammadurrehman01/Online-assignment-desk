@@ -200,8 +200,7 @@ export default function WhyUs(props: any) {
       className="max-w-full border-y border-gray-300  px-5 md:px-24 mx-auto pt-6 pb-10 bg-[#f1f1f1]"
     >
       <h1 className="text-center pt-4 text-2xl md:text-2xl font-semibold text-primary-orange ">
-        - WHY ONLINE ASSIGNMENT DESK
-      </h1>
+      REASONS TO CHOOSE ONLINE ASSIGNMENT DESK      </h1>
       <Image
         src="/why-gg/arrow-images.webp"
         alt="arrow-image"
@@ -226,43 +225,41 @@ export default function WhyUs(props: any) {
       <div className="flex flex-col md:flex-row items-center justify-center gap-2 w-full pt-12 md:pt-20">
         <div className="w-full md:w-[50%] self-start">
           <h3 className="text-base text-center md:text-left md:text-lg mt-2 font-semibold text-primary-orange">
-            Best Quality {title} Team For University & College Students
+          Top-Rated {title} Experts  for University & College Students
           </h3>
           <h2 className="mt-2 text-base text-center md:text-left md:text-[15px]">
-            Searching for the No.1 Online {title} Team in Pakistan? End your
-            search with Onlineassignmentdesk.com.
+          Looking for Pakistan’s No.1 Online {title} Team? Your search ends at Onlineassignmentdesk.com.
           </h2>
           <p className="mt-4 md:mt-2 text-sm text-center md:text-left md:text-base">
-            With more than 500 Ph.D. consultants, we are determined to provide
-            the best custom {title} Team service to the Pakistan students.
+          With over 500 Ph.D. consultants, we are committed to delivering top-tier custom {title} services to students in Pakistan.
           </p>
           <h6 className="font-medium text-center md:text-left pt-4  text-[18px] underline text-primary-orange">
-            FREE Features
+          Complimentary Benefits
           </h6>
           <div className="grid sm:grid-cols-3 justify-items-center md:justify-items-start  mb-3 grid-cols-2 gap-1 pt-6 ">
             <h3 className="flex justify-start items-center  text-[13px] font-medium ">
               <FaCheck className="text-[#33e533] text-[8px] mr-1" />
-              Bibliography
+              References List
             </h3>
             <h3 className="flex justify-start items-center  text-[13px] font-medium ">
               <FaCheck className="text-[#33e533] text-[8px] mr-1" />
-              Title Page
+              Cover Page
             </h3>
             <h3 className="flex justify-start items-center  text-[13px] font-medium ">
               <FaCheck className="text-[#33e533] text-[8px] mr-1" />
-              Outline
+              Structured Outline
             </h3>
             <h3 className="flex justify-start items-center  text-[13px] font-medium ">
               <FaCheck className="text-[#33e533] text-[8px] mr-1" />
-              Formatting
+              Proper Formatting
             </h3>
             <h3 className="flex justify-start items-center  text-[13px] font-medium ">
               <FaCheck className="text-[#33e533] text-[8px] mr-1" />
-              Plagiarism Report
+              Originality Report
             </h3>
             <h3 className="flex justify-start items-center  text-[13px] font-medium ">
               <FaCheck className="text-[#33e533] text-[8px] mr-1" />
-              Limitless Amendments
+              Unlimited Revisions
             </h3>
           </div>
 

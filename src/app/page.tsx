@@ -163,7 +163,7 @@ export default function Home() {
           country={country}
           city={city}
           locationDetails={locationDetails}
-          title="Academic Consultancy"
+          title="Premier Academic Advisory"
         />
         {modal && (
           <Modal
@@ -203,12 +203,12 @@ export default function Home() {
           locationDetails={locationDetails}
           number={number}
           title="Academic Consultancy"
-          mainHeadingPartOne="Your Trusted Partner for"
-          mainHeadingPartTwo="Academic Excellence"
-          subHeadingPartOne="We ensure premium "
-          subHeadingPartTwo="tailored to meet your academic needs. Let our experienced team support you in achieving top-notch results at competitive prices."
-          leftButton="Activate Discount Coupon"
-          rightButton="Chat with Us Now"
+          mainHeadingPartOne="Your Reliable Ally in Achieving "
+          mainHeadingPartTwo="Academic Success"
+          subHeadingPartOne="We guarantee top-quality "
+          subHeadingPartTwo="Customized to fulfill your academic requirements. Rely on our skilled team to help you attain outstanding results at affordable rates."
+          leftButton="Apply Discount Code"
+          rightButton="Connect with Us Today"
           bannerImageUrl="/random/serious-teacher-checking-assignment-two-students.jpg"
         />
 

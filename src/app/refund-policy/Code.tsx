@@ -126,17 +126,7 @@ export default function Code() {
       <div className="flex justify-between myContainer py-6 mx-auto md:gap-20 flex-col md:flex-row mb-10 max-md:px-4 mt-8 md:mt-14 ">
         <div className=" font-medium">
           <p className="text-[15px] leading-[24px] text-[#2A2A2A] ">
-            At Onlineassignmentdesk.com, we understand that students have different needs
-            and expectations when it comes to their academic assignments.
-            That&nbsp;s why our refund policy is designed to be fair and
-            friendly to all of our customers. We want to ensure you are able to
-            receive the service you require without having any negative
-            experiences along the way. We are committed to providing top quality
-            services for our customers and make sure that each task we complete
-            meets the standards of academic excellence. However, if a customer
-            feels that a content does not meet the expected quality standards or
-            was not completed in a timely manner, then they can apply for a
-            refund after getting atleast 7 revisions.
+          At Onlineassignmentdesk.com, we recognize that students have diverse needs and expectations regarding their academic assignments. That’s why our refund policy is structured to be fair and accommodating for all our clients. We strive to ensure you receive the assistance you need without encountering any issues throughout the process. Our commitment lies in delivering high-quality services, ensuring every task we handle upholds academic excellence. However, if a client believes that the content fails to meet the required quality standards or was not delivered on time, they may request a refund after obtaining at least seven revisions.
           </p>
           <h2 className="text-[18px] leading-[24px] text-[#2a2a2a] text-left font-semibold my-6 ">
             Here are the 11 circumstances under which customers can apply for a
@@ -144,108 +134,67 @@ export default function Code() {
           </h2>
           <ol>
             <li className="text-[15px] leading-[24px] text-[#2A2A2A] my-4">
-              1. If the customer has been mistakenly charged twice by credit
-              card, Onlineassignmentdesk.com will return the extra amount immediately.
+            1.If a customer is accidentally charged twice via credit card, Onlineassignmentdesk.com will promptly refund the excess amount.
             </li>
             <li className="text-[15px] leading-[24px] text-[#2A2A2A] my-4">
-              2. The client is not eligible for refunds on urgent orders (orders
-              with a deadline of under 48 hours are considered urgent).
+            2. The client is not entitled to a refund for urgent orders (orders with a deadline of less than 48 hours are classified as urgent).
             </li>
             <li className="text-[15px] leading-[24px] text-[#2A2A2A] my-4">
-              3. If the task delivered is of poor quality or fails to meet
-              specified deadlines, the client is eligible for up to 50% refund
+            3. If the delivered task lacks quality or does not meet the specified deadlines, the client may receive a refund of up to 50%.
               only
             </li>
             <li className="text-[15px] leading-[24px] text-[#2A2A2A] my-4">
-              4. If there is evidence of plagiarism in the submitted work in
-              this situation client is eligible for up to 50% refund only
+              4. If plagiarism is detected in the submitted work, the client is entitled to a refund of up to 50% only.
             </li>
             <li className="text-[15px] leading-[24px] text-[#2A2A2A] my-4">
-              5. If the client does not like the work, they are not eligible for
-              a refund until they provide authentic evidence client is eligible
-              for up to 50% refund only.
+              5. If the client is dissatisfied with the work, they are not entitled to a refund unless they present valid proof, making them eligible for a refund of up to 50%.
             </li>
             <li className="text-[15px] leading-[24px] text-[#2A2A2A] my-4">
-              6. The client is not eligible for a refund if they did not provide
-              proper details or instructions at the time of placing the order.
+              6. The client is not entitled to a refund if they failed to provide accurate details or instructions when placing the order.
             </li>
             <li className="text-[15px] leading-[24px] text-[#2A2A2A] my-4">
-              7. If a customer service representative fails to respond to an
-              inquiry within 48 hours client is eligible for up to 50% refund.
+              7. If a customer service representative does not reply to an inquiry within 48 hours, the client may receive a refund of up to 50%.
             </li>
             <li className="text-[15px] leading-[24px] text-[#2A2A2A] my-4">
-              8. If, after 7-10 revisions, there is still no satisfactory result
-              or improvement in the quality of work we&nbsp;ve provided, clients
-              will be eligible for a 50% refund. This refund will only be
-              applicable after seven days from the delivery date
+              8. If, after 7-10 revisions, the quality of work remains unsatisfactory or shows no improvement, clients will qualify for a 50% refund. This refund will only be valid seven days after the delivery date.
             </li>
             <li className="text-[15px] leading-[24px] text-[#2A2A2A] my-4">
-              9. We will process the refund within two weeks after receiving all
-              evidence of the bad quality work or unsatisfactory result.
+              9. We will issue the refund within two weeks upon receiving all evidence of poor-quality work or an unsatisfactory outcome.
             </li>
             <li className="text-[15px] leading-[24px] text-[#2A2A2A] my-4">
-              10. Plagiarism check results must be shared at the time of
-              submission, as we are not responsible for any potential infections
-              that may occur after submission or delivery completion
+              10. The plagiarism check results must be provided upon submission, as we hold no responsibility for any potential issues that may arise after submission or delivery completion.
             </li>
             <li className="text-[15px] leading-[24px] text-[#2A2A2A] my-4">
-              11. The client can only request revisions to their work within 30
-              days. After 30 days, no free revisions or refunds will be given.
+              11. The client is eligible to request revisions within a 30-day period. Beyond this timeframe, free revisions or refunds will no longer be available.
             </li>
           </ol>
 
           <p className="text-[15px] leading-[24px] text-[#2A2A2A] ">
-            Refunds are not available for online exams. Once a purchase has been
-            made or access to an online exam has been granted, it is considered
-            a rendered service and cannot be refunded. We kindly request all
-            customers to carefully review the exam details and requirements
-            before making a purchase to ensure a smooth experience. Should you
-            have any questions or concerns, our dedicated customer support team
-            is readily available to assist you and provide further guidance. Our
-            aim is to ensure a seamless process for all our valued customers.
+          Refunds are not issued for online exams. Once a purchase is completed or access to an online exam is provided, it is deemed a delivered service and is non-refundable. We encourage all customers to thoroughly review the exam details and prerequisites before making a purchase to ensure a hassle-free experience. If you have any inquiries or concerns, our dedicated customer support team is always available to assist you and offer further guidance. Our goal is to provide a smooth process for all our esteemed customers.
             <br />
             <br />
-            Refunds will generally be processed within two weeks from submission
-            date upon receipt of valid evidence supporting bad quality work or
-            fail results from client&nbsp;s end. We offer a refund only if the
-            original deadline of the assignment is missed by us. In case of
-            revision, a new deadline has to be mutually decided. No refund
-            claims can be made if a revision deadline was not decided.
+            Refunds are typically processed within two weeks from the submission date upon receiving valid proof of poor-quality work or failed results from the client’s side. A refund is provided only if we fail to meet the assignment’s original deadline. For revisions, a new deadline must be agreed upon by both parties. Refund requests cannot be made if no revision deadline was mutually established.
             <br />
             <br />
-            Full refund= 90% of the amount paid. 10% deduction is transaction
-            cost paid to the payment Gateway Company plus service charges. Any
-            queries regarding refund requests should be directed towards
-            Customer Support Team first before initiating any dispute/refund
-            request process with payment gateway provider or any other financial
-            institute/authority.
+            Full refund = 90% of the paid amount. A 10% deduction covers transaction fees paid to the payment gateway company along with service charges. Any refund-related inquiries must first be addressed to the Customer Support Team before initiating a dispute or refund request with the payment gateway provider or any financial authority.
           </p>
           <h3 className="text-[18px] text-[#2a2a2a] uppercase mt-5 mb-3">
             Note:
           </h3>
           <p className="italic underline text-[17px] leading-[24px] text-[#2A2A2A]">
-            If our financial team finds that a customer has opened a fraudulent
-            dispute though bank without discussing the issue with us, we are
-            unable to issue a refund. Our legal team may take legal action
-            against the online fraud as per country laws.
+          If our financial team determines that a customer has filed a fraudulent dispute with their bank without first addressing the issue with us, we cannot process a refund. Our legal team may pursue legal action against online fraud in accordance with the country's laws.
           </p>
           <br />
           <p className="text-[15px] leading-[24px] text-[#2A2A2A]">
-            We take our customer&nbsp;s satisfaction seriously, and we strive to
-            resolve any issues or concerns as quickly as possible. Please
-            don&nbsp;t hesitate to contact us if you have any questions or
-            concerns about our refund/dispute policy.
+          We highly value our customers' satisfaction and are committed to addressing any issues or concerns promptly. Feel free to reach out if you have any questions regarding our refund or dispute policy.
             <br />
             <br />
-            Should a client feel unsatisfied with Online Assignment Desk&nbsp; services and
-            wishes to seek a refund in order to resolve this issue, please
-            contact our team through email at
+            If a client is dissatisfied with Online Assignment Desk  services and seeks a refund to address this concern, please reach out to our team via email at
             <Link href="mailto:support@onlineassignmentdesk.com" className="text-blue-800">
               {" "}
               support@onlineassignmentdesk.com
             </Link>{" "}
-            and provide details on your concern so that our Customer Support
-            Team can handle it efficiently and speedily.
+            and share the details of your concern, allowing our Customer Support Team to address it promptly and effectively.
           </p>
         </div>
         <div

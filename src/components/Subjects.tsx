@@ -100,14 +100,13 @@ export default function Subjects(props: any) {
     <div className="bg-[#F5F5F5] bg-[url('/compress.png')]" id="subjects">
       <div className="flex flex-col text-center myContainer  py-20 ">
         <h3 className="uppercase  text-primary-orange  font-semibold text-2xl md:text-4xl">
-          -OUR Subjects
+        -Our Offered Subjects
         </h3>
         <h4 className="section-sub-heading py-1 text-center mx-auto text-base sm:text-[25px] md:text-[18px] font-medium leading-tight mt-2">
-          Professional Team of Professors for Every Subject
+        Expert Professors Available for Every Subject
         </h4>
         <p className="text-black text-[14px] sm:text-[16px] my-6">
-          At Onlineassignmentdesk.com, we're proud to offer expert academic
-          assistance across a vast array of subjects.
+        At Onlineassignmentdesk.com, we take pride in providing expert academic support across a wide range of subjects.
         </p>
         <div className="grid lg:grid-cols-5  grid-cols-2 items-center gap-x-4 gap-y-10 mt-10 ">
           <motion.div 
@@ -176,8 +175,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Master financial statements, budgeting, and advanced
-                      accounting principles.
+                      Gain expertise in financial statements, budgeting, and advanced accounting concepts.
                     </motion.p>
 
                     <motion.button
@@ -264,8 +262,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Master business strategies, management, and
-                      entrepreneurship for career success.
+                      Develop expertise in business strategies, management, and entrepreneurship for a successful career.
                     </motion.p>
 
                     <motion.button
@@ -352,8 +349,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Learn patient care, ethics, and nursing practices for
-                      healthcare careers.
+                     Gain expertise in patient care, ethics, and nursing practices for a career in healthcare.
                     </motion.p>
 
                     <motion.button
@@ -440,8 +436,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Optimize workforce development with human resource
-                      management strategies.
+                      Enhance workforce growth through strategic human resource management.
                     </motion.p>
 
                     <motion.button
@@ -527,8 +522,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Explore medical sciences, diagnostics, and clinical
-                      procedures for excellence.
+                      Discover medical sciences, diagnostics, and clinical procedures to achieve excellence.
                     </motion.p>
 
                     <motion.button
@@ -616,8 +610,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Create tailored application letters for academic and
-                      career opportunities.
+                      Craft customized application letters for academic and career prospects.
                     </motion.p>
 
                     <motion.button
@@ -707,8 +700,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Discover art history, architectural designs, and modern
-                      creative innovations.
+                      Explore art history, architectural masterpieces, and contemporary creative advancements.
                     </motion.p>
 
                     <motion.button
@@ -796,8 +788,8 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Understand organisms, ecosystems, and biological processes
-                      for academic success.
+                      Gain insights into organisms, ecosystems, and biological processes
+                      to achieve academic success.
                     </motion.p>
 
                     <motion.button
@@ -885,8 +877,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Study chemical principles, reactions, and real-world
-                      applications effectively.
+                      Master chemical principles, reactions, and their practical applications efficiently.
                     </motion.p>
 
                     <motion.button
@@ -976,8 +967,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Learn family management, consumer behavior, and lifestyle
-                      improvement strategies.
+                      Master family management, consumer behavior, and lifestyle enhancement techniques.
                     </motion.p>
 
                     <motion.button
@@ -1067,8 +1057,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Explore cinema, drama, and production techniques for
-                      creative expression.
+                      Discover film, theater, and production methods for artistic storytelling.
                     </motion.p>
 
                     <motion.button
@@ -1156,8 +1145,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Master budgeting, investments, and financial planning for
-                      future stability.
+                     Gain expertise in budgeting, investments, and financial planning to ensure future stability.
                     </motion.p>
 
                     <motion.button
@@ -1245,8 +1233,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Study historical events, civilizations, and their cultural
-                      and societal impacts."
+                      Explore past events, civilizations, and their cultural and societal influences.
                     </motion.p>
 
                     <motion.button
@@ -1334,8 +1321,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Understand legal principles, ethics, and systems for law
-                      career success.
+                     Grasp legal principles, ethics, and frameworks for a successful law career.
                     </motion.p>
 
                     <motion.button
@@ -1423,8 +1409,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Get expert help with additional subjects tailored to your
-                      needs.
+                      Receive professional assistance across extra subjects customized to your needs.
                     </motion.p>
 
                     <motion.button

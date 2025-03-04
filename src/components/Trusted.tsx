@@ -69,10 +69,10 @@ export default function Trusted(country: any) {
   return (
     <div className="">
       <h3 className="section-main-heading  font-semibold leading-tight text-2xl md:text-3xl text-center mt-7">
-        Trusted by 85,000 Students <br />
+        Preferred by 85,000 Students <br />
       </h3>
       <p className="section-sub-heading text-base text-center  md:text-lg font-medium mt-2">
-        Connect with over 4,500 trusted experts today
+        Join forces with 3,500+ reliable professionals today.
       </p>
       <div className="w-full flex flex-col items-center justify-center  text-center px-2 pt-5">
         <div className="w-[80%]  mx-auto mt-2">

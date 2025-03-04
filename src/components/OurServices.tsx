@@ -11,13 +11,13 @@ export default function OurServices(number: any) {
   // );
   const [img, setImg] = useState("/services/assignment.svg");
   const [active, setIsActive] = useState("Assignments");
-  const [heading, setIsHeading] = useState("Exclusive Features");
+  const [heading, setIsHeading] = useState("Premium Benefits");
   const [features, setFeatures] = useState([
-    "No Punctuation Errors",
-    "Finest Quality Work",
-    "Best Structuring",
-    "Valuable Results",
-    "Correct Grammar",
+    "Error-Free Writing",
+    "Superior Quality Work",
+    "Optimal Structuring",
+    "Meaningful Results",
+    "Accurate Grammar",
   ]);
   const data = [
     {
@@ -75,8 +75,8 @@ export default function OurServices(number: any) {
       image: "/services/assigment3.svg",
       heading: `FREE Features`,
       features: [
-        "Correct Grammar",
-        "No Punctuation Errors",
+        "Accurate Grammar",
+        "Error-Free Writing",
         "Best Formatting",
         "Quality Work",
         "Top-notch Proofreaders",
@@ -90,8 +90,8 @@ export default function OurServices(number: any) {
       image: "/services/assigment4.svg",
       heading: `FREE Features`,
       features: [
-        "Correct Grammar",
-        "No Punctuation Errors",
+        "Accurate Grammar",
+        "Error-Free Writing",
         "Best Formatting",
         "Highest Quality Work",
         "Excellent Results",
@@ -105,11 +105,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment5.svg",
       heading: `FREE Features`,
       features: [
-        "Correct Grammar",
-        "No Punctuation Errors",
-        "Best Structuring",
-        "Finest Quality Work",
-        "Valuable Results",
+        "Accurate Grammar",
+        "Error-Free Writing",
+        "Optimal Structuring",
+        "Superior Quality Work",
+        "Meaningful Results",
       ],
     },
 
@@ -120,11 +120,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment6.svg",
       heading: `FREE Features`,
       features: [
-        "Correct Grammar",
-        "No Punctuation Errors",
-        "Best Structuring",
-        "Finest Quality Work",
-        "Valuable Results",
+        "Accurate Grammar",
+        "Error-Free Writing",
+        "Optimal Structuring",
+        "Superior Quality Work",
+        "Meaningful Results",
       ],
     },
 
@@ -135,11 +135,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment7.svg",
       heading: `FREE Features`,
       features: [
-        "Correct Grammar",
-        "No Punctuation Errors",
-        "Best Structuring",
-        "Finest Quality Work",
-        "Valuable Results",
+        "Accurate Grammar",
+        "Error-Free Writing",
+        "Optimal Structuring",
+        "Superior Quality Work",
+        "Meaningful Results",
       ],
     },
 
@@ -151,11 +151,11 @@ export default function OurServices(number: any) {
       heading: `FREE Features`,
 
       features: [
-        "Correct Grammar",
-        "No Punctuation Errors",
-        "Best Structuring",
-        "Finest Quality Work",
-        "Valuable Results",
+        "Accurate Grammar",
+        "Error-Free Writing",
+        "Optimal Structuring",
+        "Superior Quality Work",
+        "Meaningful Results",
       ],
     },
 
@@ -166,11 +166,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment9.svg",
       heading: `FREE Features`,
       features: [
-        "Correct Grammar",
-        "No Punctuation Errors",
-        "Best Structuring",
-        "Finest Quality Work",
-        "Valuable Results",
+        "Accurate Grammar",
+        "Error-Free Writing",
+        "Optimal Structuring",
+        "Superior Quality Work",
+        "Meaningful Results",
       ],
     },
     {
@@ -180,11 +180,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment10.svg",
       heading: `FREE Features`,
       features: [
-        "Correct Grammar",
-        "No Punctuation Errors",
-        "Best Structuring",
-        "Finest Quality Work",
-        "Valuable Results",
+        "Accurate Grammar",
+        "Error-Free Writing",
+        "Optimal Structuring",
+        "Superior Quality Work",
+        "Meaningful Results",
       ],
     },
     {
@@ -194,11 +194,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment11.svg",
       heading: `FREE Features`,
       features: [
-        "Correct Grammar",
-        "No Punctuation Errors",
-        "Best Structuring",
-        "Finest Quality Work",
-        "Valuable Results",
+        "Accurate Grammar",
+        "Error-Free Writing",
+        "Optimal Structuring",
+        "Superior Quality Work",
+        "Meaningful Results",
       ],
     },
     {
@@ -210,11 +210,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment12.svg",
       heading: `FREE Features`,
       features: [
-        "Correct Grammar",
-        "No Punctuation Errors",
-        "Best Structuring",
-        "Finest Quality Work",
-        "Valuable Results",
+        "Accurate Grammar",
+        "Error-Free Writing",
+        "Optimal Structuring",
+        "Superior Quality Work",
+        "Meaningful Results",
       ],
     },
     {
@@ -224,11 +224,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment13.svg",
       heading: `FREE Features`,
       features: [
-        "Correct Grammar",
-        "No Punctuation Errors",
-        "Best Structuring",
-        "Finest Quality Work",
-        "Valuable Results",
+        "Accurate Grammar",
+        "Error-Free Writing",
+        "Optimal Structuring",
+        "Superior Quality Work",
+        "Meaningful Results",
       ],
     },
     {
@@ -240,11 +240,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment14.svg",
       heading: `FREE Features`,
       features: [
-        "Correct Grammar",
-        "No Punctuation Errors",
-        "Best Structuring",
-        "Finest Quality Work",
-        "Valuable Results",
+        "Accurate Grammar",
+        "Error-Free Writing",
+        "Optimal Structuring",
+        "Superior Quality Work",
+        "Meaningful Results",
       ],
     },
     {
@@ -256,11 +256,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment15.svg",
       heading: `FREE Features`,
       features: [
-        "Correct Grammar",
-        "No Punctuation Errors",
-        "Best Structuring",
-        "Finest Quality Work",
-        "Valuable Results",
+        "Accurate Grammar",
+        "Error-Free Writing",
+        "Optimal Structuring",
+        "Superior Quality Work",
+        "Meaningful Results",
       ],
     },
     {
@@ -272,11 +272,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment16.svg",
       heading: `FREE Features`,
       features: [
-        "Correct Grammar",
-        "No Punctuation Errors",
-        "Best Structuring",
-        "Finest Quality Work",
-        "Valuable Results",
+        "Accurate Grammar",
+        "Error-Free Writing",
+        "Optimal Structuring",
+        "Superior Quality Work",
+        "Meaningful Results",
       ],
     },
     {
@@ -288,11 +288,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment17.svg",
       heading: `FREE Features`,
       features: [
-        "Correct Grammar",
-        "No Punctuation Errors",
-        "Best Structuring",
-        "Finest Quality Work",
-        "Valuable Results",
+        "Accurate Grammar",
+        "Error-Free Writing",
+        "Optimal Structuring",
+        "Superior Quality Work",
+        "Meaningful Results",
       ],
     },
 
@@ -307,11 +307,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment18.svg",
       heading: `FREE Features`,
       features: [
-        "100% A+ Grades",
-        "No Misconceptions",
-        "Best Structuring",
-        "Finest Quality Work",
-        "Valuable Results",
+        "Guaranteed A+ Results",
+        "No False Assumptions",
+        "Optimal Structuring",
+        "Superior Quality Work",
+        "Meaningful Results",
       ],
     },
     {
@@ -323,11 +323,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment19.svg",
       heading: `FREE Features`,
       features: [
-        "Strict Citation Rules",
-        "No Punctuation Errors",
-        "Best Structuring",
-        "Finest Quality Work",
-        "Valuable Results",
+        "Precise Citation Guidelines",
+        "Error-Free Writing",
+        "Optimal Structuring",
+        "Superior Quality Work",
+        "Meaningful Results",
       ],
     },
     {
@@ -341,10 +341,10 @@ export default function OurServices(number: any) {
       heading: `FREE Features`,
       features: [
         "Strict Citation Rules",
-        "Highest Quality Of Work Ethic",
-        "Your Location Safety",
-        "Valuable Results",
-        "Finest Quality Work",
+        "Unmatched Commitment to Excellence",
+        "Your Privacy and Security First",
+        "Impactful and Lasting Outcomes",
+        "Superior Quality Work",
       ],
     },
     {
@@ -356,11 +356,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment21.svg",
       heading: `Premium Features`,
       features: [
-        "Journal Selection",
-        "Premium editing",
-        "Resubmission Support",
-        "Pre-submission Peer Review",
-        "Finest Quality Work",
+        "Journal Evaluation",
+        "Advanced Editing",
+        "Resubmission Assistance",
+        "Pre-submission Review Process",
+        "Superior Quality Work",
       ],
     },
     {
@@ -371,11 +371,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment21.svg",
       heading: `Premium Features`,
       features: [
-        "Multi essay types flexibility",
-        "Adherence to your university guidelines",
-        "Familiarity with referencing formats",
-        "Credible facts, figures, and examples",
-        "Your institution’s marking rubric",
+        "Versatile in multiple essay types",
+        "Compliance with your university standards",
+        "Proficiency in citation formats",
+        "Reliable data, statistics, and illustrations",
+        "Alignment with your institution’s grading criteria",
       ],
     },
     {
@@ -386,11 +386,11 @@ export default function OurServices(number: any) {
       image: "/services/assigment15.svg",
       heading: `Premium Features`,
       features: [
-        "Unique & Plagiarism free",
-        "Premium Quality Guaranty",
-        "Pocket-Friendly Price",
-        "Round the clock Writing Support",
-        "Valuable Results",
+        "24/7 Writing Assistance",
+        "Original & Plagiarism-Free",
+        "Top-Notch Quality Assurance",
+        "Budget-Friendly Pricing",
+        "Meaningful Results",
       ],
     },
     {
@@ -401,11 +401,11 @@ export default function OurServices(number: any) {
       image: "/services/assignment.svg",
       heading: `Premium Features`,
       features: [
-        "100% Privacy Guaranteed",
-        "Top Professional Writers",
-        "Plagiarism-Free Policy",
-        "On-Time Delivery",
-        "Finest Quality Work",
+        "Guaranteed 100% Privacy",
+        "Expert Academic Writers",
+        "Zero Plagiarism Policy",
+        "Timely Submission Assured",
+        "Superior Quality Work",
       ],
     },
   ];
@@ -419,8 +419,7 @@ export default function OurServices(number: any) {
           - Our Services
         </h3>
         <h4 className=" md:text-left text-center  text-base  md:text-[15px] font-medium leading-tight  mt-2 text-white bg-primary-orange w-fit px-3 py-1 rounded-lg ">
-          Expert Academic Assistance You Can Trust – Only at
-          OnlineAssignmentDesk.com
+        Trusted Academic Support Tailored for You – Exclusively at OnlineAssignmentDesk.com
         </h4>
         <div className="grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-x-2 gap-y-1 justify-start items-center mt-[20px]">
           {data.map((item: any, index: number) => (
