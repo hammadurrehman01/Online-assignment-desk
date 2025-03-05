@@ -224,12 +224,12 @@ export default function Home() {
           locationDetails={locationDetails}
           number={number}
           title="Academic Consultancy"
-          mainHeadingPartOne="One Stop Solution to All"
-          mainHeadingPartTwo="Academic Worries"
-          subHeadingPartOne="OnlineAssignmentDesk.com ensures to deliver the world-class "
-          subHeadingPartTwo="at prices that are best in the market. Our team always responds to the demands of the students quickly and fulfills them in the best possible way."
-          leftButton="Get Free Quote"
-          rightButton="Whatsapp Direct Chat"
+          mainHeadingPartOne="A Comprehensive Solution"
+          mainHeadingPartTwo=" for All Your Academic Challenges"
+          subHeadingPartOne="OnlineAssignmentDesk.com is committed to providing world-class "
+          subHeadingPartTwo="at the most competitive prices. Our dedicated team promptly addresses students' needs and delivers top-quality solutions tailored to their requirements."
+          leftButton="Get Your Free Quote Now"
+          rightButton="Chat with Us on WhatsApp"
           bannerImageUrl="/random/cheerful-students-celebrating.jpg"
         />
 
@@ -244,12 +244,12 @@ export default function Home() {
           locationDetails={locationDetails}
           number={number}
           title="Academic Consultancy"
-          mainHeadingPartOne="Reliable Academic Assistance Team for "
+          mainHeadingPartOne="Reliable Academic Support Team for "
           mainHeadingPartTwo="Every Student"
-          subHeadingPartOne="From tight deadlines to complex topics, we provide fast, reliable, and affordable assignment solutions. Connect with us to experience hassle-free academic success."
+          subHeadingPartOne="and affordable assignment solutions. Connect with us for seamless academic success with expert consultancy."
           subHeadingPartTwo=""
-          leftButton="Order now"
-          rightButton="Live Chat Support"
+          leftButton="Place Your Order Today!"
+          rightButton="24/7 Live Chat Support"
           bannerImageUrl="/random/5-Reasons-to-go-to-uni-besides-boosting-your-career-prospects.jpg"
         />
 

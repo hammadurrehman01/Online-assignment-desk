@@ -24,12 +24,12 @@ export default function HowItWorks(title: any) {
           -How it works
         </h3>
         <h4 className="section-sub-heading text-base font-medium leading-tight  mt-2">
-          Three Simple Steps to Avail
+          Three Easy Steps to Get
           {title.title ? ` ${title.title}` : ` Academic Assistance`}
         </h4>
         <p className="text-[#3E4657] text-[13px] sm:text-[16px] mt-2">
-          Ready to place an {title.title} order? You dont have to go through
-          complicated processes; all you need to do is follow 3 easy steps!
+          Ready to order {title.title} No complicated processes—just follow
+          three simple steps!
         </p>
 
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-3 w-full pt-4 pb-8">
@@ -82,9 +82,7 @@ export default function HowItWorks(title: any) {
                 Submit Your Order
               </h3>
               <h4 className="text-[#3E4657] max-sm:leading-[18px] text-[15px]">
-                List out the specifications and details in our online order form
-                and submit it. We assure the confidentiality of your personal
-                details.
+              Fill out our online order form with all the necessary details and specifications. Your personal information remains 100% confidential.
               </h4>
             </div>
             <div className="leading-[20px] flex flex-col max-sm:justify-center max-sm:items-center max-sm:text-center">
@@ -99,9 +97,7 @@ export default function HowItWorks(title: any) {
                 Discussion With EXPERT
               </h3>
               <h4 className="text-[#3E4657] max-sm:leading-[18px] text-[15px]">
-                Once we receive the form, our experts will contact you at the
-                earliest to discuss all details related to your task. Our
-                experts are more than happy to help you.
+              After receiving your order, our experts will reach out promptly to discuss your requirements in detail. They are always ready to assist you.
               </h4>
             </div>
             <div className="leading-[20px] flex flex-col max-sm:justify-center max-sm:items-center max-sm:text-center">
@@ -116,9 +112,7 @@ export default function HowItWorks(title: any) {
                 Assignment Dispatched
               </h3>
               <h4 className="text-[#3E4657] max-sm:leading-[18px] text-[15px]">
-                Once we have finished the help work, the document goes through a
-                proofreading process. After quality check, the final document is
-                dropped to your email.
+              Once your assignment is completed, it undergoes thorough proofreading and quality checks. The final document is then delivered straight to your email.
               </h4>
             </div>
           </div>

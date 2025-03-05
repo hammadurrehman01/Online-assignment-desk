@@ -1,4 +1,4 @@
-  import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
 import {
@@ -100,27 +100,28 @@ export default function Subjects(props: any) {
     <div className="bg-[#F5F5F5] bg-[url('/compress.png')]" id="subjects">
       <div className="flex flex-col text-center myContainer  py-20 ">
         <h3 className="uppercase  text-primary-orange  font-semibold text-2xl md:text-4xl">
-        -Our Offered Subjects
+          -Our Offered Subjects
         </h3>
         <h4 className="section-sub-heading py-1 text-center mx-auto text-base sm:text-[25px] md:text-[18px] font-medium leading-tight mt-2">
-        Expert Professors Available for Every Subject
+          Expert Professors Available for Every Subject
         </h4>
         <p className="text-black text-[14px] sm:text-[16px] my-6">
-        At Onlineassignmentdesk.com, we take pride in providing expert academic support across a wide range of subjects.
+          At Onlineassignmentdesk.com, we take pride in providing expert
+          academic support across a wide range of subjects.
         </p>
         <div className="grid lg:grid-cols-5  grid-cols-2 items-center gap-x-4 gap-y-10 mt-10 ">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered(true)}
             onTouchCancel={() => setIsHovered(false)}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
             <div className="relative p-6 h-72 flex items-center justify-center">
-              <AnimatePresence> 
+              <AnimatePresence>
                 {!isHovered && (
                   <motion.div
                     initial={{ opacity: 1 }}
@@ -143,7 +144,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-br from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-br from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -175,7 +176,8 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Gain expertise in financial statements, budgeting, and advanced accounting concepts.
+                      Gain expertise in financial statements, budgeting, and
+                      advanced accounting concepts.
                     </motion.p>
 
                     <motion.button
@@ -184,7 +186,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.4 }}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
+                      className="bg-[#ffaf46] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
                       <Link
                         href="/order?coupon=GG-50%off"
@@ -202,7 +204,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered2(true)}
             onTouchEnd={() => setIsHovered2(false)}
             onMouseEnter={() => setIsHovered2(true)}
@@ -230,7 +232,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-br from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-br from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -262,7 +264,8 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Develop expertise in business strategies, management, and entrepreneurship for a successful career.
+                      Develop expertise in business strategies, management, and
+                      entrepreneurship for a successful career.
                     </motion.p>
 
                     <motion.button
@@ -271,7 +274,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.4 }}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
+                      className="bg-[#ffaf46] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
                       <Link
                         href="/order?coupon=GG-50%off"
@@ -289,7 +292,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered3(true)}
             onTouchEnd={() => setIsHovered3(false)}
             onMouseEnter={() => setIsHovered3(true)}
@@ -317,7 +320,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr  from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr  from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -349,7 +352,8 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                     Gain expertise in patient care, ethics, and nursing practices for a career in healthcare.
+                      Gain expertise in patient care, ethics, and nursing
+                      practices for a career in healthcare.
                     </motion.p>
 
                     <motion.button
@@ -358,7 +362,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.4 }}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
+                      className="bg-[#ffaf46] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
                       <Link
                         href="/order?coupon=GG-50%off"
@@ -376,7 +380,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered4(true)}
             onTouchEnd={() => setIsHovered4(false)}
             onMouseEnter={() => setIsHovered4(true)}
@@ -404,7 +408,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -436,7 +440,8 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Enhance workforce growth through strategic human resource management.
+                      Enhance workforce growth through strategic human resource
+                      management.
                     </motion.p>
 
                     <motion.button
@@ -445,7 +450,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.4 }}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
+                      className="bg-[#ffaf46] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
                       <Link
                         href="/order?coupon=GG-50%off"
@@ -463,7 +468,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered5(true)}
             onTouchEnd={() => setIsHovered5(false)}
             onMouseEnter={() => setIsHovered5(true)}
@@ -491,7 +496,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-br from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-br from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -522,7 +527,8 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Discover medical sciences, diagnostics, and clinical procedures to achieve excellence.
+                      Discover medical sciences, diagnostics, and clinical
+                      procedures to achieve excellence.
                     </motion.p>
 
                     <motion.button
@@ -531,7 +537,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.4 }}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
+                      className="bg-[#ffaf46] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
                       <Link
                         href="/order?coupon=GG-50%off"
@@ -549,7 +555,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered6(true)}
             onTouchEnd={() => setIsHovered6(false)}
             onMouseEnter={() => setIsHovered6(true)}
@@ -579,7 +585,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -610,7 +616,8 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Craft customized application letters for academic and career prospects.
+                      Craft customized application letters for academic and
+                      career prospects.
                     </motion.p>
 
                     <motion.button
@@ -619,7 +626,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.4 }}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
+                      className="bg-[#ffaf46] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
                       <Link
                         href="/order?coupon=GG-50%off"
@@ -637,7 +644,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered8(true)}
             onTouchEnd={() => setIsHovered8(false)}
             onMouseEnter={() => setIsHovered8(true)}
@@ -669,7 +676,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -700,7 +707,8 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Explore art history, architectural masterpieces, and contemporary creative advancements.
+                      Explore art history, architectural masterpieces, and
+                      contemporary creative advancements.
                     </motion.p>
 
                     <motion.button
@@ -709,7 +717,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.4 }}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
+                      className="bg-[#ffaf46] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
                       <Link
                         href="/order?coupon=GG-50%off"
@@ -727,7 +735,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered9(true)}
             onTouchEnd={() => setIsHovered9(false)}
             onMouseEnter={() => setIsHovered9(true)}
@@ -757,7 +765,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -788,8 +796,8 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Gain insights into organisms, ecosystems, and biological processes
-                      to achieve academic success.
+                      Gain insights into organisms, ecosystems, and biological
+                      processes to achieve academic success.
                     </motion.p>
 
                     <motion.button
@@ -798,7 +806,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.4 }}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
+                      className="bg-[#ffaf46] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
                       <Link
                         href="/order?coupon=GG-50%off"
@@ -816,7 +824,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered10(true)}
             onTouchEnd={() => setIsHovered10(false)}
             onMouseEnter={() => setIsHovered10(true)}
@@ -846,7 +854,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -877,7 +885,8 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Master chemical principles, reactions, and their practical applications efficiently.
+                      Master chemical principles, reactions, and their practical
+                      applications efficiently.
                     </motion.p>
 
                     <motion.button
@@ -886,7 +895,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.4 }}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
+                      className="bg-[#ffaf46] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
                       <Link
                         href="/order?coupon=GG-50%off"
@@ -904,7 +913,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered11(true)}
             onTouchEnd={() => setIsHovered11(false)}
             onMouseEnter={() => setIsHovered11(true)}
@@ -936,7 +945,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -967,7 +976,8 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Master family management, consumer behavior, and lifestyle enhancement techniques.
+                      Master family management, consumer behavior, and lifestyle
+                      enhancement techniques.
                     </motion.p>
 
                     <motion.button
@@ -976,7 +986,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.4 }}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
+                      className="bg-[#ffaf46] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
                       <Link
                         href="/order?coupon=GG-50%off"
@@ -994,7 +1004,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered12(true)}
             onTouchEnd={() => setIsHovered12(false)}
             onMouseEnter={() => setIsHovered12(true)}
@@ -1026,7 +1036,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -1057,7 +1067,8 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Discover film, theater, and production methods for artistic storytelling.
+                      Discover film, theater, and production methods for
+                      artistic storytelling.
                     </motion.p>
 
                     <motion.button
@@ -1066,7 +1077,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.4 }}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
+                      className="bg-[#ffaf46] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
                       <Link
                         href="/order?coupon=GG-50%off"
@@ -1084,7 +1095,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered13(true)}
             onTouchEnd={() => setIsHovered13(false)}
             onMouseEnter={() => setIsHovered13(true)}
@@ -1114,7 +1125,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -1145,7 +1156,8 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                     Gain expertise in budgeting, investments, and financial planning to ensure future stability.
+                      Gain expertise in budgeting, investments, and financial
+                      planning to ensure future stability.
                     </motion.p>
 
                     <motion.button
@@ -1154,7 +1166,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.4 }}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
+                      className="bg-[#ffaf46] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
                       <Link
                         href="/order?coupon=GG-50%off"
@@ -1172,7 +1184,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered14(true)}
             onTouchEnd={() => setIsHovered14(false)}
             onMouseEnter={() => setIsHovered14(true)}
@@ -1202,7 +1214,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -1233,7 +1245,8 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Explore past events, civilizations, and their cultural and societal influences.
+                      Explore past events, civilizations, and their cultural and
+                      societal influences.
                     </motion.p>
 
                     <motion.button
@@ -1242,7 +1255,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.4 }}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
+                      className="bg-[#ffaf46] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
                       <Link
                         href="/order?coupon=GG-50%off"
@@ -1260,7 +1273,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered7(true)}
             onTouchEnd={() => setIsHovered7(false)}
             onMouseEnter={() => setIsHovered7(true)}
@@ -1290,7 +1303,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -1321,7 +1334,8 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                     Grasp legal principles, ethics, and frameworks for a successful law career.
+                      Grasp legal principles, ethics, and frameworks for a
+                      successful law career.
                     </motion.p>
 
                     <motion.button
@@ -1330,7 +1344,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.4 }}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
+                      className="bg-[#ffaf46] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
                       <Link
                         href="/order?coupon=GG-50%off"
@@ -1348,7 +1362,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#292929] to-[#7a4116] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered15(true)}
             onTouchEnd={() => setIsHovered15(false)}
             onMouseEnter={() => setIsHovered15(true)}
@@ -1378,7 +1392,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#292929] to-[#7a4116] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -1409,7 +1423,8 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.3 }}
                       className="text-gray-300 text-center mb-4 hidden md:block"
                     >
-                      Receive professional assistance across extra subjects customized to your needs.
+                      Receive professional assistance across extra subjects
+                      customized to your needs.
                     </motion.p>
 
                     <motion.button
@@ -1418,7 +1433,7 @@ export default function Subjects(props: any) {
                       transition={{ delay: 0.4 }}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="bg-[#3b82f6] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
+                      className="bg-[#ffaf46] text-white font-bold py-2 px-6 rounded-full hover:bg-[#2563eb] transition-colors duration-300"
                     >
                       <Link
                         href="/order?coupon=GG-50%off"

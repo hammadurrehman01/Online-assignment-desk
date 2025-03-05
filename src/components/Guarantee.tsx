@@ -16,36 +16,36 @@ export default function Guarantee(props: any) {
 
   const data = [
     {
-      header: "100% Plagiarism FREE",
-      details: `When you avail Asy and the research of your work. Also, the Ph.D. certified online  ${
+      header: "Zero Plagiarism Guaranteed",
+      details: `When you choose our services, our Ph.D.-certified academic consultants craft each document from scratch, ensuring originality and uniqueness.   ${
         title ? ` ${title}` : `Academic Assistance`
-      } providers associated with us ensure they work on each document dedicatedly. Every scholar gets a document that is written from scratch to ensure it is original and unique. We understand that the documents go through rigorous scrutiny before evaluation in the universities. We take pride in assuring top grades to students by providing 100% original documents that are proofread and edited thoroughly.`,
+      } We understand the rigorous scrutiny at universities, so we guarantee 100% original, thoroughly proofread, and edited documents to help you achieve top grades.`,
       image: "/ss1.png",
     },
     {
-      header: "100% Money Back Guarantee",
-      details: `We want our customers to always be in a win-win situation. Although we rarely get complaints from the scholars, in case they have any, we ensure to refund the order amount. We make it a point to return all your money if the services you have availed from us fail to serve the purpose. College goers often take pride and say, “Onlineassignmentdesk.com is fair and affordable.” We understand it is extremely important for the students to trust the help service provider for a healthy business relationship.`,
+      header: "Full Refund Guaranteed",
+      details: `We always aim for a win-win situation for our customers. While complaints are rare, we ensure a full refund if our services do not meet expectations. If the assistance provided fails to serve its purpose, we promptly return your money. Many students proudly say, “OnlineAssignmentDesk.com is fair and affordable.” We recognize the importance of trust in academic assistance and strive to build strong, reliable relationships with students.`,
       image: "/ss2.png",
     },
     {
-      header: "100% Satisfaction",
-      details: `We strive to deliver high-quality documents that lead to customer satisfaction. Our strict policies are designed to assure there are no compromises made with the quality of your documents. The expert  ${
+      header: "Complete Satisfaction Guaranteed",
+      details: `We are committed to delivering high-quality, well-researched documents that ensure student satisfaction and top grades. Our strict policies guarantee no compromises on quality. The expert  ${
         title ? ` ${title}` : `Academic Assistance`
-      } ${city} providers associated with us aim to deliver high quality and well-researched documents that ensure excellent grades to the students availing Help from us. If in any case, you face difficulties, you can always reach to our customer care executives to get your problems solved.`,
+      } ${city} in Pakistan work diligently to provide exceptional support. If you ever face any issues, our customer care team is always available to assist you.`,
       image: "/ss4.png",
     },
     {
-      header: "Unlimited Revisions",
-      details: `When you reach to our  ${
+      header: "Revisions Until Satisfaction",
+      details: `When you choose our  ${
         title ? ` ${title}` : `Academic Assistance`
-      } ${city} for your documents we deliver you comprehensive tasks. If in case you have any doubt in the tasks that are delivered to you, we offer unlimited revisions that too free of cost. We ensure to deliver the tasks before hand so that the scholars get enough time to research and review the complete work. With our free revisions you can always boast, “Onlineassignmentdesk.com is always there for me, even after delivery.”`,
+      } in ${city}, we deliver comprehensive and well-researched documents. If you have any doubts, we offer unlimited free revisions to ensure complete satisfaction. Our team ensures timely delivery, giving scholars ample time to review and research their work. With our free revisions, you can confidently say, “OnlineAssignmentDesk.com is always there for me, even after delivery.`,
       image: "/ss6.png",
     },
     {
-      header: "Lowest Price",
-      details: `With a transparent pricing structure, we ensure students do not feel cheated when they avail our online  ${
+      header: "Best Price Guaranteed",
+      details: `With a transparent pricing structure, we ensure students receive fair value for our online  ${
         title ? ` ${title}` : `Academic Assistance`
-      }. We make it a point that the help services that one avails do not add burden to the pocket. With regular discounts and several freebies, we have designed our services to ensure they fit your budget.`,
+      }. Our services are designed to be budget-friendly, offering regular discounts and freebies to keep costs manageable. We strive to provide quality assistance without adding financial burden.`,
       image: "/sideline1.png",
     },
   ];
@@ -53,14 +53,14 @@ export default function Guarantee(props: any) {
   return (
     <div className="bg-white flex flex-col justify-center items-center text-center py-20 myContainer ">
       <h3 className="uppercase section-main-heading text-2xl md:text-4xl font-semibold">
-        -OUR GUARANTEES
+        What We Guarantee
       </h3>
       <h4 className="section-sub-heading text-lg py-1 mt-2">
-        Know Why Students Rely On Our help Services
+        Know Why Students Trust Our Academic Assistance
       </h4>
       <p className="text-primary-orange  text-[13px] sm:text-[16px] mt-6">
-        Onlineassignmentdesk.com promises every student to provide the best quality work and
-        maximum satisfaction. Heres why you should trust us.
+        OnlineAssignmentDesk.com guarantees top-quality work and complete
+        student satisfaction. Here’s why you can rely on us with confidence.
       </p>
       <div className="flex justify-center items-start gap-10 my-10 flex-wrap">
         {data.map((item: any, index: number) => (
@@ -81,20 +81,18 @@ export default function Guarantee(props: any) {
           </div>
         ))}
       </div>
-    
 
       <div className="relative w-[70%] md:w-[25%] mx-auto hover:scale-95 transition-all duration-300 ease-in-out">
-          {" "}
-          <Link
-            href={`${reg}/order?coupon=GG-50%off`}
-            // href={`https://api.whatsapp.com/send?phone=${number}&text=Hello Online Assignment Desk!`}
-            className="bg-[#ff8e38] flex items-center justify-center text-center w-[300px] h-12 z-[11] text-xl text-white font-semibold absolute"
-          >
+        {" "}
+        <Link
+          href={`${reg}/order?coupon=GG-50%off`}
+          // href={`https://api.whatsapp.com/send?phone=${number}&text=Hello Online Assignment Desk!`}
+          className="bg-[#ff8e38] flex items-center justify-center text-center w-[300px] h-12 z-[11] text-xl text-white font-semibold absolute"
+        >
           Order Now
-          </Link>
-          <div className="bg-[#383838] w-[300px] h-12 ml-1.5 mt-2.5 text-xl text-white font-semibold absolute"></div>
-        </div>
-
+        </Link>
+        <div className="bg-[#383838] w-[300px] h-12 ml-1.5 mt-2.5 text-xl text-white font-semibold absolute"></div>
+      </div>
     </div>
   );
 }

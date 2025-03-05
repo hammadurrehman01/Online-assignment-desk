@@ -233,17 +233,17 @@ const Modal = (props: any) => {
         <div className="relative w-auto my-6 mx-auto max-w-3xl">
           <div className=" my-5  flex overflow-auto">
             <div className="bg-[#292929] px-4 py-4 max-w-[300px] md:block hidden">
-              <h4 className="text-center text-[#FFC410] text-[30px] font-semibold leading-tight tracking-tight">
+              <h4 className="text-center text-[#ff8e38] text-[30px] font-semibold leading-tight tracking-tight">
                 Get <span className="text-white text-6xl">50%</span> Off on your
                 Order
               </h4>
-              <div className="bg-[#FFC410] h-[1px] w-32 content-center flex justify-center max-w-32 mx-auto mt-3"></div>
+              <div className="bg-[#ff8e38] h-[1px] w-32 content-center flex justify-center max-w-32 mx-auto mt-3"></div>
               <div className="flex flex-col gap-5">
                 <div className="flex items-center gap-2">
                   <img
                     height={121}
                     width={320}
-                    src={"/onlineassignment.com_assests/moneyback-logo.png"}
+                    src={"/onlineassignmentdesk.com_assests/moneyback-logo.png"}
                     alt="LOGO"
                     className="aspect-square h-[62px] w-[62px]"
                   ></img>
@@ -256,7 +256,7 @@ const Modal = (props: any) => {
                   <img
                     height={121}
                     width={320}
-                    src={"/onlineassignment.com_assests/premiumlogo.png"}
+                    src={"/onlineassignmentdesk.com_assests/premiumlogo.png"}
                     alt="LOGO"
                     className="aspect-square h-[62px] w-[62px]"
                   ></img>
@@ -269,7 +269,7 @@ const Modal = (props: any) => {
                   <img
                     height={121}
                     width={320}
-                    src={"/onlineassignment.com_assests/quality.png"}
+                    src={"/onlineassignmentdesk.com_assests/quality.png"}
                     alt="LOGO"
                     className="aspect-square h-[62px] w-[62px]"
                   ></img>
@@ -282,7 +282,7 @@ const Modal = (props: any) => {
                   <img
                     height={121}
                     width={320}
-                    src={"/onlineassignment.com_assests/satisfaction.png"}
+                    src={"/onlineassignmentdesk.com_assests/satisfaction.png"}
                     alt="LOGO"
                     className="aspect-square h-[62px] w-[62px]"
                   ></img>
@@ -394,12 +394,12 @@ const Modal = (props: any) => {
                 <button
                   disabled={!isVerifiedCaptcha}
                   onClick={handleSubmit}
-                  className="group relative inline-flex items-center justify-start overflow-hidden rounded-xl bg-[#125e30] px-8 py-4 font-medium transition-all"
+                  className="group relative inline-flex items-center justify-start overflow-hidden rounded-xl bg-primary-orange px-8 py-4 font-medium transition-all"
                 >
-                  <span className="absolute right-0 top-0 inline-block h-4 w-4 rounded bg-[#0d4724] transition-all duration-500 ease-in-out group-hover:-mr-4 group-hover:-mt-4">
+                  <span className="absolute right-0 top-0 inline-block h-4 w-4 rounded bg-[#5c5c5c] transition-all duration-500 ease-in-out group-hover:-mr-4 group-hover:-mt-4">
                     <span className="absolute right-0 top-0 h-5 w-5 -translate-y-1/2 translate-x-1/2 rotate-45 bg-white"></span>
                   </span>
-                  <span className="absolute bottom-0 left-0 h-full w-full -translate-x-full translate-y-full rounded-2xl bg-[#0d4724] transition-all delay-200 duration-500 ease-in-out group-hover:mb-14 group-hover:translate-x-0"></span>
+                  <span className="absolute bottom-0 left-0 h-full w-full -translate-x-full translate-y-full rounded-2xl bg-[#5c5c5c] transition-all delay-200 duration-500 ease-in-out group-hover:mb-14 group-hover:translate-x-0"></span>
                   <span className="relative w-full font-bold text-white text-[16px] text-center transition-colors duration-200 ease-in-out group-hover:text-white">
                     {loader ? (
                       <span className="flex items-center justify-center gap-2 font-bold text-white text-[16px]">
@@ -407,7 +407,7 @@ const Modal = (props: any) => {
                       </span>
                     ) : (
                       <p className="leading-[19px]">
-                        Request a Free Quote
+                        Receive a Free Quote
                         <br />
                         <span className="text-[12px]  font-thin leading- ">
                           Get Reply in Minutes!

@@ -5,11 +5,7 @@ import React, { useEffect, useRef, useState } from "react";
 import "intl-tel-input/build/css/intlTelInput.css";
 import intlTelInput from "intl-tel-input";
 import CountryCode from "./CountryCode";
-export default function FreeSample({
-  locationDetails,
-  country,
-  title,
-}: any) {
+export default function FreeSample({ locationDetails, country, title }: any) {
   const [number, setIsNumber] = useState("");
   const [userName, setUserName] = useState("");
   const [userNamecheck, setUserNamecheck] = useState(false);
@@ -48,11 +44,11 @@ export default function FreeSample({
   return (
     <div className="bg-[url('/last.jpg')] w-[100%] py-[75px] flex flex-col gap-1  justify-center items-center px-[10px]">
       <h4 className="font-black text-[22px] md:text-[28px] uppercase fontchange section-main-heading">
-        - Free Free Free -
+        Absolutely Free!
       </h4>
 
       <h4 className="section-sub-heading text-[20px] md:text-[30px] font-semibold text-center">
-        Ready to get your FREE Sample?
+        Get Your FREE Sample Now!
       </h4>
       <h5 className="text-white md:text-[#292929] text-[16px] mt-[-2px] text-center">
         Setup is done in minutes. Your first {title ? title : ` Assignment`} is

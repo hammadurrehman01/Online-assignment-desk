@@ -208,10 +208,10 @@ export default function Footer({ number, title }: any) {
                 {title?.startsWith("Best") || title?.startsWith(" Best")
                   ? ""
                   : "Best"}{" "}
-                {title} provider. We have a thousands of happy customers from
-                worldwide. Who happy with our high-quality service & the all
-                credit goes to our most experienced and professional writing
-                team.
+                {title} provider with thousands of satisfied customers
+                worldwide. Our high-quality service is backed by our highly
+                experienced and professional writing team, ensuring excellence
+                in every project.
               </p>
             </div>
             {footerItems.map((item: any, index: number) => {

@@ -8,7 +8,7 @@ const reviews = [
     location: "Edinburgh, Scotland",
     university: "University of Edinburgh",
     review:
-      "The support I got for my legal case studies was outstanding. The writer's attention to detail was impressive. Highly recommended!",
+      "The support I received for my legal case studies was exceptional. The writer's attention to detail was remarkable. Highly recommended!",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-2.jpg",
     logoImage: "/logo-online-assignment-desk.webp",
@@ -19,7 +19,7 @@ const reviews = [
     location: "London, UK",
     university: "University College London",
     review:
-      "The team delivered a fantastic dissertation on time. It was well-researched and perfectly written.",
+      "The team delivered an outstanding dissertation on time—well-researched and flawlessly written.",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-3.jpg",
     logoImage: "/logo-online-assignment-desk.webp",
@@ -30,7 +30,7 @@ const reviews = [
     location: "Manchester, UK",
     university: "University of Manchester",
     review:
-      "I was impressed with the code quality and the timely delivery. My project turned out exactly as expected.",
+      "I was highly impressed with the code quality and timely delivery. My project turned out exactly as I envisioned",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-4.jpg",
     logoImage: "/logo-online-assignment-desk.webp",
@@ -41,7 +41,7 @@ const reviews = [
     location: "Cambridge, UK",
     university: "University of Cambridge",
     review:
-      "The assistance I received was exceptional. My research paper was well-crafted and received excellent feedback.",
+      "The assistance I received was outstanding. My research paper was expertly crafted and received excellent feedback.",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-5.jpg",
     logoImage: "/logo-online-assignment-desk.webp",
@@ -52,7 +52,7 @@ const reviews = [
     location: "Berlin, Germany",
     university: "Berlin School of Economics and Law",
     review:
-      "The marketing plan delivered was beyond expectations. The content was innovative and relevant.",
+      "The marketing plan exceeded my expectations with its innovative and relevant content.",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-6.jpg",
     logoImage: "/logo-online-assignment-desk.webp",
@@ -118,7 +118,7 @@ const reviews = [
     location: "Zurich, Switzerland",
     university: "ETH Zurich",
     review:
-      "The detailed explanations and well-researched findings in my physics paper were exceptional.",
+      "My physics paper featured detailed explanations and well-researched findings—truly exceptional work.",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-12.jpg",
     logoImage: "/logo-online-assignment-desk.webp",
@@ -129,7 +129,7 @@ const reviews = [
     location: "Los Angeles, USA",
     university: "University of California, Los Angeles",
     review:
-      "This service helped me tremendously with my history paper. The depth of research was impressive.",
+      "This service was a tremendous help with my history paper. The depth of research was remarkable.",
     ratingImage: "/reviews-gg/5star-rating.webp",
     avatarImage: "/reviews-gg/reviews-gg-13.jpg",
     logoImage: "/logo-online-assignment-desk.webp",
@@ -140,7 +140,7 @@ function Reviews() {
   return (
     <div id="reviews" className="max-w-screen-xl mx-auto pt-12 pb-6">
       <h2 className="text-center font-bold section-main-heading text-xl md:text-3xl">
-        Satisfied Customers Reviews
+        Customer Satisfaction Reviews
       </h2>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 px-4 py-4 mt-7">
         {reviews.map((review, index) => (
@@ -158,17 +158,17 @@ function Reviews() {
               />
 
               <div className="ml-4">
-                <h2 className="text-blue-950 font-bold text-lg hover:text-blue-700 transition-colors">
+                <h2 className="text-[#292929] font-bold text-lg hover:text-[#111111] transition-colors">
                   {review.name}
                 </h2>
                 <p className="text-gray-800 font-semibold">{review.study}</p>
-                <p className="text-blue-900 font-bold">{review.location}</p>
+                <p className="text-[#ff8e38] font-bold">{review.location}</p>
                 <p className="text-gray-900 font-bold">{review.university}</p>
-               <Image
+                <Image
                   className="mt-2 transition-transform transform hover:scale-110"
                   src={review.ratingImage}
-                  width={120}
-                  height={120}
+                  width={40}
+                  height={40}
                   alt="reviews"
                 />
               </div>
@@ -186,7 +186,6 @@ function Reviews() {
                   height={40}
                 />
                 Online Assignment Desk
-
               </div>
             </div>
           </div>

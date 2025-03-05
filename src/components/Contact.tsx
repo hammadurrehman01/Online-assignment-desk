@@ -309,17 +309,18 @@ export default function Contact({ region }: any) {
             className="w-[280px] h-[190px]"
           />
           <h1 className="text-[#292929] text-[26px] font-semibold">
-            Are you facing any problem?
+            Are you Facing Any Issues?
           </h1>
           <p className="text-[15px] text-[#2A2A2A] leading-[20px] section-sub-heading py-1">
-            If you need instant support then use live chat option to reach us
-            quickly, our support team will reply as soon as possible
+            For instant support, use our live chat option to reach us quickly.
+            Our team will respond promptly!
           </p>
           <button
             onClick={openTawkToChat}
-            className="flex gap-2 bg-[#ff8e38] hover:bg-[#fd9545] hover:shadow-md text-white py-[9px] px-[25px] rounded-[20px] my-5 font-medium"
+            className="flex items-center gap-2 bg-[#ff8e38] hover:bg-[#fd9545] hover:shadow-md text-white py-[9px] px-[25px] rounded-[20px] my-5 font-medium"
           >
-            <RiMessage3Fill className="text-[24px]" /> Live Chat
+            <RiMessage3Fill className="text-[24px]" />{" "}
+            <span>Instant Live Chat Support</span>
           </button>
           <div className="flex justify-center items-center gap-4 w-full">
             <div className="bg-gray-400 h-[1px] w-full"></div>
@@ -353,7 +354,7 @@ export default function Contact({ region }: any) {
         </div>
         <div className="flex flex-col gap-4 sm:w-[350px]">
           <h2 className="text-[#292929] text-[27px] font-semibold">
-            Make An Enquiry
+            Send Your Inquiry
           </h2>
           <input
             type="text"
