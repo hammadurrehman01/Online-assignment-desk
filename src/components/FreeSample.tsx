@@ -42,7 +42,12 @@ export default function FreeSample({ locationDetails, country, title }: any) {
   }, [phoneInputRef]);
 
   return (
-    <div className="bg-[url('/last.jpg')] w-[100%] py-[75px] flex flex-col gap-1  justify-center items-center px-[10px]">
+    <div className="relative w-[100%] py-[75px] flex flex-col gap-1  justify-center items-center px-[10px] bg-[#dedede]">
+      <img
+        className="hidden lg:block absolute bottom-0 left-12"
+        src="/random/people-education-studying-concept-removebg-preview.png"
+        alt=""
+      />
       <h4 className="font-black text-[22px] md:text-[28px] uppercase fontchange section-main-heading">
         Absolutely Free!
       </h4>
@@ -72,18 +77,20 @@ export default function FreeSample({ locationDetails, country, title }: any) {
           <div className="justify-center items-center flex overflow-y-auto  md:overflow-y-hidden fixed inset-0 z-50 outline-none focus:outline-none h-screen">
             <div className="relative w-auto my-6 mx-auto max-w-3xl">
               <div className="py-4 my-5  flex overflow-auto">
-                <div className="bg-[#1a3e61] px-4 py-4 max-w-[300px] md:block hidden">
-                  <h4 className="text-center text-[#FFC410] text-[30px] font-semibold leading-tight tracking-tight">
+                <div className="bg-[#292929] px-4 py-4 max-w-[300px] md:block hidden">
+                  <h4 className="text-center text-[#ff8e38] text-[30px] font-semibold leading-tight tracking-tight">
                     Get <span className="text-white text-6xl">50%</span> Off on
                     your Order
                   </h4>
-                  <div className="bg-[#FFC410] h-[1px] w-32 content-center flex justify-center max-w-32 mx-auto mt-3"></div>
+                  <div className="bg-[#ff8e38] h-[1px] w-32 content-center flex justify-center max-w-32 mx-auto mt-3"></div>
                   <div className="flex flex-col gap-5">
                     <div className="flex items-center gap-2">
                       <img
                         height={121}
                         width={320}
-                        src={"/onlineassignment.com_assests/moneyback-logo.png"}
+                        src={
+                          "/onlineassignmentdesk.com_assests/moneyback-logo.png"
+                        }
                         alt="LOGO"
                         className="aspect-square h-[62px] w-[62px]"
                       ></img>
@@ -98,9 +105,7 @@ export default function FreeSample({ locationDetails, country, title }: any) {
                       <img
                         height={121}
                         width={320}
-                        src={
-                          "/onlineassignment.com_assests/premiummah-logo-default.svg"
-                        }
+                        src="/onlineassignmentdesk.com_assests/premiumlogo.png"
                         alt="LOGO"
                         className="aspect-square h-[62px] w-[62px]"
                       ></img>
@@ -115,7 +120,7 @@ export default function FreeSample({ locationDetails, country, title }: any) {
                       <img
                         height={121}
                         width={320}
-                        src={"/onlineassignment.com_assests/quality.png"}
+                        src={"/onlineassignmentdesk.com_assests/quality.png"}
                         alt="LOGO"
                         className="aspect-square h-[62px] w-[62px]"
                       ></img>
@@ -130,7 +135,9 @@ export default function FreeSample({ locationDetails, country, title }: any) {
                       <img
                         height={121}
                         width={320}
-                        src={"/onlineassignment.com_assests/satisfaction.png"}
+                        src={
+                          "/onlineassignmentdesk.com_assests/satisfaction.png"
+                        }
                         alt="LOGO"
                         className="aspect-square h-[62px] w-[62px]"
                       ></img>

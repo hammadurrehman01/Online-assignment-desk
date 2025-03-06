@@ -72,7 +72,7 @@ export default function Trusted(country: any) {
         Preferred by 85,000 Students <br />
       </h3>
       <p className="section-sub-heading text-base text-center  md:text-lg font-medium mt-2">
-        Join forces with 3,500+ reliable professionals today.
+        Team Up with 3,500+ Trusted Experts Today!
       </p>
       <div className="w-full flex flex-col items-center justify-center  text-center px-2 pt-5">
         <div className="w-[80%]  mx-auto mt-2">

@@ -377,7 +377,7 @@ export default function Herosection(props: any) {
             Your Trusted Academic Assistance Partner
             </p>
             <p className="text-yellow-500 text-[14px] sm:text-[18px] uppercase font-black max-lg:text-center">
-              - AFFORDABLE - FAST - 100% SECURE -
+              - Budget Friendly - Fast Service - 100% Confidential -
             </p>
             <h1 className="text-[20px] sm:text-[32px] lg:text-[25px] text-white lg:leading-[50px] font-semibold  max-md:text-center  max-w-2xl">
               Best Writing, Editing & Proofreading Services
@@ -391,7 +391,7 @@ export default function Herosection(props: any) {
               <p className="text-[#f3c30e] whitespace-nowrap text-[15px] sm:text-[14px] font-semibold uppercase max-md:text-center">
                 Quality Assurance Guaranteed
                 <br />
-                Excel with Top Grades
+               Unlock A+ Excellence
               </p>
               <Link
                 href={`${reg}/order?coupon=GG-50%off`}
@@ -458,7 +458,7 @@ export default function Herosection(props: any) {
                     <FaCheck className="w-4 h-4 text-green-500 font-black" />
                     </div>
                   </span>
-                  Guaranteed Satisfaction
+                  Guaranteed Satisfaction 
                 </h4>
                 <h4 className="flex items-center gap-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
@@ -780,7 +780,7 @@ export default function Herosection(props: any) {
             Your Trusted Academic Assistance Partner
             </p>
             <p className="text-yellow-500 text-[14px] sm:text-[18px] uppercase font-black max-lg:text-center">
-              - AFFORDABLE - FAST - 100% SECURE -
+            - Budget Friendly - Fast Service - 100% Confidential -
             </p>
             <h1 className="text-[20px] sm:text-[32px] lg:text-[30px] text-white lg:leading-[50px] font-semibold  max-md:text-center  max-w-2xl">
               {/* {title ? ` Premier  ${title}` : ` Premier Assignment Help`} */}{" "}
@@ -788,13 +788,13 @@ export default function Herosection(props: any) {
               {/* <span className=""> {displayText}</span> */}
               <br />
               <span className="text-[14px] md:text-[20px] font-medium lg:text-[22px] whitespace-nowrap tracking-wider">
-              We Accept Assignments on All Subjects with Any Deadline.
+              We Accept All Subjects with Urgent Deadline.
               </span>
             </h1>
 
             <div className="flex items-center gap-4 mt-2 flex-col md:flex-row md: ">
               <p className="text-yellow-500  text-[15px] sm:text-[20px] font-semibold uppercase max-md:text-center">
-                Excel with Top Grades
+               Unlock A+ Excellence
               </p>
               <Link
                 href={`${reg}/order?coupon=GG-50%off`}
@@ -855,8 +855,8 @@ export default function Herosection(props: any) {
               </div>
             </div>
             <div className="flex gap-3  text-white mt-3 max-sm:justify-center items-center ">
-              <div className="bg-testing  p-3 rounded-xl flex flex-col justify-start max-sm:w-[47%]">
-                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
+              <div className="bg-testing  px-1 rounded-xl flex flex-col justify-start max-sm:w-[47%]">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight  ">
                   <span className=" text-[12px] md:text-[16px]">
                       <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
                     <FaCheck className="w-3 h-3 text-green-500 font-black" />
@@ -872,7 +872,7 @@ export default function Herosection(props: any) {
                   </span>
                   Skilled Educators
                 </h4>
-                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
+                <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight">
                   <span className=" text-[12px] md:text-[16px]">
                       <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
                     <FaCheck className="w-3 h-3 text-green-500 font-black" />
@@ -881,7 +881,7 @@ export default function Herosection(props: any) {
                   Schedule Adaptability
                 </h4>
               </div>
-              <div className="bg-testing  p-3 rounded-xl flex flex-col justify-start max-sm:w-[47%]">
+              <div className="bg-testing p-1 rounded-xl flex flex-col justify-start max-sm:w-[47%]">
                 <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
                       <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
@@ -907,7 +907,7 @@ export default function Herosection(props: any) {
                   Expert Proofreading
                 </h4>
               </div>
-              <div className="bg-testing  p-3  rounded-xl hidden sm:flex flex-col justify-start max-sm:w-[96%]">
+              <div className="bg-testing  p-1  rounded-xl hidden sm:flex flex-col justify-start max-sm:w-[96%]">
                 <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
                       <div className="bg-white flex items-center justify-center  w-5 h-5 rounded-full">
@@ -922,7 +922,7 @@ export default function Herosection(props: any) {
                     <FaCheck className="w-3 h-3 text-green-500 font-black" />
                     </div>
                   </span>
-                  Round-the-Clock Chat Assistance
+                  24/7 Live Chat Support
                 </h4>
                 <h4 className="flex items-center gap-1 my-1 text-[12px] md:text-[16px] leading-tight ">
                   <span className=" text-[12px] md:text-[16px]">
@@ -930,7 +930,7 @@ export default function Herosection(props: any) {
                     <FaCheck className="w-3 h-3 text-green-500 font-black" />
                     </div>
                   </span>
-                  Assured Outcomes
+                  Amazing Outcomes
                 </h4>
               </div>
             </div>
@@ -1019,7 +1019,7 @@ export default function Herosection(props: any) {
               <h4 className="font-semibold max-sm:text-[14px] text-[16px] text-center">
                 <div className="flex flex-col">
                   <span className="tracking-wide text-lg capitalize">
-                  International Student Discounts                  </span>
+                  Exclusive Offer for Overseas Students               </span>
                   {/* <span className="text-[22px] max-sm:text-[18px] font-bold text-center">
                     In {displayText}
                   </span>{" "} */}
@@ -1030,7 +1030,7 @@ export default function Herosection(props: any) {
               </h5>
               <h5 className="font-bold text-[16px] mt-[-2px] text-center">
                 {" "}
-                Free AI & Plagiarism Report
+                Free AI & Plagiarism Detailed Report
               </h5>
             </div>
             <div
@@ -1040,7 +1040,7 @@ export default function Herosection(props: any) {
               // }}
             >
               <div className="flex justify-center items-center  text-lg font-bold capitalize">
-                {/* {displayTyperText} */} Connect with Our Esteemed Professors!
+                {/* {displayTyperText} */}  Our Expert Professors Are Ready to Help!
               </div>
               <div className="flex items-center justify-center border border-[#ced4da]  bg-white overflow-hidden rounded-[4px]">
                 <div className="py-[.375rem] px-[.75rem]  ">

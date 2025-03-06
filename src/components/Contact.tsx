@@ -320,7 +320,7 @@ export default function Contact({ region }: any) {
             className="flex items-center gap-2 bg-[#ff8e38] hover:bg-[#fd9545] hover:shadow-md text-white py-[9px] px-[25px] rounded-[20px] my-5 font-medium"
           >
             <RiMessage3Fill className="text-[24px]" />{" "}
-            <span>Instant Live Chat Support</span>
+            <span>Live Chat Support</span>
           </button>
           <div className="flex justify-center items-center gap-4 w-full">
             <div className="bg-gray-400 h-[1px] w-full"></div>
@@ -354,7 +354,7 @@ export default function Contact({ region }: any) {
         </div>
         <div className="flex flex-col gap-4 sm:w-[350px]">
           <h2 className="text-[#292929] text-[27px] font-semibold">
-            Send Your Inquiry
+          Submit Your Query
           </h2>
           <input
             type="text"

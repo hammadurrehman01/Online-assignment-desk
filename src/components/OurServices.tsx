@@ -1,7 +1,7 @@
 "use client";
-import Image from "next/image";
+
 import Link from "next/link";
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaCheck } from "react-icons/fa";
 
 import openTawkToChat from "./herosection/tawkto";
@@ -13,7 +13,7 @@ export default function OurServices(number: any) {
   const [active, setIsActive] = useState("Assignments");
   const [heading, setIsHeading] = useState("Premium Benefits");
   const [features, setFeatures] = useState([
-    "Error-Free Writing",
+    "100% Mistake-Free Writing",
     "Superior Quality Work",
     "Optimal Structuring",
     "Meaningful Results",
@@ -419,7 +419,7 @@ export default function OurServices(number: any) {
           - Our Services
         </h3>
         <h4 className=" md:text-left text-center  text-base  md:text-[15px] font-medium leading-tight  mt-2 text-white bg-primary-orange w-fit px-3 py-1 rounded-lg ">
-        Trusted Academic Support Tailored for You – Exclusively at OnlineAssignmentDesk.com
+          Personalized Academic Support – Only at OnlineAssignmentDesk.com
         </h4>
         <div className="grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-x-2 gap-y-1 justify-start items-center mt-[20px]">
           {data.map((item: any, index: number) => (

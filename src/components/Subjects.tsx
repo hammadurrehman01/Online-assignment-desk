@@ -99,7 +99,7 @@ export default function Subjects(props: any) {
   return (
     <div className="bg-[#F5F5F5] bg-[url('/compress.png')]" id="subjects">
       <div className="flex flex-col text-center myContainer  py-20 ">
-        <h3 className="uppercase  text-primary-orange  font-semibold text-2xl md:text-4xl">
+        <h3 className="uppercase text-primary-orange  font-semibold text-2xl md:text-4xl">
           -Our Offered Subjects
         </h3>
         <h4 className="section-sub-heading py-1 text-center mx-auto text-base sm:text-[25px] md:text-[18px] font-medium leading-tight mt-2">
@@ -114,7 +114,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-[#292929] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered(true)}
             onTouchCancel={() => setIsHovered(false)}
             onMouseEnter={() => setIsHovered(true)}
@@ -144,7 +144,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-br from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-[#161616] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -204,7 +204,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-[#292929] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered2(true)}
             onTouchEnd={() => setIsHovered2(false)}
             onMouseEnter={() => setIsHovered2(true)}
@@ -232,7 +232,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-br from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-[#161616] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -292,7 +292,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-[#292929] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered3(true)}
             onTouchEnd={() => setIsHovered3(false)}
             onMouseEnter={() => setIsHovered3(true)}
@@ -320,7 +320,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr  from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-[#161616] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -380,7 +380,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-[#292929] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered4(true)}
             onTouchEnd={() => setIsHovered4(false)}
             onMouseEnter={() => setIsHovered4(true)}
@@ -408,7 +408,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-[#161616] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -468,7 +468,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-[#292929] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered5(true)}
             onTouchEnd={() => setIsHovered5(false)}
             onMouseEnter={() => setIsHovered5(true)}
@@ -496,7 +496,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-br from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-[#161616] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -555,7 +555,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-[#292929] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered6(true)}
             onTouchEnd={() => setIsHovered6(false)}
             onMouseEnter={() => setIsHovered6(true)}
@@ -585,7 +585,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-[#161616] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -644,7 +644,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-[#292929] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered8(true)}
             onTouchEnd={() => setIsHovered8(false)}
             onMouseEnter={() => setIsHovered8(true)}
@@ -676,7 +676,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-[#161616] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -735,7 +735,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-[#292929] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered9(true)}
             onTouchEnd={() => setIsHovered9(false)}
             onMouseEnter={() => setIsHovered9(true)}
@@ -765,7 +765,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-[#161616] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -824,7 +824,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-[#292929] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered10(true)}
             onTouchEnd={() => setIsHovered10(false)}
             onMouseEnter={() => setIsHovered10(true)}
@@ -854,7 +854,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-[#161616] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -913,7 +913,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-[#292929] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered11(true)}
             onTouchEnd={() => setIsHovered11(false)}
             onMouseEnter={() => setIsHovered11(true)}
@@ -945,7 +945,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-[#161616] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -1004,7 +1004,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-[#292929] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered12(true)}
             onTouchEnd={() => setIsHovered12(false)}
             onMouseEnter={() => setIsHovered12(true)}
@@ -1036,7 +1036,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-[#161616] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -1095,7 +1095,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-[#292929] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered13(true)}
             onTouchEnd={() => setIsHovered13(false)}
             onMouseEnter={() => setIsHovered13(true)}
@@ -1125,7 +1125,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-[#161616] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -1184,7 +1184,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-[#292929] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered14(true)}
             onTouchEnd={() => setIsHovered14(false)}
             onMouseEnter={() => setIsHovered14(true)}
@@ -1214,7 +1214,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-[#161616] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -1273,7 +1273,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-[#292929] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered7(true)}
             onTouchEnd={() => setIsHovered7(false)}
             onMouseEnter={() => setIsHovered7(true)}
@@ -1303,7 +1303,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-[#161616] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}
@@ -1362,7 +1362,7 @@ export default function Subjects(props: any) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-sm mx-auto bg-gradient-to-br from-[#ffaf46] to-[#ff7003] rounded-xl shadow-lg overflow-hidden cursor-pointer"
+            className="w-full max-w-sm mx-auto bg-[#292929] rounded-xl shadow-lg overflow-hidden cursor-pointer"
             onTouchStart={() => setIsHovered15(true)}
             onTouchEnd={() => setIsHovered15(false)}
             onMouseEnter={() => setIsHovered15(true)}
@@ -1392,7 +1392,7 @@ export default function Subjects(props: any) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute inset-0 bg-gradient-to-tr from-[#ff7003] to-[#ffaf46] flex flex-col items-center justify-center p-6"
+                    className="absolute inset-0 bg-[#161616] flex flex-col items-center justify-center p-6"
                   >
                     <motion.h4
                       initial={{ y: 20, opacity: 0 }}

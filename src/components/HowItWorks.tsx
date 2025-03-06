@@ -20,10 +20,10 @@ export default function HowItWorks(title: any) {
       id="process"
     >
       <div className="flex flex-col md:w-[400px] md:min-w-[300px] max-md:text-center">
-        <h3 className="uppercase text-2xl md:text-4xl sm:text-[24px] section-main-heading fonZt-semibold">
+        <h3 className="uppercase text-2xl md:text-4xl sm:text-[24px] section-main-heading font-semibold">
           -How it works
         </h3>
-        <h4 className="section-sub-heading text-base font-medium leading-tight  mt-2">
+        <h4 className="text-white bg-primary-orange w-fit  px-3 rounded-lg text-base font-medium leading-tight mt-2">
           Three Easy Steps to Get
           {title.title ? ` ${title.title}` : ` Academic Assistance`}
         </h4>
@@ -33,7 +33,7 @@ export default function HowItWorks(title: any) {
         </p>
 
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-3 w-full pt-4 pb-8">
-          <div className="relative w-[40%] mx-auto  hover:scale-95 transition-all duration-300 ease-in-out">
+          <div className="relative w-[40%] mx-auto hover:scale-95 transition-all duration-300 ease-in-out">
             <div className="bg-[#292929] w-full text-center py-3 z-[1] text-xl text-white font-semibold absolute">
               <Link href={`${reg}/order?coupon=GG-50%off`}>Order Now</Link>
             </div>
@@ -82,7 +82,9 @@ export default function HowItWorks(title: any) {
                 Submit Your Order
               </h3>
               <h4 className="text-[#3E4657] max-sm:leading-[18px] text-[15px]">
-              Fill out our online order form with all the necessary details and specifications. Your personal information remains 100% confidential.
+                Fill out our online order form with all the necessary details
+                and specifications. Your personal information remains 100%
+                confidential.
               </h4>
             </div>
             <div className="leading-[20px] flex flex-col max-sm:justify-center max-sm:items-center max-sm:text-center">
@@ -97,7 +99,9 @@ export default function HowItWorks(title: any) {
                 Discussion With EXPERT
               </h3>
               <h4 className="text-[#3E4657] max-sm:leading-[18px] text-[15px]">
-              After receiving your order, our experts will reach out promptly to discuss your requirements in detail. They are always ready to assist you.
+                After receiving your order, our experts will reach out promptly
+                to discuss your requirements in detail. They are always ready to
+                assist you.
               </h4>
             </div>
             <div className="leading-[20px] flex flex-col max-sm:justify-center max-sm:items-center max-sm:text-center">
@@ -112,7 +116,9 @@ export default function HowItWorks(title: any) {
                 Assignment Dispatched
               </h3>
               <h4 className="text-[#3E4657] max-sm:leading-[18px] text-[15px]">
-              Once your assignment is completed, it undergoes thorough proofreading and quality checks. The final document is then delivered straight to your email.
+                Once your assignment is completed, it undergoes thorough
+                proofreading and quality checks. The final document is then
+                delivered straight to your email.
               </h4>
             </div>
           </div>

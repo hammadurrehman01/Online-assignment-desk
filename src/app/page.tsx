@@ -163,7 +163,7 @@ export default function Home() {
           country={country}
           city={city}
           locationDetails={locationDetails}
-          title="Premier Academic Advisory"
+          title="Academic Support for Your Success"
         />
         {modal && (
           <Modal
@@ -188,7 +188,7 @@ export default function Home() {
         <WhyUs
           country={country}
           number={number}
-          title="Academic Consultancy"
+          title="Academic Support"
           city={city}
           locationDetails={locationDetails}
         />
@@ -202,11 +202,11 @@ export default function Home() {
         <CustomDivider
           locationDetails={locationDetails}
           number={number}
-          title="Academic Consultancy"
-          mainHeadingPartOne="Your Reliable Ally in Achieving "
+          title="Academic Support"
+          mainHeadingPartOne="Your Trusted Partner in "
           mainHeadingPartTwo="Academic Success"
-          subHeadingPartOne="We guarantee top-quality "
-          subHeadingPartTwo="Customized to fulfill your academic requirements. Rely on our skilled team to help you attain outstanding results at affordable rates."
+          subHeadingPartOne=" We offer top-quality "
+          subHeadingPartTwo="designed to meet your needs. Trust our expert team to help you achieve great results at affordable prices."
           leftButton="Apply Discount Code"
           rightButton="Connect with Us Today"
           bannerImageUrl="/random/serious-teacher-checking-assignment-two-students.jpg"
@@ -223,17 +223,17 @@ export default function Home() {
         <CustomDivider
           locationDetails={locationDetails}
           number={number}
-          title="Academic Consultancy"
+          title="Academic Support"
           mainHeadingPartOne="A Comprehensive Solution"
           mainHeadingPartTwo=" for All Your Academic Challenges"
           subHeadingPartOne="OnlineAssignmentDesk.com is committed to providing world-class "
-          subHeadingPartTwo="at the most competitive prices. Our dedicated team promptly addresses students' needs and delivers top-quality solutions tailored to their requirements."
+          subHeadingPartTwo="At the best competitive prices, our dedicated team quickly responds to student's needs, providing high-quality solutions that meet their requirements."
           leftButton="Get Your Free Quote Now"
           rightButton="Chat with Us on WhatsApp"
           bannerImageUrl="/random/cheerful-students-celebrating.jpg"
         />
 
-        <Guarantee country={country} city={city} title="Academic Consultancy" />
+        <Guarantee country={country} city={city} title="Academic Support" />
         {/* <EveryStudentTest
           locationDetails={locationDetails}
           number={number}
@@ -243,7 +243,7 @@ export default function Home() {
         <CustomDivider
           locationDetails={locationDetails}
           number={number}
-          title="Academic Consultancy"
+          title="Academic Support"
           mainHeadingPartOne="Reliable Academic Support Team for "
           mainHeadingPartTwo="Every Student"
           subHeadingPartOne="and affordable assignment solutions. Connect with us for seamless academic success with expert consultancy."
@@ -254,14 +254,14 @@ export default function Home() {
         />
 
         <Reviews />
-        <HowItWorks title="Academic Consultancy" />
+        <HowItWorks title="Academic Support" />
 
         <FreeSample
           locationDetails={locationDetails}
           country={country}
-          title="Academic Consultancy"
+          title="Academic Support"
         />
-        <Footer number={number} title="Academic Consultancy" />
+        <Footer number={number} title="Academic Support" />
       </main>
     </div>
   );

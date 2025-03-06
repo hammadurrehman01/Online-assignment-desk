@@ -489,11 +489,7 @@ export default function CountryCode({
 
   const countryyy = null;
 
-  const verifiedButton = isVerifiedCaptcha
-    ? "transparent linear-gradient(91deg,#f9413e 0%,#f7514e 100%) 0 0 no-repeat"
-    : "#ff7979";
-
-  return (
+   return (
     <>
       <div className="bg-white px-4 flex flex-col gap-4 py-6 max-sm:mx-5 sm:w-[360px] relative overflow-hidden">
         <h3
@@ -503,10 +499,10 @@ export default function CountryCode({
           X
         </h3>
         <div className="flex flex-col items-center  justify-center mt-3">
-          <h4 className="font-medium text-[15px] text-red-500">
+          <h4 className="font-medium text-[15px] text-[#292929]">
             Renowned for A+ Grades
           </h4>
-          <h4 className="font-medium text-[#1a3e61] text-[18px]">
+          <h4 className="font-medium text-[#1a3e61] text-[18px] section-sub-heading">
             GET FREE SAMPLE NOW
           </h4>
         </div>
@@ -579,13 +575,10 @@ export default function CountryCode({
         <div className="flex justify-center">
           <button
             disabled={!isVerifiedCaptcha}
-            style={{
-              background: verifiedButton,
-            }}
-            onClick={() => {
+                      onClick={() => {
               handleSubmit();
             }}
-            className={`py-[8px] px-[35px] rounded-md text-white font-semibold text-[16px] sm:text-[18px] mt-4 hover:shadow-2xl transition-all duration-100 w-fit  ${
+            className={`${isVerifiedCaptcha ? 'bg-[#292929]' : 'bg-[#575757]'} py-[8px] px-[35px] rounded-md text-white font-semibold text-[16px] sm:text-[18px] mt-4 hover:shadow-2xl transition-all duration-100 w-fit  ${
               isLocationDetailEmpty() || country === null || country === "null"
                 ? "opacity-50 pointer-events-none"
                 : ""
