@@ -233,7 +233,7 @@ export default function WhyUs(props: any) {
             Onlineassignmentdesk.com.
           </h2>
           <p className="mt-4 md:mt-2 text-sm text-center md:text-left md:text-base">
-            we are committed to delivering top class custom {title} services to
+            We are committed to delivering top class custom {title} services to
             students in Pakistan.
           </p>
           <h6 className="font-medium text-center md:text-left pt-4  text-[18px] underline text-primary-orange">
@@ -276,7 +276,7 @@ export default function WhyUs(props: any) {
               }}
             >
               <div className="bg-[#383838] w-[200px] text-center py-3 z-[1] text-xl  text-white font-semibold absolute">
-                Get a free quote
+                Get a Free Quote
               </div>
 
               <div className="bg-[#ff8e38] w-[200px] h-12 ml-1.5 mt-2 text-xl text-white font-semibold absolute"></div>

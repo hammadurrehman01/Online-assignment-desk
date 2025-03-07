@@ -14,7 +14,6 @@ import Reviews from "@/components/Reviews";
 import Subjects from "@/components/Subjects";
 import Trusted from "@/components/Trusted";
 import WhyUs from "@/components/WhyUs";
-import WhyGoGradesTest from "@/components/WhyUs";
 import { useEffect, useState } from "react";
 
 export default function Home() {

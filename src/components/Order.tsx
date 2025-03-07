@@ -2194,40 +2194,40 @@ export default function Order({ coupon }: any) {
               ></img>
             </div>
             <h3 className="text-[#1D1D1D] font-medium text-[15px]">
-              With Each Order, You Get:
+              Every Order Includes:{" "}
             </h3>
             <ul>
               <li className="text-[13px] text-[#616161] leading-tight flex gap-2 mt-2">
                 <FaCheck className="text-[#33e533] text-[12px] mr-1 mb-[-10px]" />
-                Money-Refund Policy if the work is found unsatisfactory
+                Full Refund if You're Not Satisfied
               </li>
               <li className="text-[13px] text-[#616161] leading-tight flex gap-2 mt-2">
                 <FaCheck className="text-[#33e533] text-[12px] mr-1 mb-[-10px]" />
-                On-time delivery of the assignment
+                Guaranteed On-Time Delivery
               </li>
               <li className="text-[13px] text-[#616161] leading-tight flex gap-2 mt-2">
                 <FaCheck className="text-[#33e533] text-[12px] mr-1 mb-[-10px]" />
-                Free Turnitin Report to prove the authenticity of content
+                Free Turnitin Report for Authenticity
               </li>
               <li className="text-[13px] text-[#616161] leading-tight flex gap-2 mt-2">
                 <FaCheck className="text-[#33e533] text-[12px] mr-1 mb-[-10px]" />
-                24*7 Customer Assistance to resolve queries
+                24/7 Customer Support for Any Queries
               </li>
               <li className="text-[13px] text-[#616161] leading-tight flex gap-2 mt-2">
                 <FaCheck className="text-[#33e533] text-[12px] mr-1 mb-[-10px]" />
-                100% Ownership to the clients
+                Complete Ownership of Your Work
               </li>
               <li className="text-[13px] text-[#616161] leading-tight flex gap-2 mt-2">
                 <FaCheck className="text-[#33e533] text-[12px] mr-1 mb-[-10px]" />
-                Privacy of confidential information
+                Privacy for Your Confidential Data
               </li>
               <li className="text-[13px] text-[#616161] leading-tight flex gap-2 mt-2">
                 <FaCheck className="text-[#33e533] text-[12px] mr-1 mb-[-10px]" />
-                Free Unlimited Revisions if we do not match your expectations
+                Unlimited Free Revisions Until You're Happy
               </li>
               <li className="text-[13px] text-[#616161] leading-tight flex gap-2 mt-2">
                 <FaCheck className="text-[#33e533] text-[12px] mr-1 mb-[-10px]" />
-                Exclusive offers and discounts
+                Special Discounts & Exclusive Deals
               </li>
             </ul>
             <img
